@@ -1,0 +1,5001 @@
+journey_id,path,num_touchpoints,converted,revenue
+1,Social Media > Organic Search > Social Media > Paid Search,4,1,735.31
+2,Organic Search > Email > Organic Search > Paid Search,4,1,99.71
+3,Social Media,1,1,197.32
+4,Email > Organic Search,2,0,0
+5,Social Media > Email > Social Media,3,0,0
+6,Paid Search > Paid Search > Paid Search,3,0,0
+7,Social Media,1,0,0
+8,Social Media,1,1,251.41
+9,Social Media,1,0,0
+10,Social Media,1,0,0
+11,Social Media,1,0,0
+12,Organic Search > Paid Search > Email > Paid Search > Social Media > Paid Search > Email,7,1,142.55
+13,Organic Search > Social Media,2,0,0
+14,Social Media,1,0,0
+15,Organic Search,1,0,0
+16,Organic Search > Email,2,0,0
+17,Social Media,1,1,705.71
+18,Email > Social Media > Organic Search > Social Media > Social Media > Paid Search,6,0,0
+19,Direct > Direct,2,1,278.64
+20,Paid Search > Email > Email,3,1,196.15
+21,Direct,1,1,299.38
+22,Paid Search > Paid Search > Organic Search > Paid Search,4,1,1133.24
+23,Organic Search > Email,2,0,0
+24,Paid Search,1,0,0
+25,Direct > Organic Search,2,0,0
+26,Social Media,1,1,210.24
+27,Organic Search > Direct,2,1,450.34
+28,Organic Search > Direct > Social Media,3,0,0
+29,Direct > Direct,2,1,291.7
+30,Email,1,1,1295.53
+31,Organic Search > Social Media > Organic Search,3,0,0
+32,Direct,1,0,0
+33,Paid Search > Organic Search,2,0,0
+34,Direct > Paid Search > Direct > Paid Search,4,0,0
+35,Email > Paid Search > Direct,3,1,268.11
+36,Paid Search > Social Media,2,1,801.73
+37,Paid Search,1,0,0
+38,Social Media > Direct,2,1,106.17
+39,Paid Search,1,1,105.05
+40,Organic Search,1,1,276.36
+41,Direct > Paid Search > Social Media,3,0,0
+42,Organic Search > Paid Search,2,0,0
+43,Social Media > Direct,2,0,0
+44,Email > Social Media > Organic Search > Direct,4,1,637.45
+45,Social Media,1,0,0
+46,Organic Search > Email > Direct,3,0,0
+47,Organic Search > Paid Search > Direct,3,1,112.45
+48,Direct,1,1,320.13
+49,Organic Search,1,0,0
+50,Email,1,0,0
+51,Direct,1,0,0
+52,Organic Search > Direct > Email > Direct > Paid Search > Direct,6,0,0
+53,Organic Search,1,0,0
+54,Paid Search > Direct,2,0,0
+55,Direct,1,1,732.2
+56,Organic Search,1,0,0
+57,Social Media,1,1,585.75
+58,Social Media,1,1,162.97
+59,Direct > Paid Search > Social Media,3,1,341.12
+60,Organic Search,1,0,0
+61,Organic Search,1,1,451.53
+62,Social Media,1,1,181.7
+63,Social Media > Paid Search > Direct,3,1,129.04
+64,Email > Paid Search > Direct,3,0,0
+65,Direct > Paid Search > Social Media > Social Media,4,0,0
+66,Direct,1,0,0
+67,Paid Search > Social Media,2,0,0
+68,Social Media,1,0,0
+69,Direct,1,1,254.28
+70,Organic Search,1,1,153.72
+71,Organic Search > Paid Search,2,1,201.21
+72,Social Media > Paid Search,2,1,172.13
+73,Direct,1,0,0
+74,Organic Search > Email > Direct > Organic Search,4,0,0
+75,Social Media > Social Media,2,0,0
+76,Social Media > Direct > Organic Search > Paid Search,4,0,0
+77,Direct,1,1,1373.76
+78,Organic Search > Paid Search > Email,3,0,0
+79,Email,1,0,0
+80,Direct > Email > Email > Paid Search,4,0,0
+81,Direct,1,1,292.73
+82,Direct,1,0,0
+83,Direct,1,0,0
+84,Direct > Organic Search,2,0,0
+85,Paid Search,1,0,0
+86,Email,1,0,0
+87,Email > Direct,2,0,0
+88,Organic Search,1,0,0
+89,Direct > Email,2,0,0
+90,Paid Search > Email,2,0,0
+91,Organic Search > Organic Search > Paid Search > Email,4,0,0
+92,Direct > Email,2,1,295.29
+93,Paid Search,1,0,0
+94,Organic Search,1,0,0
+95,Organic Search,1,0,0
+96,Organic Search > Paid Search > Direct,3,0,0
+97,Paid Search,1,1,431.12
+98,Social Media > Social Media,2,0,0
+99,Organic Search,1,0,0
+100,Paid Search,1,1,1505.94
+101,Paid Search > Organic Search,2,1,128.48
+102,Email,1,1,127.32
+103,Paid Search > Direct > Direct > Paid Search > Direct,5,0,0
+104,Social Media,1,0,0
+105,Social Media > Email,2,1,121.73
+106,Paid Search,1,1,478.99
+107,Paid Search > Social Media > Direct,3,0,0
+108,Email > Social Media > Organic Search > Direct,4,1,254.61
+109,Email,1,1,99.78
+110,Organic Search > Paid Search > Direct,3,0,0
+111,Organic Search > Email,2,1,224.09
+112,Paid Search > Social Media,2,0,0
+113,Organic Search,1,0,0
+114,Email > Paid Search > Direct > Social Media,4,0,0
+115,Paid Search > Organic Search > Paid Search,3,0,0
+116,Paid Search,1,0,0
+117,Social Media,1,0,0
+118,Social Media,1,0,0
+119,Direct,1,1,1257.17
+120,Email,1,1,397.46
+121,Paid Search > Email > Email,3,1,1281.95
+122,Social Media > Social Media > Organic Search > Social Media > Social Media > Email,6,1,107.82
+123,Social Media,1,0,0
+124,Organic Search > Email,2,1,324.1
+125,Paid Search,1,0,0
+126,Social Media,1,0,0
+127,Direct,1,0,0
+128,Paid Search > Organic Search > Email,3,1,481.37
+129,Paid Search,1,1,561.95
+130,Organic Search > Paid Search > Direct > Organic Search > Social Media,5,0,0
+131,Paid Search > Social Media > Direct > Paid Search,4,1,148.51
+132,Social Media > Organic Search,2,1,165.42
+133,Organic Search > Email > Social Media > Email,4,0,0
+134,Paid Search,1,0,0
+135,Email > Email > Paid Search > Organic Search > Direct,5,0,0
+136,Paid Search,1,1,1477.63
+137,Email,1,0,0
+138,Organic Search > Organic Search > Paid Search > Paid Search,4,1,330.78
+139,Social Media,1,0,0
+140,Organic Search,1,1,671.8
+141,Email,1,0,0
+142,Organic Search > Organic Search > Social Media,3,0,0
+143,Direct,1,1,613.99
+144,Social Media,1,0,0
+145,Organic Search,1,0,0
+146,Direct,1,1,295.96
+147,Email > Direct,2,1,176.49
+148,Paid Search,1,0,0
+149,Email > Paid Search,2,0,0
+150,Social Media,1,0,0
+151,Social Media > Direct,2,0,0
+152,Direct > Email,2,0,0
+153,Paid Search > Direct,2,1,902.59
+154,Direct,1,0,0
+155,Organic Search,1,0,0
+156,Organic Search > Direct,2,1,57.17
+157,Direct > Email > Social Media,3,0,0
+158,Paid Search,1,0,0
+159,Social Media > Social Media > Organic Search,3,0,0
+160,Organic Search,1,0,0
+161,Paid Search,1,0,0
+162,Social Media,1,0,0
+163,Paid Search,1,0,0
+164,Organic Search > Paid Search,2,1,195.39
+165,Paid Search,1,1,647.56
+166,Paid Search,1,1,112.85
+167,Organic Search > Paid Search > Paid Search,3,1,777.72
+168,Organic Search > Direct,2,0,0
+169,Direct,1,1,75.13
+170,Organic Search > Paid Search > Social Media > Organic Search > Direct > Email,6,0,0
+171,Social Media,1,0,0
+172,Organic Search,1,0,0
+173,Paid Search,1,0,0
+174,Social Media > Direct,2,1,62.84
+175,Direct,1,1,1101.06
+176,Organic Search,1,1,87.3
+177,Social Media > Email,2,0,0
+178,Organic Search,1,0,0
+179,Social Media,1,0,0
+180,Organic Search > Direct,2,1,716.1
+181,Direct > Direct,2,1,644.05
+182,Direct > Email > Social Media,3,0,0
+183,Organic Search > Paid Search > Organic Search > Organic Search > Direct,5,1,107.87
+184,Social Media,1,0,0
+185,Paid Search,1,1,415.13
+186,Social Media,1,0,0
+187,Direct,1,1,588.58
+188,Direct,1,0,0
+189,Organic Search > Paid Search > Email,3,1,373.17
+190,Organic Search,1,1,765.61
+191,Paid Search > Direct > Paid Search > Organic Search > Direct > Direct > Email > Paid Search,8,0,0
+192,Email,1,1,499.83
+193,Social Media > Social Media > Organic Search,3,0,0
+194,Paid Search,1,1,172.6
+195,Social Media,1,0,0
+196,Paid Search > Paid Search > Email > Direct,4,1,231.92
+197,Social Media > Social Media,2,0,0
+198,Email,1,1,388.71
+199,Paid Search,1,0,0
+200,Paid Search,1,1,363.06
+201,Paid Search > Direct > Email > Direct,4,0,0
+202,Social Media,1,0,0
+203,Organic Search > Direct,2,0,0
+204,Paid Search,1,1,293.29
+205,Social Media > Paid Search > Social Media,3,1,255.93
+206,Direct,1,0,0
+207,Paid Search > Paid Search,2,0,0
+208,Paid Search,1,1,364.05
+209,Email,1,0,0
+210,Organic Search,1,1,280.47
+211,Paid Search,1,0,0
+212,Direct > Email,2,0,0
+213,Paid Search,1,0,0
+214,Paid Search,1,0,0
+215,Organic Search > Social Media,2,1,295.86
+216,Organic Search > Direct,2,1,526.06
+217,Paid Search > Email > Social Media,3,0,0
+218,Social Media > Paid Search,2,0,0
+219,Organic Search,1,0,0
+220,Social Media,1,0,0
+221,Paid Search,1,1,1971.23
+222,Paid Search > Organic Search > Direct,3,1,449.68
+223,Paid Search,1,1,633.47
+224,Paid Search,1,1,167.37
+225,Direct,1,1,589.9
+226,Direct,1,0,0
+227,Direct,1,1,229.68
+228,Email,1,0,0
+229,Organic Search > Paid Search,2,1,498.97
+230,Social Media > Direct > Paid Search,3,1,277.47
+231,Social Media,1,0,0
+232,Organic Search,1,0,0
+233,Organic Search > Email > Paid Search,3,1,675.51
+234,Organic Search > Paid Search,2,0,0
+235,Social Media > Paid Search,2,0,0
+236,Organic Search > Direct > Email > Email > Organic Search,5,0,0
+237,Direct,1,1,160.43
+238,Paid Search,1,1,454.59
+239,Organic Search,1,0,0
+240,Organic Search > Email,2,1,192.98
+241,Social Media,1,0,0
+242,Organic Search,1,0,0
+243,Social Media > Social Media,2,1,646.8
+244,Organic Search,1,1,742.49
+245,Organic Search,1,0,0
+246,Social Media > Email,2,1,606.66
+247,Social Media,1,0,0
+248,Email,1,1,358.54
+249,Paid Search > Direct,2,1,635.2
+250,Organic Search,1,0,0
+251,Organic Search > Paid Search,2,1,312.34
+252,Direct,1,0,0
+253,Organic Search,1,0,0
+254,Paid Search,1,0,0
+255,Social Media > Email > Paid Search,3,0,0
+256,Organic Search,1,0,0
+257,Direct,1,0,0
+258,Direct,1,0,0
+259,Email > Direct,2,0,0
+260,Organic Search > Direct,2,1,603.4
+261,Social Media,1,0,0
+262,Direct > Paid Search > Social Media > Organic Search,4,0,0
+263,Social Media,1,0,0
+264,Organic Search > Paid Search,2,0,0
+265,Direct > Direct,2,1,286.57
+266,Paid Search > Direct > Paid Search,3,0,0
+267,Organic Search > Direct,2,1,1918.96
+268,Paid Search,1,1,153.72
+269,Organic Search > Direct,2,1,113.09
+270,Paid Search > Direct,2,0,0
+271,Direct > Paid Search,2,1,786.71
+272,Paid Search > Direct > Email > Paid Search,4,0,0
+273,Paid Search,1,1,558.29
+274,Organic Search,1,0,0
+275,Organic Search > Paid Search,2,1,241.29
+276,Organic Search > Paid Search,2,0,0
+277,Paid Search > Social Media,2,0,0
+278,Organic Search,1,0,0
+279,Organic Search > Paid Search > Email > Social Media,4,0,0
+280,Organic Search > Organic Search,2,0,0
+281,Organic Search > Social Media > Paid Search > Organic Search,4,0,0
+282,Paid Search,1,1,666.81
+283,Paid Search > Paid Search,2,1,117.35
+284,Email,1,0,0
+285,Paid Search > Direct,2,0,0
+286,Organic Search > Direct,2,1,494.16
+287,Direct > Paid Search > Paid Search,3,1,118.75
+288,Social Media,1,1,298.66
+289,Paid Search > Direct,2,1,225.44
+290,Direct,1,1,1581.26
+291,Organic Search > Direct > Email > Direct,4,1,257.05
+292,Paid Search,1,1,88.16
+293,Direct > Paid Search,2,0,0
+294,Organic Search > Paid Search,2,1,1334.56
+295,Social Media,1,1,80.56
+296,Paid Search,1,1,1802.14
+297,Social Media,1,0,0
+298,Social Media > Email,2,1,214.18
+299,Organic Search > Paid Search,2,0,0
+300,Paid Search,1,0,0
+301,Social Media,1,0,0
+302,Email,1,0,0
+303,Email,1,1,215.75
+304,Direct,1,0,0
+305,Organic Search > Paid Search,2,1,134.96
+306,Organic Search,1,0,0
+307,Social Media > Email > Paid Search,3,1,236.53
+308,Organic Search > Email > Direct,3,1,1665.25
+309,Social Media > Organic Search > Paid Search > Social Media,4,0,0
+310,Social Media > Social Media,2,0,0
+311,Paid Search > Direct > Email,3,1,157.48
+312,Organic Search,1,1,600.28
+313,Organic Search > Email,2,1,125.35
+314,Organic Search > Paid Search > Email > Direct > Organic Search,5,0,0
+315,Organic Search > Email,2,1,700.01
+316,Email > Paid Search,2,0,0
+317,Organic Search > Organic Search,2,0,0
+318,Direct,1,1,625.7
+319,Paid Search > Paid Search > Organic Search > Social Media,4,0,0
+320,Social Media,1,0,0
+321,Direct > Paid Search,2,0,0
+322,Organic Search,1,1,437.46
+323,Paid Search > Email > Direct > Social Media,4,1,177.49
+324,Direct,1,1,1728.42
+325,Email > Email > Paid Search > Social Media,4,0,0
+326,Email,1,1,243.21
+327,Paid Search,1,0,0
+328,Email > Direct,2,0,0
+329,Social Media,1,0,0
+330,Social Media,1,0,0
+331,Social Media > Paid Search > Organic Search > Direct > Direct > Email > Paid Search,7,1,162.98
+332,Organic Search,1,0,0
+333,Organic Search,1,0,0
+334,Direct,1,1,477.63
+335,Social Media,1,0,0
+336,Direct,1,1,1477.76
+337,Paid Search > Direct > Social Media > Organic Search > Paid Search,5,0,0
+338,Paid Search,1,1,303.54
+339,Organic Search > Direct,2,1,295.25
+340,Paid Search > Email > Direct,3,1,673.54
+341,Social Media > Organic Search > Paid Search,3,1,230.93
+342,Social Media,1,0,0
+343,Direct,1,1,284.86
+344,Paid Search,1,0,0
+345,Social Media > Email,2,1,223.83
+346,Paid Search,1,0,0
+347,Email,1,1,1608.16
+348,Social Media,1,1,454.04
+349,Paid Search > Direct > Email > Social Media,4,0,0
+350,Paid Search > Social Media > Paid Search > Organic Search,4,0,0
+351,Organic Search,1,0,0
+352,Email,1,0,0
+353,Organic Search > Social Media,2,0,0
+354,Organic Search > Email > Social Media,3,0,0
+355,Email,1,0,0
+356,Organic Search > Direct,2,1,342.52
+357,Paid Search > Email,2,1,520.41
+358,Paid Search,1,0,0
+359,Paid Search,1,0,0
+360,Paid Search,1,0,0
+361,Direct,1,1,145.47
+362,Paid Search,1,0,0
+363,Email,1,0,0
+364,Organic Search > Social Media,2,0,0
+365,Direct,1,1,261.47
+366,Direct > Direct,2,0,0
+367,Organic Search,1,0,0
+368,Organic Search > Direct,2,0,0
+369,Organic Search > Direct,2,1,63.31
+370,Paid Search > Social Media,2,0,0
+371,Paid Search > Organic Search,2,0,0
+372,Email,1,1,706.4
+373,Organic Search,1,0,0
+374,Social Media > Paid Search,2,1,203.15
+375,Organic Search > Social Media,2,0,0
+376,Paid Search,1,1,266.71
+377,Organic Search > Social Media > Organic Search > Email,4,0,0
+378,Paid Search > Paid Search,2,0,0
+379,Social Media > Organic Search > Direct > Email > Paid Search > Direct,6,1,154.14
+380,Social Media > Organic Search,2,0,0
+381,Organic Search > Direct,2,1,321.66
+382,Paid Search > Direct,2,1,201.46
+383,Organic Search,1,0,0
+384,Paid Search,1,1,662.9
+385,Social Media > Email > Organic Search > Direct,4,0,0
+386,Organic Search,1,0,0
+387,Paid Search,1,1,686.9
+388,Organic Search,1,0,0
+389,Paid Search > Email > Organic Search > Paid Search > Organic Search,5,0,0
+390,Paid Search,1,0,0
+391,Paid Search > Email,2,1,139.24
+392,Email,1,0,0
+393,Paid Search > Paid Search > Direct,3,0,0
+394,Social Media,1,0,0
+395,Paid Search,1,0,0
+396,Paid Search > Direct,2,0,0
+397,Paid Search,1,0,0
+398,Social Media > Organic Search,2,1,1318.21
+399,Paid Search > Paid Search,2,1,200.66
+400,Paid Search,1,1,60.59
+401,Direct,1,1,209.82
+402,Direct,1,0,0
+403,Organic Search,1,1,250.27
+404,Social Media,1,0,0
+405,Organic Search,1,1,552.2
+406,Organic Search,1,0,0
+407,Paid Search > Direct,2,1,607.44
+408,Direct,1,1,1360.88
+409,Paid Search > Direct,2,1,78.36
+410,Social Media > Direct,2,1,357.07
+411,Organic Search > Direct,2,0,0
+412,Organic Search,1,0,0
+413,Paid Search > Paid Search,2,0,0
+414,Paid Search,1,0,0
+415,Paid Search > Paid Search,2,1,979.38
+416,Paid Search > Organic Search > Direct,3,0,0
+417,Direct,1,0,0
+418,Direct,1,1,1263.13
+419,Organic Search > Paid Search > Social Media,3,0,0
+420,Organic Search,1,1,250.92
+421,Social Media,1,0,0
+422,Organic Search > Social Media,2,0,0
+423,Social Media,1,1,1735.01
+424,Organic Search,1,0,0
+425,Social Media > Direct,2,0,0
+426,Paid Search,1,0,0
+427,Email,1,1,291.57
+428,Paid Search,1,0,0
+429,Organic Search > Paid Search > Social Media > Paid Search > Email,5,1,285.23
+430,Direct,1,0,0
+431,Organic Search,1,1,275.1
+432,Paid Search,1,1,301.18
+433,Direct > Social Media,2,0,0
+434,Social Media,1,0,0
+435,Email,1,1,542.56
+436,Organic Search,1,1,590.68
+437,Email > Direct,2,1,576.3
+438,Organic Search,1,0,0
+439,Paid Search,1,0,0
+440,Social Media > Social Media > Organic Search > Paid Search > Direct,5,1,201.67
+441,Paid Search,1,1,1791.17
+442,Direct > Social Media > Email,3,1,166.62
+443,Organic Search > Paid Search > Paid Search > Email > Direct,5,1,266.33
+444,Organic Search > Social Media,2,1,240.78
+445,Paid Search,1,1,385.12
+446,Organic Search,1,0,0
+447,Paid Search,1,0,0
+448,Organic Search > Email > Paid Search > Direct,4,0,0
+449,Social Media > Direct,2,1,1146.39
+450,Direct,1,0,0
+451,Email > Direct,2,1,316.79
+452,Social Media > Organic Search > Direct,3,0,0
+453,Organic Search,1,0,0
+454,Social Media > Paid Search,2,0,0
+455,Paid Search,1,0,0
+456,Paid Search,1,0,0
+457,Email > Social Media,2,1,227.18
+458,Organic Search > Social Media > Direct,3,1,509.3
+459,Paid Search,1,1,297.65
+460,Social Media > Social Media > Email,3,0,0
+461,Paid Search,1,1,253.94
+462,Paid Search,1,1,333.48
+463,Email,1,1,215.99
+464,Paid Search,1,0,0
+465,Email,1,0,0
+466,Social Media,1,0,0
+467,Social Media > Paid Search,2,1,704.7
+468,Organic Search,1,1,287.05
+469,Organic Search > Organic Search > Social Media > Paid Search,4,1,664.98
+470,Direct,1,0,0
+471,Social Media > Organic Search > Paid Search > Social Media > Email,5,1,388.25
+472,Organic Search,1,0,0
+473,Paid Search > Direct,2,0,0
+474,Social Media,1,0,0
+475,Social Media,1,0,0
+476,Organic Search > Paid Search,2,1,293.23
+477,Organic Search > Social Media > Paid Search,3,1,137.2
+478,Direct,1,0,0
+479,Organic Search > Paid Search,2,1,295.04
+480,Email,1,0,0
+481,Email > Direct > Direct,3,0,0
+482,Paid Search > Direct > Email,3,1,184.64
+483,Direct,1,0,0
+484,Organic Search,1,1,345.47
+485,Social Media,1,1,231.49
+486,Paid Search,1,1,242.69
+487,Organic Search,1,1,262.76
+488,Direct,1,0,0
+489,Paid Search > Social Media,2,0,0
+490,Paid Search,1,1,135.78
+491,Social Media,1,1,1905.0
+492,Direct > Social Media,2,0,0
+493,Organic Search,1,0,0
+494,Direct,1,1,761.97
+495,Direct,1,0,0
+496,Direct > Organic Search,2,1,295.75
+497,Organic Search,1,0,0
+498,Paid Search > Direct,2,0,0
+499,Direct,1,1,78.16
+500,Organic Search > Direct > Email > Social Media,4,0,0
+501,Email,1,1,763.24
+502,Direct,1,0,0
+503,Email,1,1,217.31
+504,Organic Search > Paid Search > Email > Email > Direct > Email,6,1,220.78
+505,Social Media > Organic Search,2,1,237.27
+506,Organic Search > Social Media > Email,3,1,381.42
+507,Paid Search > Paid Search,2,0,0
+508,Organic Search,1,1,83.39
+509,Organic Search,1,0,0
+510,Social Media > Email,2,1,522.51
+511,Social Media > Paid Search > Social Media,3,0,0
+512,Direct > Paid Search > Direct,3,0,0
+513,Organic Search,1,1,186.91
+514,Paid Search,1,1,132.03
+515,Paid Search > Paid Search > Social Media,3,1,177.59
+516,Email > Direct,2,1,234.64
+517,Paid Search,1,0,0
+518,Social Media > Email,2,0,0
+519,Social Media,1,1,136.13
+520,Organic Search,1,0,0
+521,Direct > Paid Search,2,0,0
+522,Organic Search > Email,2,0,0
+523,Email,1,0,0
+524,Social Media > Direct,2,0,0
+525,Paid Search,1,0,0
+526,Direct,1,1,597.08
+527,Paid Search,1,1,94.62
+528,Paid Search,1,1,834.04
+529,Organic Search > Organic Search > Social Media,3,0,0
+530,Paid Search,1,1,871.27
+531,Paid Search > Email,2,0,0
+532,Social Media > Paid Search,2,0,0
+533,Paid Search,1,0,0
+534,Direct > Organic Search > Paid Search > Paid Search > Organic Search,5,1,573.01
+535,Social Media > Email > Email > Social Media,4,0,0
+536,Organic Search > Direct > Direct,3,0,0
+537,Social Media > Email,2,1,392.4
+538,Paid Search > Social Media,2,0,0
+539,Organic Search > Social Media > Organic Search,3,0,0
+540,Direct,1,0,0
+541,Social Media > Direct,2,1,476.63
+542,Social Media,1,0,0
+543,Paid Search > Direct > Social Media > Email,4,1,709.6
+544,Paid Search,1,1,1872.11
+545,Social Media,1,0,0
+546,Social Media > Paid Search > Social Media > Paid Search,4,1,438.85
+547,Organic Search,1,0,0
+548,Organic Search > Social Media,2,0,0
+549,Social Media,1,0,0
+550,Organic Search,1,0,0
+551,Social Media,1,1,721.68
+552,Paid Search,1,0,0
+553,Organic Search,1,0,0
+554,Direct > Paid Search,2,0,0
+555,Paid Search > Social Media,2,0,0
+556,Organic Search,1,0,0
+557,Social Media,1,0,0
+558,Paid Search,1,1,115.39
+559,Paid Search > Direct > Paid Search,3,0,0
+560,Paid Search,1,0,0
+561,Direct,1,1,537.51
+562,Organic Search > Paid Search > Email,3,0,0
+563,Social Media > Email > Social Media > Email > Direct,5,0,0
+564,Paid Search,1,1,354.4
+565,Email,1,0,0
+566,Social Media > Direct > Social Media,3,0,0
+567,Organic Search,1,0,0
+568,Paid Search,1,0,0
+569,Paid Search,1,1,58.46
+570,Email,1,0,0
+571,Social Media,1,0,0
+572,Paid Search,1,0,0
+573,Organic Search,1,0,0
+574,Organic Search > Direct,2,1,600.05
+575,Social Media > Direct,2,1,187.91
+576,Organic Search > Direct > Email,3,0,0
+577,Organic Search,1,0,0
+578,Social Media,1,0,0
+579,Direct > Paid Search > Paid Search > Social Media > Paid Search,5,1,900.99
+580,Paid Search > Direct,2,1,794.14
+581,Organic Search,1,1,1480.6
+582,Direct,1,0,0
+583,Organic Search > Email,2,1,52.36
+584,Organic Search > Direct,2,1,1348.78
+585,Direct > Paid Search,2,1,102.85
+586,Direct,1,0,0
+587,Paid Search > Organic Search > Paid Search,3,0,0
+588,Direct,1,1,282.19
+589,Paid Search,1,0,0
+590,Social Media,1,0,0
+591,Social Media > Email > Paid Search > Social Media > Paid Search,5,0,0
+592,Paid Search,1,0,0
+593,Paid Search,1,0,0
+594,Organic Search,1,0,0
+595,Social Media,1,1,121.48
+596,Paid Search,1,0,0
+597,Paid Search,1,0,0
+598,Direct,1,1,544.44
+599,Organic Search,1,0,0
+600,Paid Search > Direct,2,0,0
+601,Paid Search,1,1,251.42
+602,Social Media,1,0,0
+603,Social Media > Organic Search > Paid Search,3,1,643.79
+604,Paid Search > Paid Search > Organic Search > Social Media > Email > Direct > Social Media > Paid Search > Direct,9,1,215.76
+605,Paid Search > Paid Search,2,1,146.31
+606,Organic Search > Email > Paid Search,3,0,0
+607,Direct,1,0,0
+608,Social Media > Paid Search > Direct > Social Media > Email,5,1,158.67
+609,Paid Search > Direct > Paid Search > Email > Email,5,1,317.33
+610,Organic Search > Social Media,2,0,0
+611,Paid Search,1,1,994.31
+612,Paid Search,1,0,0
+613,Direct,1,0,0
+614,Organic Search > Social Media,2,0,0
+615,Organic Search > Social Media,2,0,0
+616,Direct > Direct,2,0,0
+617,Paid Search,1,1,144.01
+618,Email > Direct > Paid Search,3,1,527.38
+619,Social Media,1,1,284.65
+620,Social Media > Direct > Direct,3,0,0
+621,Email,1,0,0
+622,Paid Search > Direct,2,1,214.67
+623,Social Media,1,0,0
+624,Organic Search,1,0,0
+625,Paid Search > Direct,2,1,376.68
+626,Paid Search,1,0,0
+627,Paid Search,1,0,0
+628,Paid Search,1,1,242.24
+629,Social Media > Email,2,1,295.9
+630,Social Media > Email,2,1,272.18
+631,Organic Search > Social Media,2,1,548.31
+632,Social Media > Direct,2,1,1382.88
+633,Paid Search > Email > Organic Search > Paid Search > Direct,5,0,0
+634,Organic Search,1,0,0
+635,Organic Search > Social Media > Direct > Email,4,1,462.9
+636,Social Media > Email > Direct,3,0,0
+637,Organic Search,1,0,0
+638,Social Media,1,0,0
+639,Organic Search,1,0,0
+640,Organic Search > Paid Search > Social Media,3,1,192.74
+641,Paid Search > Social Media,2,0,0
+642,Paid Search > Organic Search,2,1,198.05
+643,Paid Search,1,1,238.08
+644,Email > Paid Search > Paid Search,3,0,0
+645,Organic Search > Social Media > Direct > Email,4,0,0
+646,Paid Search,1,1,566.79
+647,Social Media > Email,2,0,0
+648,Social Media,1,0,0
+649,Social Media > Social Media,2,0,0
+650,Organic Search > Paid Search > Paid Search > Email > Social Media,5,0,0
+651,Paid Search > Direct > Social Media > Email > Social Media,5,0,0
+652,Social Media,1,0,0
+653,Direct,1,1,284.18
+654,Paid Search > Direct > Paid Search > Direct > Organic Search > Paid Search,6,0,0
+655,Direct,1,1,610.82
+656,Paid Search,1,0,0
+657,Paid Search > Paid Search > Organic Search,3,0,0
+658,Organic Search > Social Media,2,1,164.33
+659,Social Media,1,0,0
+660,Paid Search > Paid Search > Paid Search,3,0,0
+661,Email > Direct,2,0,0
+662,Organic Search,1,0,0
+663,Paid Search,1,0,0
+664,Organic Search,1,0,0
+665,Email > Direct,2,0,0
+666,Paid Search > Email,2,0,0
+667,Paid Search,1,0,0
+668,Email > Email,2,0,0
+669,Social Media > Email,2,1,299.59
+670,Organic Search > Paid Search > Social Media > Organic Search > Email > Direct,6,1,226.01
+671,Organic Search > Social Media,2,0,0
+672,Direct,1,1,290.69
+673,Email,1,0,0
+674,Direct,1,0,0
+675,Organic Search,1,0,0
+676,Organic Search,1,0,0
+677,Email,1,0,0
+678,Social Media > Direct,2,1,153.56
+679,Paid Search,1,1,137.24
+680,Paid Search > Email,2,0,0
+681,Paid Search,1,0,0
+682,Paid Search > Organic Search,2,0,0
+683,Social Media,1,0,0
+684,Paid Search,1,1,65.83
+685,Paid Search > Social Media > Direct > Email > Direct,5,0,0
+686,Paid Search,1,1,491.2
+687,Paid Search,1,1,74.89
+688,Email > Direct > Paid Search,3,0,0
+689,Paid Search > Organic Search,2,0,0
+690,Organic Search,1,1,212.5
+691,Organic Search,1,0,0
+692,Organic Search,1,1,142.96
+693,Direct > Social Media > Email > Direct,4,0,0
+694,Organic Search,1,1,501.63
+695,Paid Search > Social Media > Paid Search,3,1,223.9
+696,Email,1,0,0
+697,Paid Search > Social Media > Organic Search > Email,4,1,128.34
+698,Direct > Social Media,2,0,0
+699,Email > Paid Search,2,0,0
+700,Organic Search > Direct > Organic Search,3,1,633.46
+701,Social Media > Paid Search > Direct,3,0,0
+702,Direct > Paid Search > Paid Search,3,0,0
+703,Social Media > Email,2,0,0
+704,Paid Search > Social Media > Social Media > Organic Search,4,1,564.56
+705,Email,1,1,1487.61
+706,Paid Search,1,1,648.71
+707,Organic Search > Paid Search,2,0,0
+708,Direct,1,1,174.9
+709,Social Media,1,1,494.75
+710,Direct > Social Media,2,0,0
+711,Social Media > Email,2,1,1931.68
+712,Email > Organic Search > Paid Search > Email > Organic Search > Paid Search,6,0,0
+713,Paid Search,1,1,449.26
+714,Social Media > Organic Search > Direct,3,1,127.48
+715,Paid Search > Social Media,2,0,0
+716,Paid Search > Direct,2,1,1521.58
+717,Organic Search,1,1,1769.7
+718,Organic Search > Paid Search > Direct,3,1,385.57
+719,Social Media,1,0,0
+720,Organic Search,1,0,0
+721,Social Media > Paid Search,2,0,0
+722,Paid Search,1,0,0
+723,Social Media > Paid Search > Paid Search,3,0,0
+724,Organic Search,1,0,0
+725,Email > Organic Search,2,0,0
+726,Organic Search > Paid Search,2,1,246.24
+727,Paid Search > Direct,2,1,420.61
+728,Organic Search > Paid Search,2,1,842.61
+729,Paid Search > Organic Search,2,0,0
+730,Organic Search > Direct,2,1,282.79
+731,Direct,1,1,396.27
+732,Paid Search > Email > Direct,3,0,0
+733,Organic Search > Paid Search > Direct,3,1,171.74
+734,Email,1,0,0
+735,Direct > Paid Search > Direct > Direct,4,0,0
+736,Paid Search,1,1,100.17
+737,Social Media > Email,2,1,555.01
+738,Paid Search,1,0,0
+739,Organic Search,1,0,0
+740,Email > Email > Organic Search > Email > Email > Direct,6,0,0
+741,Direct,1,0,0
+742,Organic Search,1,1,1590.82
+743,Organic Search > Direct > Email,3,1,299.24
+744,Social Media > Organic Search,2,0,0
+745,Direct,1,1,1058.74
+746,Direct > Paid Search > Paid Search > Social Media,4,0,0
+747,Organic Search,1,1,778.53
+748,Organic Search > Social Media > Email,3,0,0
+749,Social Media,1,0,0
+750,Paid Search > Email > Paid Search > Social Media,4,0,0
+751,Social Media > Paid Search > Social Media > Direct,4,1,778.78
+752,Organic Search > Social Media > Social Media > Paid Search > Social Media,5,0,0
+753,Email,1,1,258.98
+754,Paid Search > Paid Search > Social Media > Email,4,1,356.1
+755,Direct > Organic Search > Email > Direct,4,0,0
+756,Organic Search > Direct,2,0,0
+757,Organic Search > Organic Search,2,0,0
+758,Direct > Social Media,2,0,0
+759,Paid Search,1,1,549.39
+760,Organic Search,1,0,0
+761,Organic Search > Paid Search,2,0,0
+762,Paid Search > Paid Search,2,0,0
+763,Email > Direct > Organic Search > Direct > Social Media,5,1,1092.5
+764,Organic Search,1,1,103.68
+765,Organic Search > Social Media,2,0,0
+766,Organic Search,1,1,123.78
+767,Paid Search,1,1,119.94
+768,Organic Search > Paid Search,2,0,0
+769,Paid Search,1,1,1692.27
+770,Direct,1,0,0
+771,Paid Search,1,1,747.61
+772,Paid Search > Direct > Social Media > Email > Social Media,5,0,0
+773,Email > Paid Search,2,0,0
+774,Paid Search,1,0,0
+775,Direct,1,0,0
+776,Organic Search,1,1,254.07
+777,Direct > Paid Search,2,0,0
+778,Organic Search,1,0,0
+779,Email > Direct,2,0,0
+780,Email > Social Media,2,1,1546.44
+781,Direct > Organic Search,2,0,0
+782,Direct,1,1,312.94
+783,Direct,1,0,0
+784,Paid Search > Email,2,1,108.16
+785,Organic Search > Direct > Organic Search,3,0,0
+786,Organic Search > Paid Search,2,1,437.71
+787,Paid Search > Organic Search,2,1,409.75
+788,Email,1,0,0
+789,Direct,1,1,258.24
+790,Organic Search > Social Media > Paid Search > Social Media,4,0,0
+791,Email,1,0,0
+792,Social Media > Paid Search,2,0,0
+793,Social Media,1,0,0
+794,Email > Social Media,2,1,126.71
+795,Social Media > Paid Search,2,1,479.48
+796,Paid Search,1,0,0
+797,Direct > Organic Search,2,1,487.01
+798,Organic Search,1,1,156.26
+799,Social Media > Paid Search,2,0,0
+800,Organic Search,1,0,0
+801,Organic Search,1,0,0
+802,Social Media,1,0,0
+803,Paid Search > Email > Email > Paid Search > Email > Paid Search > Organic Search > Email,8,1,453.82
+804,Paid Search > Direct,2,1,169.87
+805,Direct,1,1,297.59
+806,Organic Search,1,0,0
+807,Organic Search > Social Media,2,0,0
+808,Organic Search > Paid Search > Direct,3,0,0
+809,Paid Search,1,0,0
+810,Organic Search,1,1,489.64
+811,Organic Search,1,0,0
+812,Organic Search,1,0,0
+813,Organic Search > Paid Search > Social Media > Paid Search,4,1,1594.96
+814,Organic Search > Social Media > Paid Search > Organic Search,4,1,730.38
+815,Paid Search > Direct > Direct,3,1,319.8
+816,Organic Search > Paid Search > Email > Paid Search,4,0,0
+817,Paid Search > Direct,2,1,254.68
+818,Paid Search > Social Media,2,0,0
+819,Paid Search > Direct > Email,3,1,117.14
+820,Organic Search,1,0,0
+821,Social Media > Organic Search > Social Media,3,1,335.89
+822,Social Media,1,0,0
+823,Email > Direct,2,1,289.93
+824,Direct,1,1,275.69
+825,Social Media,1,1,420.18
+826,Social Media,1,0,0
+827,Organic Search,1,0,0
+828,Organic Search,1,0,0
+829,Direct,1,0,0
+830,Organic Search > Email,2,0,0
+831,Paid Search,1,0,0
+832,Social Media,1,0,0
+833,Organic Search,1,0,0
+834,Direct > Paid Search > Direct,3,1,119.05
+835,Paid Search,1,0,0
+836,Email,1,1,451.76
+837,Paid Search > Social Media,2,1,1909.47
+838,Direct,1,1,121.52
+839,Paid Search > Email > Direct,3,1,565.38
+840,Organic Search > Social Media > Paid Search,3,1,223.27
+841,Direct,1,1,236.44
+842,Direct,1,0,0
+843,Organic Search,1,0,0
+844,Paid Search > Email,2,1,258.93
+845,Direct > Social Media,2,0,0
+846,Paid Search,1,0,0
+847,Organic Search > Email,2,1,102.85
+848,Email,1,1,1800.78
+849,Email,1,1,127.78
+850,Paid Search > Social Media,2,0,0
+851,Direct > Organic Search > Paid Search,3,0,0
+852,Email > Email > Direct,3,0,0
+853,Social Media > Social Media,2,0,0
+854,Paid Search,1,1,57.64
+855,Paid Search,1,1,267.62
+856,Social Media > Email > Social Media,3,0,0
+857,Social Media,1,0,0
+858,Organic Search > Email > Social Media,3,1,442.84
+859,Social Media,1,0,0
+860,Organic Search > Email > Organic Search,3,0,0
+861,Email > Organic Search,2,0,0
+862,Social Media,1,0,0
+863,Organic Search > Social Media,2,0,0
+864,Paid Search,1,0,0
+865,Social Media > Direct,2,1,113.0
+866,Paid Search,1,1,1095.73
+867,Organic Search > Direct,2,1,1061.34
+868,Social Media,1,0,0
+869,Organic Search > Paid Search > Organic Search,3,0,0
+870,Social Media,1,0,0
+871,Organic Search,1,0,0
+872,Direct > Direct > Social Media,3,0,0
+873,Direct,1,0,0
+874,Email,1,1,608.45
+875,Social Media,1,0,0
+876,Direct > Email > Direct,3,1,227.02
+877,Social Media > Paid Search,2,1,183.66
+878,Email,1,0,0
+879,Social Media,1,1,1760.96
+880,Direct > Email > Paid Search > Paid Search > Email,5,0,0
+881,Email > Social Media,2,0,0
+882,Paid Search > Paid Search > Direct,3,0,0
+883,Paid Search,1,0,0
+884,Paid Search > Email > Direct,3,0,0
+885,Paid Search,1,0,0
+886,Social Media,1,0,0
+887,Organic Search,1,0,0
+888,Paid Search,1,0,0
+889,Paid Search > Email > Paid Search,3,0,0
+890,Organic Search > Paid Search > Direct,3,1,283.03
+891,Paid Search,1,1,1231.37
+892,Social Media > Paid Search,2,1,118.38
+893,Email > Social Media,2,0,0
+894,Paid Search,1,0,0
+895,Organic Search,1,1,442.04
+896,Direct,1,1,99.85
+897,Paid Search > Organic Search > Social Media,3,0,0
+898,Organic Search,1,1,349.29
+899,Social Media > Email > Paid Search > Direct,4,1,255.96
+900,Organic Search > Social Media,2,0,0
+901,Social Media > Email,2,0,0
+902,Direct,1,1,243.7
+903,Organic Search,1,0,0
+904,Direct,1,1,231.79
+905,Organic Search,1,0,0
+906,Social Media > Paid Search > Direct,3,1,269.14
+907,Organic Search > Direct > Organic Search,3,0,0
+908,Social Media,1,0,0
+909,Organic Search,1,1,428.15
+910,Paid Search > Direct > Social Media,3,0,0
+911,Social Media > Email,2,1,361.99
+912,Social Media > Paid Search,2,0,0
+913,Organic Search,1,0,0
+914,Organic Search > Paid Search > Paid Search > Social Media > Paid Search > Email,6,1,225.86
+915,Organic Search > Organic Search > Direct > Email,4,0,0
+916,Paid Search > Organic Search,2,1,434.09
+917,Social Media > Paid Search > Paid Search,3,1,651.94
+918,Organic Search > Paid Search,2,0,0
+919,Organic Search > Direct > Paid Search > Social Media > Organic Search > Social Media,6,0,0
+920,Paid Search,1,1,239.55
+921,Organic Search,1,0,0
+922,Social Media > Paid Search > Direct,3,1,727.09
+923,Organic Search,1,0,0
+924,Organic Search > Email,2,0,0
+925,Organic Search > Email,2,0,0
+926,Email,1,1,669.58
+927,Social Media > Organic Search,2,0,0
+928,Organic Search > Email,2,1,1517.59
+929,Organic Search > Email > Direct > Organic Search,4,1,1960.17
+930,Organic Search,1,0,0
+931,Organic Search > Email > Organic Search > Social Media > Email,5,1,660.52
+932,Social Media,1,1,367.94
+933,Paid Search,1,1,642.86
+934,Social Media > Paid Search > Email,3,1,259.76
+935,Social Media,1,0,0
+936,Organic Search,1,1,262.21
+937,Direct,1,0,0
+938,Organic Search > Direct > Email,3,0,0
+939,Organic Search > Paid Search,2,1,341.0
+940,Paid Search,1,0,0
+941,Paid Search,1,0,0
+942,Paid Search > Paid Search > Direct,3,1,153.08
+943,Social Media > Organic Search > Paid Search,3,1,382.76
+944,Paid Search > Social Media,2,0,0
+945,Direct,1,1,105.73
+946,Paid Search,1,1,483.88
+947,Social Media,1,0,0
+948,Organic Search,1,0,0
+949,Organic Search > Social Media,2,0,0
+950,Direct > Direct,2,1,568.67
+951,Organic Search > Paid Search,2,1,660.44
+952,Social Media > Paid Search,2,0,0
+953,Paid Search > Direct,2,0,0
+954,Social Media > Paid Search > Direct,3,0,0
+955,Email,1,1,1175.76
+956,Social Media,1,0,0
+957,Organic Search > Direct,2,1,283.83
+958,Email,1,1,752.7
+959,Organic Search,1,1,692.57
+960,Paid Search,1,1,301.64
+961,Paid Search,1,0,0
+962,Direct,1,0,0
+963,Organic Search,1,0,0
+964,Direct,1,1,153.19
+965,Social Media,1,0,0
+966,Organic Search,1,0,0
+967,Direct,1,0,0
+968,Direct,1,1,206.04
+969,Organic Search > Social Media,2,0,0
+970,Direct,1,1,301.56
+971,Social Media > Email > Paid Search > Direct,4,1,600.29
+972,Paid Search,1,1,928.89
+973,Email,1,0,0
+974,Paid Search > Organic Search > Paid Search,3,1,237.55
+975,Organic Search > Social Media > Social Media,3,0,0
+976,Social Media > Social Media,2,0,0
+977,Organic Search,1,0,0
+978,Organic Search,1,0,0
+979,Social Media,1,0,0
+980,Social Media,1,1,246.08
+981,Email > Direct,2,1,255.02
+982,Direct,1,0,0
+983,Paid Search,1,1,112.84
+984,Social Media,1,0,0
+985,Direct,1,0,0
+986,Direct,1,0,0
+987,Social Media,1,0,0
+988,Paid Search,1,1,1946.43
+989,Organic Search > Paid Search,2,1,93.45
+990,Paid Search > Direct,2,1,278.04
+991,Social Media > Social Media > Email,3,1,88.43
+992,Paid Search > Organic Search,2,0,0
+993,Social Media,1,0,0
+994,Paid Search,1,1,246.01
+995,Paid Search > Social Media > Paid Search > Organic Search > Direct,5,1,255.17
+996,Organic Search > Paid Search > Email > Direct > Email,5,1,797.98
+997,Email,1,0,0
+998,Organic Search,1,1,742.7
+999,Social Media,1,0,0
+1000,Direct,1,0,0
+1001,Paid Search,1,0,0
+1002,Direct,1,1,369.7
+1003,Direct,1,0,0
+1004,Paid Search,1,0,0
+1005,Paid Search > Organic Search,2,0,0
+1006,Organic Search > Direct,2,0,0
+1007,Organic Search,1,0,0
+1008,Paid Search > Organic Search > Paid Search,3,1,1797.43
+1009,Paid Search > Paid Search,2,1,1964.34
+1010,Email,1,1,398.76
+1011,Organic Search > Direct,2,1,63.57
+1012,Email,1,1,336.59
+1013,Organic Search > Email,2,1,210.13
+1014,Social Media,1,1,571.01
+1015,Email,1,1,608.88
+1016,Direct > Paid Search,2,0,0
+1017,Paid Search > Paid Search,2,0,0
+1018,Paid Search > Direct,2,1,520.08
+1019,Organic Search > Email,2,0,0
+1020,Paid Search,1,0,0
+1021,Organic Search,1,1,418.01
+1022,Social Media > Email,2,0,0
+1023,Social Media,1,1,51.26
+1024,Social Media,1,1,221.88
+1025,Social Media,1,0,0
+1026,Paid Search > Direct,2,1,296.57
+1027,Organic Search,1,0,0
+1028,Organic Search > Paid Search,2,0,0
+1029,Direct,1,0,0
+1030,Direct,1,0,0
+1031,Paid Search,1,1,66.84
+1032,Organic Search,1,0,0
+1033,Paid Search > Email > Paid Search,3,1,204.88
+1034,Direct > Direct,2,1,383.41
+1035,Social Media,1,1,129.08
+1036,Paid Search > Organic Search > Paid Search > Social Media,4,0,0
+1037,Paid Search,1,0,0
+1038,Organic Search,1,0,0
+1039,Direct,1,1,126.37
+1040,Social Media > Paid Search,2,1,1788.07
+1041,Organic Search > Direct > Email,3,0,0
+1042,Organic Search > Paid Search > Organic Search > Direct > Organic Search,5,1,554.02
+1043,Direct,1,1,799.24
+1044,Paid Search,1,0,0
+1045,Paid Search > Social Media,2,0,0
+1046,Social Media > Social Media > Direct,3,1,175.54
+1047,Social Media,1,0,0
+1048,Email,1,1,178.53
+1049,Paid Search > Social Media,2,0,0
+1050,Social Media,1,0,0
+1051,Social Media > Direct,2,1,171.91
+1052,Organic Search > Email > Organic Search > Paid Search,4,0,0
+1053,Paid Search > Direct,2,1,295.15
+1054,Paid Search,1,1,697.79
+1055,Email > Direct,2,1,213.42
+1056,Paid Search,1,1,1274.99
+1057,Paid Search,1,0,0
+1058,Paid Search > Direct,2,0,0
+1059,Paid Search > Direct,2,1,283.38
+1060,Organic Search > Paid Search,2,1,96.73
+1061,Paid Search,1,1,107.59
+1062,Email,1,1,487.29
+1063,Organic Search > Paid Search,2,0,0
+1064,Organic Search > Organic Search,2,1,207.39
+1065,Organic Search,1,1,114.56
+1066,Organic Search,1,0,0
+1067,Social Media,1,1,229.89
+1068,Social Media > Social Media > Organic Search > Direct,4,0,0
+1069,Direct > Social Media,2,0,0
+1070,Social Media,1,0,0
+1071,Email > Social Media,2,0,0
+1072,Organic Search,1,0,0
+1073,Paid Search > Direct,2,1,146.37
+1074,Organic Search > Paid Search,2,0,0
+1075,Paid Search > Direct > Social Media > Organic Search > Direct,5,1,245.97
+1076,Paid Search > Paid Search > Direct > Social Media,4,0,0
+1077,Email,1,0,0
+1078,Email,1,1,422.23
+1079,Organic Search > Direct > Email,3,0,0
+1080,Email > Direct,2,1,1642.31
+1081,Social Media > Organic Search > Paid Search > Direct > Email,5,0,0
+1082,Organic Search,1,0,0
+1083,Paid Search > Social Media,2,0,0
+1084,Email,1,1,51.8
+1085,Social Media,1,0,0
+1086,Paid Search > Direct > Social Media,3,0,0
+1087,Organic Search,1,0,0
+1088,Paid Search > Direct > Email,3,1,1119.84
+1089,Email,1,1,188.73
+1090,Organic Search > Social Media > Email,3,1,1782.5
+1091,Social Media,1,0,0
+1092,Paid Search,1,1,103.61
+1093,Paid Search > Email,2,1,624.07
+1094,Organic Search,1,0,0
+1095,Organic Search > Paid Search > Social Media,3,0,0
+1096,Paid Search > Organic Search > Paid Search > Paid Search > Organic Search > Email,6,0,0
+1097,Social Media,1,1,1396.21
+1098,Direct,1,0,0
+1099,Social Media > Direct > Email,3,1,929.01
+1100,Organic Search,1,1,339.0
+1101,Organic Search > Organic Search > Paid Search > Organic Search > Paid Search,5,0,0
+1102,Email > Direct,2,1,510.65
+1103,Social Media > Organic Search > Paid Search > Email,4,0,0
+1104,Direct,1,1,210.6
+1105,Social Media > Paid Search,2,0,0
+1106,Social Media > Social Media > Email > Paid Search > Organic Search > Social Media,6,0,0
+1107,Email,1,0,0
+1108,Direct,1,0,0
+1109,Social Media,1,0,0
+1110,Direct,1,1,1636.21
+1111,Direct,1,1,552.1
+1112,Organic Search > Paid Search > Organic Search,3,1,370.77
+1113,Organic Search > Social Media,2,0,0
+1114,Paid Search > Organic Search,2,0,0
+1115,Organic Search > Paid Search,2,1,614.04
+1116,Direct,1,1,273.58
+1117,Organic Search,1,0,0
+1118,Social Media,1,0,0
+1119,Paid Search > Social Media,2,0,0
+1120,Direct > Email > Social Media > Paid Search,4,1,76.67
+1121,Direct,1,1,568.3
+1122,Email,1,1,170.57
+1123,Social Media > Direct,2,0,0
+1124,Direct,1,0,0
+1125,Paid Search,1,0,0
+1126,Direct > Direct > Email,3,1,249.82
+1127,Paid Search,1,1,436.23
+1128,Social Media > Paid Search,2,0,0
+1129,Social Media > Direct,2,0,0
+1130,Organic Search > Paid Search,2,1,203.19
+1131,Organic Search > Direct > Email,3,1,419.55
+1132,Paid Search > Social Media,2,0,0
+1133,Paid Search,1,0,0
+1134,Organic Search > Paid Search > Social Media,3,1,74.97
+1135,Organic Search > Paid Search > Direct,3,1,289.79
+1136,Organic Search,1,0,0
+1137,Organic Search > Direct,2,0,0
+1138,Email,1,1,1678.0
+1139,Paid Search,1,1,439.04
+1140,Social Media > Organic Search,2,0,0
+1141,Paid Search,1,1,400.79
+1142,Paid Search,1,1,203.09
+1143,Organic Search > Paid Search,2,0,0
+1144,Direct > Email,2,1,304.72
+1145,Email > Direct,2,1,641.92
+1146,Direct,1,1,207.93
+1147,Organic Search > Paid Search,2,0,0
+1148,Paid Search,1,1,709.34
+1149,Organic Search > Paid Search > Social Media > Email > Direct > Email,6,1,161.22
+1150,Direct,1,1,779.32
+1151,Paid Search > Social Media > Organic Search,3,0,0
+1152,Social Media,1,0,0
+1153,Social Media > Organic Search > Paid Search > Paid Search > Organic Search,5,0,0
+1154,Paid Search > Organic Search > Email,3,0,0
+1155,Organic Search > Social Media > Paid Search,3,1,223.75
+1156,Organic Search > Social Media,2,0,0
+1157,Organic Search,1,0,0
+1158,Organic Search,1,1,230.08
+1159,Paid Search,1,0,0
+1160,Paid Search > Email > Direct,3,0,0
+1161,Social Media > Paid Search,2,1,581.51
+1162,Social Media,1,1,385.8
+1163,Paid Search,1,1,1162.79
+1164,Paid Search > Email > Direct > Organic Search,4,0,0
+1165,Email > Direct,2,1,280.52
+1166,Direct,1,1,157.61
+1167,Organic Search > Paid Search > Organic Search > Email > Direct,5,1,90.82
+1168,Social Media > Email > Direct > Email > Direct > Email,6,0,0
+1169,Direct,1,0,0
+1170,Social Media > Social Media,2,0,0
+1171,Email > Direct,2,0,0
+1172,Organic Search > Social Media,2,0,0
+1173,Social Media > Social Media,2,0,0
+1174,Organic Search > Organic Search > Organic Search > Direct > Email > Paid Search > Email,7,1,849.22
+1175,Organic Search > Direct,2,1,249.87
+1176,Direct,1,1,995.37
+1177,Email,1,0,0
+1178,Organic Search,1,0,0
+1179,Organic Search > Direct > Email,3,0,0
+1180,Email,1,0,0
+1181,Organic Search,1,0,0
+1182,Organic Search,1,0,0
+1183,Paid Search,1,1,165.21
+1184,Email,1,1,289.13
+1185,Social Media > Email > Direct,3,1,284.36
+1186,Paid Search > Email,2,1,271.88
+1187,Direct > Email > Paid Search,3,1,91.84
+1188,Organic Search > Paid Search,2,0,0
+1189,Organic Search > Organic Search,2,0,0
+1190,Paid Search,1,1,72.37
+1191,Organic Search > Paid Search,2,1,498.79
+1192,Social Media > Organic Search,2,1,1687.2
+1193,Organic Search > Paid Search,2,0,0
+1194,Email,1,1,1158.08
+1195,Organic Search,1,1,83.68
+1196,Direct,1,1,376.83
+1197,Social Media > Paid Search > Social Media > Email,4,1,257.84
+1198,Direct,1,1,88.76
+1199,Organic Search > Social Media > Email > Organic Search,4,1,96.38
+1200,Organic Search,1,0,0
+1201,Email > Email,2,1,523.37
+1202,Paid Search,1,1,530.88
+1203,Social Media > Email,2,1,180.8
+1204,Organic Search,1,0,0
+1205,Organic Search,1,0,0
+1206,Organic Search > Direct > Paid Search,3,1,1486.88
+1207,Paid Search,1,1,141.59
+1208,Social Media > Organic Search,2,0,0
+1209,Organic Search > Direct,2,0,0
+1210,Organic Search,1,0,0
+1211,Organic Search,1,1,266.38
+1212,Paid Search,1,1,898.72
+1213,Organic Search > Paid Search > Email,3,0,0
+1214,Direct > Paid Search,2,1,313.68
+1215,Paid Search > Social Media,2,0,0
+1216,Organic Search,1,0,0
+1217,Paid Search > Paid Search,2,1,164.68
+1218,Social Media,1,0,0
+1219,Organic Search > Paid Search > Direct,3,1,299.61
+1220,Paid Search > Direct > Direct,3,0,0
+1221,Paid Search > Direct,2,0,0
+1222,Paid Search,1,1,537.89
+1223,Organic Search,1,0,0
+1224,Direct > Email,2,0,0
+1225,Paid Search > Direct,2,0,0
+1226,Direct,1,1,796.05
+1227,Paid Search > Email > Social Media,3,0,0
+1228,Organic Search,1,0,0
+1229,Social Media > Social Media,2,1,755.55
+1230,Organic Search > Organic Search > Email > Paid Search > Direct,5,1,252.77
+1231,Organic Search > Email,2,0,0
+1232,Social Media,1,0,0
+1233,Email > Social Media,2,0,0
+1234,Social Media,1,1,338.09
+1235,Paid Search,1,1,247.09
+1236,Organic Search,1,0,0
+1237,Paid Search,1,0,0
+1238,Paid Search,1,0,0
+1239,Direct > Email,2,1,206.86
+1240,Email > Direct > Direct > Organic Search > Direct > Social Media,6,1,62.63
+1241,Social Media > Email > Direct,3,1,333.25
+1242,Organic Search > Email > Paid Search > Paid Search,4,1,149.8
+1243,Organic Search > Direct,2,0,0
+1244,Organic Search > Paid Search,2,1,591.35
+1245,Organic Search,1,1,869.37
+1246,Organic Search,1,0,0
+1247,Paid Search,1,0,0
+1248,Organic Search,1,1,408.98
+1249,Paid Search,1,1,126.2
+1250,Direct,1,1,276.88
+1251,Organic Search > Organic Search,2,0,0
+1252,Organic Search > Email,2,1,144.95
+1253,Organic Search,1,0,0
+1254,Direct,1,0,0
+1255,Email > Organic Search,2,1,162.52
+1256,Organic Search > Paid Search,2,1,180.82
+1257,Organic Search > Direct,2,0,0
+1258,Organic Search,1,1,195.75
+1259,Social Media > Organic Search > Paid Search > Email,4,0,0
+1260,Social Media > Organic Search,2,1,147.16
+1261,Organic Search,1,0,0
+1262,Social Media,1,0,0
+1263,Organic Search,1,0,0
+1264,Social Media > Paid Search > Direct,3,0,0
+1265,Organic Search > Social Media,2,0,0
+1266,Paid Search > Social Media,2,1,755.81
+1267,Organic Search > Paid Search,2,1,148.35
+1268,Organic Search > Social Media > Email,3,1,294.56
+1269,Paid Search,1,0,0
+1270,Social Media,1,0,0
+1271,Direct,1,0,0
+1272,Organic Search,1,1,87.93
+1273,Direct,1,1,145.55
+1274,Direct,1,1,336.46
+1275,Organic Search > Paid Search,2,0,0
+1276,Direct > Direct,2,1,84.64
+1277,Paid Search,1,0,0
+1278,Direct > Direct,2,0,0
+1279,Paid Search > Social Media,2,0,0
+1280,Direct > Social Media,2,0,0
+1281,Direct > Direct,2,1,147.35
+1282,Paid Search,1,0,0
+1283,Social Media,1,0,0
+1284,Direct,1,1,465.8
+1285,Direct,1,0,0
+1286,Direct > Email,2,0,0
+1287,Organic Search > Paid Search,2,0,0
+1288,Social Media > Social Media,2,1,108.05
+1289,Social Media > Email,2,1,501.39
+1290,Social Media,1,0,0
+1291,Paid Search,1,0,0
+1292,Paid Search > Social Media > Paid Search > Organic Search,4,0,0
+1293,Organic Search > Social Media > Email,3,1,403.11
+1294,Organic Search,1,0,0
+1295,Direct,1,0,0
+1296,Paid Search > Email > Direct > Email > Direct > Organic Search,6,0,0
+1297,Paid Search > Email,2,1,1390.71
+1298,Paid Search,1,0,0
+1299,Email,1,1,696.21
+1300,Organic Search,1,0,0
+1301,Paid Search > Direct,2,0,0
+1302,Social Media,1,1,229.58
+1303,Organic Search > Email > Direct,3,0,0
+1304,Paid Search > Direct,2,1,179.24
+1305,Organic Search,1,0,0
+1306,Paid Search,1,1,244.68
+1307,Direct,1,0,0
+1308,Organic Search > Email > Direct > Social Media,4,1,802.9
+1309,Paid Search > Email,2,1,418.59
+1310,Social Media > Paid Search > Paid Search > Direct,4,1,430.45
+1311,Email,1,1,251.47
+1312,Paid Search,1,0,0
+1313,Direct,1,1,290.05
+1314,Direct > Social Media,2,0,0
+1315,Paid Search > Email,2,0,0
+1316,Paid Search,1,1,82.89
+1317,Organic Search,1,1,164.66
+1318,Direct,1,1,270.68
+1319,Organic Search,1,1,446.09
+1320,Organic Search,1,1,186.84
+1321,Social Media,1,1,573.38
+1322,Organic Search,1,1,263.46
+1323,Social Media,1,0,0
+1324,Organic Search,1,0,0
+1325,Organic Search > Email > Social Media,3,0,0
+1326,Social Media,1,0,0
+1327,Social Media,1,0,0
+1328,Organic Search > Direct,2,1,137.25
+1329,Organic Search > Email > Direct > Paid Search > Direct,5,1,83.64
+1330,Social Media > Social Media,2,1,617.5
+1331,Social Media > Paid Search,2,1,792.31
+1332,Paid Search,1,1,494.51
+1333,Organic Search,1,1,181.35
+1334,Direct,1,1,190.66
+1335,Paid Search,1,1,307.94
+1336,Social Media,1,0,0
+1337,Direct > Organic Search > Organic Search,3,1,262.02
+1338,Email,1,0,0
+1339,Paid Search > Email,2,1,206.78
+1340,Organic Search > Social Media,2,0,0
+1341,Paid Search,1,1,51.53
+1342,Social Media > Email,2,1,217.47
+1343,Organic Search > Social Media > Email,3,1,418.9
+1344,Social Media > Direct,2,1,314.79
+1345,Paid Search,1,0,0
+1346,Paid Search,1,1,949.02
+1347,Social Media > Email,2,1,221.37
+1348,Email,1,0,0
+1349,Paid Search,1,0,0
+1350,Organic Search > Organic Search,2,0,0
+1351,Social Media,1,0,0
+1352,Social Media > Email,2,1,400.62
+1353,Social Media > Email > Organic Search > Email,4,1,162.98
+1354,Direct > Email > Direct > Paid Search,4,0,0
+1355,Email,1,0,0
+1356,Paid Search > Organic Search > Direct,3,1,280.91
+1357,Social Media,1,1,714.94
+1358,Direct,1,0,0
+1359,Direct,1,1,231.14
+1360,Paid Search,1,1,202.47
+1361,Direct,1,0,0
+1362,Social Media > Organic Search > Direct > Organic Search > Direct,5,1,194.39
+1363,Paid Search,1,0,0
+1364,Paid Search > Social Media > Social Media > Email > Direct > Paid Search > Social Media > Social Media > Organic Search,9,1,323.95
+1365,Paid Search > Email > Paid Search,3,1,111.21
+1366,Organic Search,1,1,160.91
+1367,Organic Search > Direct,2,1,63.45
+1368,Paid Search > Social Media,2,1,701.7
+1369,Social Media,1,0,0
+1370,Paid Search,1,0,0
+1371,Social Media,1,0,0
+1372,Paid Search,1,0,0
+1373,Email,1,1,253.21
+1374,Direct,1,1,610.69
+1375,Social Media > Direct > Email > Social Media,4,0,0
+1376,Social Media,1,0,0
+1377,Paid Search,1,1,673.27
+1378,Direct,1,1,168.83
+1379,Paid Search > Direct > Social Media,3,0,0
+1380,Social Media > Paid Search > Paid Search,3,0,0
+1381,Email > Direct,2,1,1299.12
+1382,Paid Search > Direct,2,1,784.34
+1383,Paid Search > Email,2,0,0
+1384,Social Media,1,0,0
+1385,Paid Search,1,0,0
+1386,Paid Search > Social Media,2,0,0
+1387,Organic Search,1,0,0
+1388,Social Media > Direct,2,1,533.05
+1389,Email > Social Media,2,0,0
+1390,Organic Search > Paid Search,2,0,0
+1391,Email > Direct,2,1,254.32
+1392,Email,1,0,0
+1393,Direct,1,1,86.68
+1394,Organic Search > Direct,2,1,317.4
+1395,Social Media > Email,2,1,221.82
+1396,Direct,1,1,237.71
+1397,Organic Search > Organic Search,2,0,0
+1398,Paid Search > Paid Search > Email > Direct,4,1,225.84
+1399,Email > Direct,2,0,0
+1400,Direct > Email,2,1,129.53
+1401,Paid Search > Direct,2,1,484.92
+1402,Organic Search > Email,2,0,0
+1403,Email > Social Media,2,0,0
+1404,Social Media > Paid Search > Organic Search > Organic Search,4,0,0
+1405,Paid Search > Direct,2,0,0
+1406,Organic Search,1,1,473.62
+1407,Email,1,1,307.88
+1408,Paid Search,1,1,413.18
+1409,Organic Search,1,1,708.08
+1410,Organic Search > Direct,2,1,420.18
+1411,Direct,1,1,669.75
+1412,Paid Search,1,1,232.82
+1413,Direct,1,0,0
+1414,Email,1,1,272.48
+1415,Organic Search > Direct,2,0,0
+1416,Direct > Paid Search,2,1,968.75
+1417,Organic Search > Social Media,2,0,0
+1418,Paid Search,1,1,640.29
+1419,Paid Search,1,0,0
+1420,Email > Direct > Organic Search,3,0,0
+1421,Social Media,1,0,0
+1422,Social Media > Organic Search > Direct > Social Media > Organic Search,5,0,0
+1423,Email,1,1,70.63
+1424,Paid Search,1,0,0
+1425,Organic Search > Paid Search > Email,3,0,0
+1426,Organic Search > Paid Search > Social Media,3,1,161.66
+1427,Email > Direct,2,0,0
+1428,Paid Search,1,0,0
+1429,Direct,1,1,86.27
+1430,Direct > Social Media > Direct,3,0,0
+1431,Email > Email > Direct,3,1,233.59
+1432,Paid Search,1,1,673.99
+1433,Organic Search > Email > Direct,3,0,0
+1434,Email,1,1,226.4
+1435,Paid Search > Social Media,2,0,0
+1436,Organic Search,1,0,0
+1437,Paid Search,1,1,373.15
+1438,Organic Search,1,0,0
+1439,Social Media,1,0,0
+1440,Paid Search,1,0,0
+1441,Direct,1,1,74.57
+1442,Social Media > Email,2,0,0
+1443,Social Media,1,0,0
+1444,Social Media > Paid Search > Email,3,1,186.9
+1445,Social Media,1,0,0
+1446,Organic Search > Paid Search > Paid Search > Direct > Email > Direct > Email > Organic Search > Paid Search,9,0,0
+1447,Social Media,1,0,0
+1448,Direct,1,1,679.97
+1449,Direct > Paid Search,2,1,326.43
+1450,Direct,1,0,0
+1451,Social Media > Social Media > Direct,3,0,0
+1452,Social Media,1,0,0
+1453,Organic Search > Email,2,0,0
+1454,Email > Direct > Social Media > Organic Search,4,0,0
+1455,Paid Search > Email > Paid Search,3,0,0
+1456,Organic Search > Direct,2,1,344.12
+1457,Organic Search > Direct > Social Media,3,0,0
+1458,Organic Search,1,1,386.16
+1459,Organic Search > Paid Search,2,1,161.47
+1460,Direct > Social Media,2,0,0
+1461,Direct,1,1,225.01
+1462,Direct,1,1,763.95
+1463,Paid Search > Direct,2,0,0
+1464,Email,1,0,0
+1465,Paid Search > Organic Search,2,0,0
+1466,Email,1,1,761.03
+1467,Paid Search,1,1,579.36
+1468,Direct > Paid Search,2,1,132.18
+1469,Paid Search,1,0,0
+1470,Social Media > Paid Search > Organic Search > Email > Social Media,5,0,0
+1471,Direct,1,1,71.22
+1472,Social Media,1,0,0
+1473,Organic Search > Paid Search,2,1,493.54
+1474,Organic Search > Direct > Direct,3,1,1173.96
+1475,Direct > Organic Search > Paid Search,3,0,0
+1476,Organic Search > Paid Search,2,0,0
+1477,Social Media > Direct,2,1,159.58
+1478,Social Media,1,0,0
+1479,Organic Search > Paid Search,2,1,750.81
+1480,Organic Search,1,0,0
+1481,Organic Search > Paid Search > Organic Search > Social Media,4,0,0
+1482,Paid Search > Social Media,2,1,659.5
+1483,Paid Search,1,0,0
+1484,Organic Search,1,0,0
+1485,Paid Search,1,0,0
+1486,Direct,1,1,293.96
+1487,Social Media > Paid Search,2,0,0
+1488,Email,1,0,0
+1489,Social Media > Email > Paid Search > Social Media > Email,5,1,463.2
+1490,Direct > Organic Search > Paid Search,3,0,0
+1491,Social Media,1,0,0
+1492,Organic Search > Direct > Organic Search > Paid Search > Paid Search,5,1,266.49
+1493,Email,1,0,0
+1494,Social Media > Paid Search,2,1,447.22
+1495,Direct,1,1,95.0
+1496,Paid Search,1,0,0
+1497,Social Media,1,0,0
+1498,Paid Search > Organic Search > Paid Search > Paid Search,4,1,140.48
+1499,Email,1,1,242.58
+1500,Social Media > Social Media > Paid Search,3,0,0
+1501,Social Media,1,0,0
+1502,Paid Search > Social Media,2,0,0
+1503,Organic Search,1,1,158.67
+1504,Paid Search,1,0,0
+1505,Email > Organic Search,2,0,0
+1506,Direct > Social Media,2,0,0
+1507,Paid Search > Paid Search,2,0,0
+1508,Social Media,1,1,99.69
+1509,Social Media > Email,2,0,0
+1510,Paid Search > Paid Search,2,1,250.21
+1511,Organic Search > Direct,2,1,157.98
+1512,Direct,1,1,84.1
+1513,Social Media,1,0,0
+1514,Direct > Email > Paid Search,3,1,84.13
+1515,Direct,1,1,135.89
+1516,Direct,1,1,1457.0
+1517,Social Media > Paid Search,2,0,0
+1518,Direct > Paid Search,2,0,0
+1519,Paid Search,1,0,0
+1520,Social Media,1,0,0
+1521,Organic Search,1,0,0
+1522,Social Media > Paid Search > Email,3,1,336.71
+1523,Organic Search,1,1,295.05
+1524,Organic Search > Direct,2,0,0
+1525,Organic Search > Direct,2,1,1731.94
+1526,Paid Search > Social Media,2,1,232.95
+1527,Direct > Social Media > Social Media,3,0,0
+1528,Organic Search > Direct > Direct,3,0,0
+1529,Direct,1,0,0
+1530,Organic Search > Direct,2,0,0
+1531,Direct,1,1,1055.63
+1532,Paid Search,1,1,128.28
+1533,Direct,1,1,156.48
+1534,Organic Search,1,0,0
+1535,Paid Search,1,0,0
+1536,Email > Paid Search,2,0,0
+1537,Social Media > Organic Search,2,0,0
+1538,Social Media,1,0,0
+1539,Organic Search > Email,2,1,93.82
+1540,Social Media > Organic Search,2,0,0
+1541,Organic Search,1,0,0
+1542,Organic Search > Paid Search > Direct,3,0,0
+1543,Social Media,1,0,0
+1544,Organic Search,1,0,0
+1545,Organic Search > Email > Direct,3,0,0
+1546,Organic Search > Paid Search > Email,3,1,273.63
+1547,Social Media,1,0,0
+1548,Paid Search > Email,2,1,1918.05
+1549,Email,1,0,0
+1550,Organic Search,1,0,0
+1551,Paid Search > Paid Search,2,0,0
+1552,Organic Search,1,0,0
+1553,Organic Search > Social Media,2,0,0
+1554,Paid Search,1,0,0
+1555,Paid Search,1,1,292.39
+1556,Paid Search > Social Media > Email > Direct,4,1,65.74
+1557,Direct > Email,2,0,0
+1558,Social Media > Email > Direct,3,1,198.34
+1559,Social Media,1,0,0
+1560,Paid Search > Email > Paid Search,3,0,0
+1561,Organic Search > Social Media > Direct,3,0,0
+1562,Email > Organic Search > Email > Direct > Social Media,5,0,0
+1563,Social Media > Social Media,2,0,0
+1564,Email,1,1,292.09
+1565,Organic Search > Organic Search > Social Media > Paid Search > Email > Social Media,6,1,129.24
+1566,Paid Search > Direct,2,1,125.39
+1567,Direct,1,1,287.23
+1568,Paid Search > Email > Organic Search,3,0,0
+1569,Direct,1,1,1210.87
+1570,Organic Search,1,0,0
+1571,Direct,1,1,191.31
+1572,Direct,1,1,638.98
+1573,Direct > Social Media,2,1,150.41
+1574,Email > Direct > Paid Search > Organic Search,4,1,333.29
+1575,Direct > Email > Organic Search > Direct,4,1,252.43
+1576,Paid Search > Social Media > Email,3,1,463.38
+1577,Paid Search > Social Media,2,0,0
+1578,Paid Search > Direct > Direct,3,1,449.72
+1579,Organic Search,1,0,0
+1580,Paid Search,1,0,0
+1581,Email > Direct,2,0,0
+1582,Direct,1,1,155.83
+1583,Social Media > Organic Search > Paid Search > Direct,4,0,0
+1584,Direct > Paid Search,2,0,0
+1585,Email > Paid Search > Direct,3,0,0
+1586,Paid Search,1,1,1632.87
+1587,Organic Search > Paid Search > Direct,3,1,256.56
+1588,Email > Direct,2,1,216.1
+1589,Organic Search > Social Media,2,0,0
+1590,Email,1,1,735.61
+1591,Paid Search > Direct,2,0,0
+1592,Organic Search > Paid Search > Email,3,0,0
+1593,Organic Search,1,0,0
+1594,Social Media,1,1,351.2
+1595,Paid Search,1,1,178.13
+1596,Social Media,1,0,0
+1597,Organic Search > Paid Search > Email,3,0,0
+1598,Organic Search > Paid Search > Email > Direct,4,0,0
+1599,Paid Search > Email,2,1,305.55
+1600,Email > Social Media > Organic Search,3,0,0
+1601,Paid Search,1,0,0
+1602,Email,1,1,221.36
+1603,Social Media > Organic Search,2,1,519.35
+1604,Paid Search > Direct,2,1,277.7
+1605,Organic Search > Paid Search > Social Media > Paid Search,4,0,0
+1606,Social Media,1,0,0
+1607,Paid Search,1,1,653.78
+1608,Organic Search > Direct > Paid Search,3,0,0
+1609,Direct,1,1,140.64
+1610,Email,1,0,0
+1611,Social Media,1,0,0
+1612,Paid Search,1,1,253.64
+1613,Organic Search,1,0,0
+1614,Organic Search > Paid Search > Paid Search > Social Media > Organic Search,5,1,616.6
+1615,Email,1,1,76.95
+1616,Email,1,1,79.73
+1617,Organic Search > Paid Search,2,1,1673.56
+1618,Direct > Email,2,0,0
+1619,Organic Search > Email > Paid Search,3,0,0
+1620,Direct,1,0,0
+1621,Paid Search > Social Media,2,1,862.73
+1622,Social Media > Organic Search,2,1,104.25
+1623,Organic Search > Social Media,2,0,0
+1624,Paid Search,1,0,0
+1625,Organic Search > Paid Search,2,1,1049.69
+1626,Social Media > Direct,2,0,0
+1627,Organic Search > Email > Direct > Email > Social Media > Paid Search,6,0,0
+1628,Organic Search > Paid Search > Social Media,3,0,0
+1629,Social Media,1,1,132.03
+1630,Organic Search > Social Media,2,0,0
+1631,Paid Search,1,0,0
+1632,Paid Search,1,1,263.84
+1633,Organic Search > Paid Search,2,0,0
+1634,Paid Search,1,1,299.68
+1635,Paid Search > Paid Search > Direct,3,1,85.84
+1636,Paid Search,1,1,281.32
+1637,Direct > Paid Search,2,0,0
+1638,Paid Search,1,1,149.1
+1639,Email,1,1,228.37
+1640,Social Media > Social Media,2,0,0
+1641,Social Media > Email,2,1,442.67
+1642,Paid Search > Email,2,0,0
+1643,Organic Search > Social Media > Direct,3,1,74.9
+1644,Organic Search > Paid Search,2,1,253.05
+1645,Social Media > Paid Search,2,1,69.13
+1646,Email,1,0,0
+1647,Email > Social Media,2,0,0
+1648,Paid Search > Email > Direct,3,0,0
+1649,Paid Search,1,0,0
+1650,Organic Search > Direct,2,0,0
+1651,Paid Search > Email > Direct,3,1,189.17
+1652,Direct > Direct,2,0,0
+1653,Paid Search > Social Media,2,0,0
+1654,Paid Search > Paid Search,2,1,611.22
+1655,Social Media > Direct,2,0,0
+1656,Paid Search > Direct,2,1,346.78
+1657,Paid Search,1,0,0
+1658,Paid Search > Organic Search > Organic Search,3,0,0
+1659,Paid Search,1,1,272.84
+1660,Paid Search > Paid Search > Email > Direct,4,1,348.57
+1661,Social Media,1,1,126.2
+1662,Paid Search > Email > Organic Search > Social Media > Direct,5,0,0
+1663,Social Media,1,0,0
+1664,Organic Search,1,1,791.46
+1665,Paid Search > Direct,2,1,650.09
+1666,Social Media > Email,2,1,1009.31
+1667,Social Media > Email > Direct,3,1,1680.72
+1668,Email,1,1,61.88
+1669,Direct,1,1,235.72
+1670,Organic Search,1,0,0
+1671,Organic Search > Social Media > Organic Search,3,0,0
+1672,Paid Search > Social Media,2,0,0
+1673,Social Media > Email,2,0,0
+1674,Paid Search,1,1,150.58
+1675,Social Media > Direct,2,0,0
+1676,Organic Search > Organic Search,2,0,0
+1677,Direct,1,1,290.53
+1678,Social Media > Direct,2,0,0
+1679,Paid Search,1,1,1150.59
+1680,Social Media,1,0,0
+1681,Paid Search > Direct > Social Media > Paid Search,4,1,158.85
+1682,Paid Search,1,0,0
+1683,Organic Search > Paid Search > Direct,3,0,0
+1684,Social Media > Social Media,2,0,0
+1685,Paid Search > Paid Search > Social Media > Paid Search,4,0,0
+1686,Paid Search,1,1,588.15
+1687,Organic Search > Paid Search > Social Media > Social Media,4,0,0
+1688,Social Media > Paid Search,2,0,0
+1689,Direct,1,1,264.9
+1690,Organic Search,1,1,460.23
+1691,Paid Search > Direct,2,1,285.79
+1692,Social Media > Paid Search > Paid Search,3,1,308.78
+1693,Email,1,0,0
+1694,Direct > Email,2,0,0
+1695,Organic Search > Paid Search,2,0,0
+1696,Paid Search,1,1,237.09
+1697,Organic Search > Email > Paid Search > Social Media,4,0,0
+1698,Paid Search > Email,2,1,424.82
+1699,Direct > Direct,2,1,777.99
+1700,Direct,1,0,0
+1701,Paid Search,1,1,531.61
+1702,Direct,1,1,1493.34
+1703,Direct,1,0,0
+1704,Email > Email,2,1,289.62
+1705,Paid Search,1,0,0
+1706,Organic Search,1,0,0
+1707,Direct,1,1,257.19
+1708,Direct > Email > Paid Search,3,0,0
+1709,Organic Search > Paid Search,2,0,0
+1710,Direct,1,1,406.7
+1711,Paid Search > Organic Search,2,0,0
+1712,Email,1,0,0
+1713,Paid Search > Direct,2,0,0
+1714,Social Media,1,0,0
+1715,Email,1,0,0
+1716,Social Media,1,1,200.53
+1717,Email,1,1,216.41
+1718,Organic Search,1,1,674.61
+1719,Organic Search > Email,2,1,70.56
+1720,Organic Search > Direct,2,0,0
+1721,Email,1,0,0
+1722,Email,1,1,979.1
+1723,Paid Search,1,1,221.87
+1724,Email,1,0,0
+1725,Organic Search > Email > Social Media,3,0,0
+1726,Direct,1,0,0
+1727,Organic Search,1,0,0
+1728,Direct,1,1,744.11
+1729,Direct > Email,2,1,150.26
+1730,Paid Search > Email > Paid Search > Direct,4,0,0
+1731,Organic Search,1,0,0
+1732,Paid Search,1,0,0
+1733,Paid Search,1,1,228.39
+1734,Organic Search,1,0,0
+1735,Email > Direct,2,1,264.08
+1736,Social Media,1,0,0
+1737,Organic Search,1,1,445.11
+1738,Organic Search > Social Media > Social Media,3,0,0
+1739,Direct,1,1,474.9
+1740,Organic Search > Paid Search > Email,3,1,628.0
+1741,Social Media,1,0,0
+1742,Organic Search > Paid Search > Organic Search > Social Media > Paid Search,5,0,0
+1743,Direct,1,0,0
+1744,Direct,1,1,568.27
+1745,Organic Search,1,1,148.67
+1746,Paid Search,1,0,0
+1747,Social Media,1,1,175.94
+1748,Direct,1,0,0
+1749,Organic Search > Social Media,2,1,79.21
+1750,Organic Search > Paid Search,2,0,0
+1751,Email,1,1,213.17
+1752,Direct,1,1,895.64
+1753,Paid Search,1,0,0
+1754,Paid Search,1,0,0
+1755,Email > Social Media,2,0,0
+1756,Social Media,1,0,0
+1757,Organic Search > Paid Search > Social Media > Organic Search > Social Media,5,0,0
+1758,Paid Search,1,0,0
+1759,Direct > Organic Search > Email,3,1,495.79
+1760,Email,1,0,0
+1761,Organic Search > Paid Search,2,0,0
+1762,Organic Search > Paid Search,2,1,272.72
+1763,Social Media,1,1,310.41
+1764,Social Media > Email > Paid Search,3,0,0
+1765,Social Media,1,0,0
+1766,Organic Search,1,1,436.5
+1767,Social Media,1,0,0
+1768,Email > Social Media > Organic Search,3,0,0
+1769,Social Media > Direct,2,0,0
+1770,Social Media > Organic Search,2,0,0
+1771,Social Media,1,0,0
+1772,Paid Search,1,1,1936.1
+1773,Social Media > Paid Search > Organic Search,3,1,63.88
+1774,Organic Search,1,0,0
+1775,Paid Search > Direct > Social Media,3,0,0
+1776,Direct > Paid Search,2,0,0
+1777,Organic Search,1,0,0
+1778,Organic Search,1,0,0
+1779,Social Media > Paid Search > Direct,3,1,965.15
+1780,Social Media > Paid Search,2,1,1268.98
+1781,Paid Search,1,0,0
+1782,Paid Search,1,1,653.89
+1783,Email,1,1,455.61
+1784,Organic Search > Social Media > Direct > Email,4,1,173.83
+1785,Social Media,1,1,159.34
+1786,Direct,1,1,81.95
+1787,Direct,1,0,0
+1788,Paid Search > Email > Organic Search > Paid Search > Organic Search > Paid Search > Direct > Paid Search,8,1,352.03
+1789,Organic Search > Paid Search,2,1,215.39
+1790,Organic Search > Paid Search > Direct > Paid Search,4,0,0
+1791,Organic Search,1,1,602.16
+1792,Social Media > Social Media,2,0,0
+1793,Direct > Email > Social Media,3,0,0
+1794,Social Media,1,0,0
+1795,Organic Search > Direct > Organic Search > Paid Search > Social Media > Direct,6,0,0
+1796,Direct,1,0,0
+1797,Social Media > Direct,2,1,244.29
+1798,Social Media,1,0,0
+1799,Paid Search > Email > Paid Search > Organic Search > Paid Search > Organic Search,6,0,0
+1800,Direct > Email,2,1,461.47
+1801,Social Media,1,0,0
+1802,Organic Search > Social Media > Direct,3,1,91.53
+1803,Organic Search,1,0,0
+1804,Direct,1,1,334.09
+1805,Organic Search,1,1,576.38
+1806,Organic Search,1,1,1969.23
+1807,Email,1,1,532.58
+1808,Organic Search > Direct,2,1,566.9
+1809,Social Media,1,0,0
+1810,Paid Search,1,1,453.2
+1811,Paid Search > Organic Search,2,0,0
+1812,Paid Search > Direct,2,1,238.71
+1813,Social Media > Organic Search > Social Media > Paid Search > Email > Email > Social Media,7,0,0
+1814,Paid Search,1,1,1485.44
+1815,Organic Search > Social Media,2,0,0
+1816,Direct,1,0,0
+1817,Social Media,1,0,0
+1818,Email,1,0,0
+1819,Email,1,1,237.31
+1820,Social Media > Paid Search > Social Media,3,0,0
+1821,Organic Search > Email,2,0,0
+1822,Paid Search > Social Media > Organic Search > Organic Search,4,0,0
+1823,Paid Search > Social Media,2,0,0
+1824,Direct > Organic Search > Paid Search > Direct,4,1,106.02
+1825,Organic Search > Social Media > Email > Organic Search,4,0,0
+1826,Organic Search > Paid Search,2,1,601.69
+1827,Social Media,1,0,0
+1828,Paid Search > Direct,2,0,0
+1829,Organic Search > Paid Search,2,1,1921.08
+1830,Email > Organic Search > Paid Search,3,1,464.39
+1831,Organic Search > Social Media > Direct,3,1,648.94
+1832,Social Media > Email > Paid Search,3,0,0
+1833,Paid Search > Direct,2,0,0
+1834,Organic Search,1,0,0
+1835,Paid Search,1,1,143.11
+1836,Email > Direct,2,1,238.38
+1837,Paid Search > Social Media,2,0,0
+1838,Paid Search > Direct,2,1,417.84
+1839,Paid Search > Organic Search > Paid Search > Organic Search,4,0,0
+1840,Direct > Paid Search > Email,3,0,0
+1841,Organic Search > Paid Search,2,0,0
+1842,Social Media,1,0,0
+1843,Direct > Paid Search,2,1,1490.54
+1844,Paid Search > Email > Direct,3,0,0
+1845,Social Media > Email,2,1,103.16
+1846,Organic Search > Direct,2,0,0
+1847,Social Media > Direct > Email,3,1,1478.06
+1848,Social Media,1,0,0
+1849,Email > Direct > Email > Direct > Organic Search > Social Media,6,0,0
+1850,Social Media > Paid Search,2,0,0
+1851,Organic Search > Paid Search,2,1,654.23
+1852,Organic Search > Organic Search,2,0,0
+1853,Social Media > Paid Search,2,0,0
+1854,Social Media,1,0,0
+1855,Organic Search > Paid Search > Direct,3,1,61.93
+1856,Social Media > Paid Search > Email,3,1,789.77
+1857,Email,1,0,0
+1858,Social Media,1,0,0
+1859,Social Media,1,1,410.2
+1860,Organic Search,1,0,0
+1861,Social Media,1,0,0
+1862,Social Media,1,1,131.96
+1863,Social Media,1,0,0
+1864,Paid Search > Paid Search,2,1,622.92
+1865,Organic Search,1,0,0
+1866,Paid Search > Direct,2,1,552.94
+1867,Paid Search > Direct > Email,3,1,464.05
+1868,Direct,1,1,429.52
+1869,Organic Search > Paid Search,2,1,226.13
+1870,Direct > Paid Search > Social Media > Direct,4,0,0
+1871,Direct,1,1,340.64
+1872,Paid Search > Paid Search,2,1,88.33
+1873,Paid Search,1,0,0
+1874,Paid Search > Direct,2,0,0
+1875,Organic Search,1,1,273.56
+1876,Direct > Email,2,0,0
+1877,Paid Search > Paid Search > Email,3,0,0
+1878,Paid Search,1,1,740.17
+1879,Email,1,1,1408.56
+1880,Email,1,1,469.96
+1881,Paid Search,1,0,0
+1882,Paid Search,1,0,0
+1883,Social Media > Email > Email > Direct,4,1,456.02
+1884,Social Media,1,0,0
+1885,Direct,1,0,0
+1886,Social Media,1,0,0
+1887,Social Media,1,1,189.84
+1888,Organic Search,1,1,231.72
+1889,Social Media > Paid Search > Direct,3,0,0
+1890,Organic Search,1,0,0
+1891,Organic Search > Organic Search,2,0,0
+1892,Organic Search,1,0,0
+1893,Direct,1,1,1410.28
+1894,Paid Search > Organic Search,2,0,0
+1895,Organic Search > Direct,2,1,226.95
+1896,Organic Search > Paid Search > Paid Search > Social Media > Paid Search > Email > Paid Search > Email > Direct > Social Media,10,0,0
+1897,Paid Search > Organic Search > Paid Search > Direct > Direct,5,1,143.88
+1898,Email > Paid Search > Social Media,3,0,0
+1899,Social Media > Direct,2,0,0
+1900,Paid Search > Paid Search > Organic Search > Direct,4,1,444.5
+1901,Organic Search,1,0,0
+1902,Organic Search,1,0,0
+1903,Social Media > Paid Search,2,1,956.92
+1904,Paid Search > Paid Search,2,1,291.98
+1905,Paid Search,1,0,0
+1906,Email,1,1,746.9
+1907,Paid Search > Organic Search > Direct,3,0,0
+1908,Organic Search,1,0,0
+1909,Organic Search,1,0,0
+1910,Paid Search,1,1,1070.23
+1911,Paid Search,1,1,506.2
+1912,Organic Search,1,0,0
+1913,Social Media > Email > Direct > Paid Search > Social Media,5,1,157.99
+1914,Social Media,1,0,0
+1915,Paid Search,1,1,115.34
+1916,Email > Direct > Email,3,0,0
+1917,Paid Search > Direct,2,1,222.96
+1918,Social Media > Organic Search > Direct,3,0,0
+1919,Social Media > Email,2,0,0
+1920,Social Media,1,0,0
+1921,Paid Search,1,0,0
+1922,Social Media > Organic Search > Organic Search,3,0,0
+1923,Social Media,1,0,0
+1924,Paid Search,1,0,0
+1925,Email > Direct > Social Media,3,0,0
+1926,Social Media > Organic Search > Direct,3,0,0
+1927,Paid Search > Social Media > Organic Search > Social Media,4,0,0
+1928,Paid Search > Paid Search,2,1,229.45
+1929,Organic Search > Direct,2,1,276.13
+1930,Social Media > Paid Search > Social Media,3,0,0
+1931,Paid Search,1,0,0
+1932,Social Media > Direct,2,1,539.42
+1933,Social Media,1,1,82.06
+1934,Organic Search > Social Media,2,1,180.77
+1935,Email > Social Media,2,0,0
+1936,Direct,1,0,0
+1937,Paid Search > Email,2,1,762.73
+1938,Social Media,1,0,0
+1939,Organic Search,1,0,0
+1940,Paid Search,1,0,0
+1941,Organic Search,1,1,416.88
+1942,Email,1,0,0
+1943,Organic Search > Social Media > Direct,3,1,98.65
+1944,Organic Search,1,1,234.36
+1945,Direct,1,1,112.5
+1946,Organic Search > Social Media,2,0,0
+1947,Organic Search > Direct,2,0,0
+1948,Social Media,1,0,0
+1949,Paid Search > Email > Paid Search > Social Media > Email > Paid Search > Email,7,0,0
+1950,Direct,1,0,0
+1951,Social Media,1,0,0
+1952,Social Media,1,1,65.17
+1953,Organic Search > Social Media,2,0,0
+1954,Organic Search > Paid Search,2,0,0
+1955,Paid Search > Email,2,1,219.39
+1956,Social Media > Social Media > Email > Paid Search,4,0,0
+1957,Organic Search,1,1,206.36
+1958,Paid Search,1,0,0
+1959,Direct,1,1,284.4
+1960,Email > Direct > Direct > Email > Paid Search,5,1,247.35
+1961,Organic Search,1,1,353.77
+1962,Paid Search,1,1,345.89
+1963,Email > Paid Search > Email > Direct,4,0,0
+1964,Email > Direct,2,0,0
+1965,Email > Paid Search > Email > Direct,4,1,196.61
+1966,Social Media > Organic Search > Direct,3,0,0
+1967,Direct,1,1,100.09
+1968,Direct,1,0,0
+1969,Paid Search,1,1,789.15
+1970,Social Media > Email,2,1,346.44
+1971,Paid Search > Social Media > Direct,3,0,0
+1972,Organic Search > Paid Search > Organic Search > Paid Search > Social Media,5,0,0
+1973,Organic Search,1,0,0
+1974,Direct,1,1,807.97
+1975,Organic Search,1,0,0
+1976,Paid Search > Organic Search > Organic Search > Paid Search > Email > Social Media,6,1,565.86
+1977,Organic Search > Paid Search > Social Media,3,0,0
+1978,Social Media > Email,2,1,55.37
+1979,Email,1,0,0
+1980,Organic Search,1,1,246.85
+1981,Organic Search,1,0,0
+1982,Paid Search > Social Media,2,0,0
+1983,Social Media,1,0,0
+1984,Direct,1,0,0
+1985,Direct,1,0,0
+1986,Organic Search > Paid Search,2,0,0
+1987,Email > Social Media > Email > Direct,4,1,197.82
+1988,Organic Search,1,1,183.87
+1989,Email > Direct > Paid Search,3,0,0
+1990,Direct,1,0,0
+1991,Direct,1,0,0
+1992,Organic Search > Paid Search > Direct,3,1,177.15
+1993,Email,1,1,499.15
+1994,Paid Search > Email > Direct,3,0,0
+1995,Social Media > Direct > Email > Direct,4,0,0
+1996,Social Media > Organic Search > Paid Search > Social Media,4,0,0
+1997,Paid Search > Email,2,0,0
+1998,Social Media,1,0,0
+1999,Paid Search,1,1,71.01
+2000,Paid Search > Direct,2,1,572.68
+2001,Paid Search > Direct,2,1,975.53
+2002,Paid Search > Social Media > Paid Search,3,1,70.6
+2003,Email,1,1,671.52
+2004,Direct > Paid Search > Organic Search > Organic Search > Paid Search > Social Media > Email > Direct,8,0,0
+2005,Social Media > Social Media,2,0,0
+2006,Direct,1,0,0
+2007,Email,1,1,103.41
+2008,Organic Search,1,0,0
+2009,Email > Direct,2,1,593.19
+2010,Paid Search,1,1,723.92
+2011,Paid Search > Social Media,2,0,0
+2012,Paid Search,1,1,1636.43
+2013,Social Media > Direct,2,0,0
+2014,Paid Search > Social Media,2,0,0
+2015,Social Media > Paid Search > Direct,3,1,194.38
+2016,Organic Search,1,0,0
+2017,Organic Search,1,0,0
+2018,Email > Direct,2,1,442.02
+2019,Email,1,1,55.81
+2020,Email,1,0,0
+2021,Organic Search,1,0,0
+2022,Paid Search,1,1,564.7
+2023,Direct,1,0,0
+2024,Organic Search > Email,2,1,77.16
+2025,Social Media > Direct,2,0,0
+2026,Organic Search > Paid Search,2,1,222.26
+2027,Paid Search > Social Media > Organic Search,3,0,0
+2028,Organic Search > Paid Search,2,1,64.36
+2029,Paid Search > Social Media,2,0,0
+2030,Paid Search > Social Media > Paid Search,3,1,241.26
+2031,Direct,1,0,0
+2032,Organic Search > Paid Search > Direct,3,0,0
+2033,Paid Search,1,1,335.0
+2034,Paid Search,1,1,51.86
+2035,Organic Search > Paid Search > Direct,3,0,0
+2036,Paid Search,1,0,0
+2037,Direct,1,1,642.37
+2038,Organic Search,1,0,0
+2039,Paid Search,1,1,946.17
+2040,Social Media,1,0,0
+2041,Organic Search > Paid Search,2,0,0
+2042,Social Media > Direct,2,0,0
+2043,Organic Search,1,1,286.42
+2044,Organic Search,1,0,0
+2045,Organic Search,1,1,279.07
+2046,Social Media,1,0,0
+2047,Organic Search > Direct,2,0,0
+2048,Social Media,1,0,0
+2049,Organic Search > Paid Search,2,0,0
+2050,Paid Search > Direct > Email,3,1,243.92
+2051,Social Media,1,0,0
+2052,Paid Search,1,1,258.67
+2053,Organic Search > Paid Search,2,0,0
+2054,Paid Search,1,1,240.94
+2055,Paid Search > Social Media,2,0,0
+2056,Organic Search,1,0,0
+2057,Email > Social Media > Organic Search > Paid Search > Email,5,1,69.4
+2058,Email,1,1,139.52
+2059,Organic Search > Organic Search,2,1,224.19
+2060,Email,1,0,0
+2061,Social Media,1,0,0
+2062,Direct,1,1,63.1
+2063,Organic Search,1,0,0
+2064,Email,1,0,0
+2065,Paid Search > Social Media > Organic Search > Email,4,0,0
+2066,Paid Search > Social Media,2,0,0
+2067,Organic Search,1,0,0
+2068,Email,1,0,0
+2069,Organic Search > Paid Search > Direct > Paid Search > Email,5,1,101.78
+2070,Paid Search,1,0,0
+2071,Organic Search > Paid Search > Direct > Social Media > Email > Direct,6,1,239.61
+2072,Email,1,1,66.83
+2073,Organic Search > Social Media,2,1,140.73
+2074,Paid Search,1,0,0
+2075,Direct > Social Media,2,0,0
+2076,Social Media,1,0,0
+2077,Social Media,1,0,0
+2078,Direct,1,0,0
+2079,Paid Search,1,1,227.19
+2080,Direct,1,1,202.13
+2081,Social Media > Email,2,1,196.87
+2082,Direct > Email,2,1,223.54
+2083,Social Media,1,0,0
+2084,Social Media > Organic Search > Email > Direct > Social Media > Paid Search > Organic Search,7,0,0
+2085,Social Media,1,0,0
+2086,Social Media > Email > Direct,3,1,1281.31
+2087,Direct,1,1,55.92
+2088,Email > Direct > Email,3,1,366.0
+2089,Organic Search,1,1,1412.09
+2090,Paid Search > Email > Direct > Organic Search,4,0,0
+2091,Organic Search > Paid Search,2,1,101.06
+2092,Organic Search,1,1,1897.72
+2093,Organic Search > Paid Search,2,1,230.42
+2094,Organic Search > Paid Search > Social Media > Social Media > Direct,5,1,245.32
+2095,Organic Search,1,0,0
+2096,Paid Search > Social Media > Direct,3,1,1640.49
+2097,Email,1,0,0
+2098,Organic Search > Email,2,0,0
+2099,Email,1,0,0
+2100,Social Media > Paid Search,2,1,165.91
+2101,Paid Search > Direct,2,1,84.16
+2102,Paid Search > Social Media > Paid Search > Organic Search > Direct,5,0,0
+2103,Paid Search,1,0,0
+2104,Direct,1,0,0
+2105,Paid Search > Direct,2,1,445.27
+2106,Organic Search,1,0,0
+2107,Paid Search,1,1,159.07
+2108,Organic Search,1,0,0
+2109,Social Media,1,1,613.09
+2110,Social Media,1,0,0
+2111,Direct,1,0,0
+2112,Organic Search > Organic Search,2,0,0
+2113,Social Media,1,0,0
+2114,Social Media,1,0,0
+2115,Organic Search > Direct,2,0,0
+2116,Organic Search,1,1,436.61
+2117,Organic Search,1,0,0
+2118,Social Media,1,0,0
+2119,Paid Search,1,1,307.41
+2120,Organic Search > Email,2,0,0
+2121,Organic Search > Social Media,2,0,0
+2122,Social Media > Email > Direct,3,1,391.06
+2123,Organic Search,1,1,1016.59
+2124,Organic Search,1,0,0
+2125,Direct,1,1,296.76
+2126,Email > Organic Search > Paid Search,3,1,592.71
+2127,Social Media > Paid Search > Direct,3,0,0
+2128,Organic Search > Paid Search,2,0,0
+2129,Paid Search,1,0,0
+2130,Organic Search > Paid Search > Social Media,3,0,0
+2131,Organic Search,1,0,0
+2132,Paid Search,1,1,721.02
+2133,Organic Search > Social Media > Email > Direct,4,1,486.74
+2134,Social Media > Paid Search > Organic Search,3,0,0
+2135,Organic Search,1,1,138.74
+2136,Paid Search > Organic Search,2,1,404.55
+2137,Direct,1,1,157.36
+2138,Paid Search,1,0,0
+2139,Direct,1,0,0
+2140,Direct,1,1,64.31
+2141,Paid Search > Email > Paid Search > Direct,4,0,0
+2142,Social Media,1,0,0
+2143,Organic Search,1,1,211.79
+2144,Social Media,1,0,0
+2145,Paid Search,1,1,485.12
+2146,Paid Search > Social Media,2,0,0
+2147,Direct,1,0,0
+2148,Organic Search > Email > Organic Search,3,0,0
+2149,Paid Search > Direct,2,1,567.56
+2150,Organic Search > Email,2,0,0
+2151,Direct,1,0,0
+2152,Direct,1,0,0
+2153,Social Media > Social Media > Paid Search > Social Media,4,1,714.08
+2154,Paid Search > Paid Search,2,0,0
+2155,Paid Search,1,1,724.87
+2156,Organic Search > Direct > Paid Search,3,1,102.91
+2157,Email,1,1,158.72
+2158,Social Media > Paid Search,2,0,0
+2159,Direct,1,0,0
+2160,Organic Search > Social Media > Direct,3,0,0
+2161,Organic Search > Paid Search,2,1,635.66
+2162,Social Media,1,0,0
+2163,Direct,1,0,0
+2164,Social Media,1,0,0
+2165,Paid Search,1,1,1072.48
+2166,Social Media,1,1,423.38
+2167,Organic Search > Paid Search > Paid Search > Paid Search,4,1,397.85
+2168,Organic Search > Email,2,0,0
+2169,Direct,1,1,65.47
+2170,Paid Search,1,0,0
+2171,Direct > Direct,2,1,677.94
+2172,Paid Search,1,1,148.83
+2173,Paid Search > Direct > Social Media,3,0,0
+2174,Email,1,1,560.88
+2175,Organic Search,1,1,1554.45
+2176,Social Media > Email,2,0,0
+2177,Organic Search,1,0,0
+2178,Social Media > Direct,2,0,0
+2179,Paid Search,1,1,295.29
+2180,Paid Search,1,0,0
+2181,Organic Search,1,0,0
+2182,Email,1,1,266.36
+2183,Organic Search > Direct,2,1,363.7
+2184,Email,1,0,0
+2185,Paid Search > Email,2,1,403.09
+2186,Paid Search,1,1,224.09
+2187,Organic Search,1,0,0
+2188,Paid Search > Social Media,2,0,0
+2189,Social Media,1,0,0
+2190,Email,1,1,298.22
+2191,Organic Search,1,1,86.21
+2192,Organic Search,1,0,0
+2193,Social Media > Organic Search,2,0,0
+2194,Social Media,1,0,0
+2195,Direct > Social Media,2,0,0
+2196,Paid Search,1,0,0
+2197,Direct > Paid Search,2,0,0
+2198,Organic Search > Paid Search,2,0,0
+2199,Social Media,1,1,350.79
+2200,Paid Search > Organic Search > Paid Search > Direct,4,0,0
+2201,Direct,1,1,222.95
+2202,Email,1,1,1797.34
+2203,Social Media > Social Media,2,0,0
+2204,Paid Search > Paid Search > Paid Search > Direct,4,1,213.82
+2205,Social Media,1,1,236.34
+2206,Email > Social Media > Direct,3,1,542.85
+2207,Organic Search > Paid Search,2,0,0
+2208,Email > Social Media,2,0,0
+2209,Organic Search,1,1,687.32
+2210,Paid Search,1,1,628.25
+2211,Email > Paid Search,2,0,0
+2212,Direct,1,0,0
+2213,Organic Search,1,1,188.68
+2214,Email > Paid Search > Paid Search > Social Media > Paid Search,5,1,114.0
+2215,Direct,1,1,186.11
+2216,Paid Search,1,0,0
+2217,Organic Search > Social Media,2,0,0
+2218,Paid Search,1,0,0
+2219,Social Media > Direct,2,1,513.6
+2220,Direct,1,1,325.9
+2221,Organic Search,1,0,0
+2222,Organic Search > Paid Search > Email,3,0,0
+2223,Direct,1,1,139.77
+2224,Organic Search,1,1,113.74
+2225,Paid Search,1,0,0
+2226,Paid Search > Paid Search > Email > Direct,4,0,0
+2227,Paid Search > Organic Search,2,0,0
+2228,Direct,1,0,0
+2229,Organic Search > Email,2,1,1407.42
+2230,Paid Search > Social Media,2,0,0
+2231,Paid Search > Organic Search,2,1,81.16
+2232,Organic Search > Direct > Paid Search,3,1,133.38
+2233,Organic Search,1,0,0
+2234,Organic Search > Organic Search > Email,3,0,0
+2235,Paid Search > Paid Search,2,0,0
+2236,Organic Search,1,0,0
+2237,Paid Search,1,0,0
+2238,Paid Search,1,1,1798.1
+2239,Social Media,1,0,0
+2240,Direct > Social Media,2,0,0
+2241,Paid Search > Email,2,1,312.67
+2242,Social Media,1,0,0
+2243,Paid Search > Paid Search > Organic Search > Direct > Social Media > Paid Search > Direct,7,0,0
+2244,Organic Search,1,0,0
+2245,Direct,1,0,0
+2246,Organic Search,1,1,774.66
+2247,Direct,1,0,0
+2248,Paid Search > Email > Direct,3,0,0
+2249,Direct,1,0,0
+2250,Paid Search,1,0,0
+2251,Direct,1,1,72.54
+2252,Organic Search,1,0,0
+2253,Direct > Social Media > Organic Search,3,0,0
+2254,Social Media > Direct,2,0,0
+2255,Direct,1,1,638.48
+2256,Paid Search,1,1,455.23
+2257,Social Media > Email,2,1,398.37
+2258,Social Media,1,0,0
+2259,Social Media > Paid Search,2,1,429.35
+2260,Direct,1,1,564.42
+2261,Direct,1,1,309.41
+2262,Organic Search > Paid Search,2,0,0
+2263,Paid Search,1,0,0
+2264,Paid Search > Direct,2,1,278.51
+2265,Organic Search > Direct,2,0,0
+2266,Organic Search > Social Media > Social Media > Paid Search,4,1,330.48
+2267,Paid Search,1,0,0
+2268,Social Media,1,0,0
+2269,Organic Search > Direct,2,1,413.45
+2270,Social Media > Email > Direct > Organic Search,4,0,0
+2271,Organic Search > Email > Paid Search > Direct > Paid Search,5,1,80.96
+2272,Paid Search > Social Media,2,0,0
+2273,Organic Search > Email > Direct,3,1,252.89
+2274,Organic Search > Direct,2,0,0
+2275,Organic Search > Email > Direct,3,1,179.39
+2276,Organic Search > Organic Search > Email,3,1,164.13
+2277,Organic Search > Direct,2,1,155.27
+2278,Social Media,1,0,0
+2279,Social Media > Email,2,0,0
+2280,Direct,1,1,437.23
+2281,Paid Search > Paid Search > Paid Search > Organic Search > Paid Search,5,1,854.76
+2282,Social Media > Email,2,0,0
+2283,Social Media > Direct > Direct,3,1,871.62
+2284,Organic Search > Direct > Email,3,0,0
+2285,Direct,1,0,0
+2286,Organic Search,1,0,0
+2287,Organic Search,1,0,0
+2288,Email,1,1,308.71
+2289,Direct,1,1,337.63
+2290,Organic Search > Organic Search,2,0,0
+2291,Direct,1,1,254.56
+2292,Organic Search > Email > Direct,3,1,134.04
+2293,Paid Search,1,1,382.57
+2294,Organic Search > Social Media > Email > Direct > Direct > Organic Search > Organic Search > Paid Search,8,1,168.01
+2295,Direct > Paid Search > Social Media,3,0,0
+2296,Paid Search > Email > Paid Search > Organic Search,4,1,232.48
+2297,Social Media > Email,2,0,0
+2298,Paid Search > Direct,2,1,146.01
+2299,Direct > Social Media,2,0,0
+2300,Organic Search,1,1,361.74
+2301,Organic Search,1,0,0
+2302,Direct > Paid Search,2,1,231.34
+2303,Direct > Email,2,1,97.93
+2304,Social Media > Social Media,2,0,0
+2305,Direct,1,0,0
+2306,Direct,1,0,0
+2307,Paid Search,1,1,127.08
+2308,Paid Search,1,0,0
+2309,Paid Search > Organic Search,2,1,277.36
+2310,Organic Search,1,1,1540.71
+2311,Social Media > Email,2,1,488.62
+2312,Organic Search,1,0,0
+2313,Paid Search,1,0,0
+2314,Paid Search > Email > Social Media > Paid Search > Social Media,5,0,0
+2315,Direct,1,0,0
+2316,Paid Search,1,1,382.05
+2317,Organic Search,1,0,0
+2318,Social Media > Paid Search > Organic Search > Paid Search > Organic Search > Paid Search,6,0,0
+2319,Direct > Email,2,0,0
+2320,Social Media > Paid Search,2,0,0
+2321,Paid Search > Organic Search > Social Media,3,0,0
+2322,Paid Search > Paid Search,2,1,633.25
+2323,Paid Search,1,1,64.32
+2324,Email,1,0,0
+2325,Organic Search,1,0,0
+2326,Organic Search,1,0,0
+2327,Paid Search,1,0,0
+2328,Email,1,0,0
+2329,Organic Search,1,0,0
+2330,Paid Search,1,1,353.72
+2331,Social Media,1,0,0
+2332,Organic Search > Social Media,2,1,1629.35
+2333,Organic Search > Paid Search,2,1,275.54
+2334,Organic Search > Paid Search > Social Media,3,0,0
+2335,Organic Search > Direct,2,0,0
+2336,Social Media > Organic Search > Paid Search > Social Media > Email,5,1,68.01
+2337,Organic Search,1,0,0
+2338,Direct > Paid Search,2,1,1711.99
+2339,Social Media > Email > Organic Search,3,0,0
+2340,Email,1,1,112.09
+2341,Organic Search > Paid Search,2,1,291.59
+2342,Direct > Paid Search,2,1,226.86
+2343,Organic Search > Direct,2,1,297.89
+2344,Paid Search > Social Media > Organic Search,3,1,273.85
+2345,Email > Paid Search > Email,3,1,712.75
+2346,Direct > Organic Search > Email > Paid Search,4,1,269.75
+2347,Paid Search,1,0,0
+2348,Email > Paid Search > Social Media > Paid Search > Paid Search,5,0,0
+2349,Paid Search,1,1,280.83
+2350,Direct,1,0,0
+2351,Social Media > Paid Search,2,1,607.66
+2352,Organic Search,1,1,254.39
+2353,Paid Search > Paid Search,2,0,0
+2354,Social Media,1,0,0
+2355,Email,1,1,50.54
+2356,Direct > Social Media,2,0,0
+2357,Paid Search > Direct,2,0,0
+2358,Email,1,1,194.46
+2359,Direct > Email > Paid Search,3,0,0
+2360,Organic Search > Email > Direct,3,1,448.37
+2361,Email > Direct,2,0,0
+2362,Social Media > Paid Search > Direct,3,1,519.48
+2363,Email > Direct,2,1,546.73
+2364,Social Media,1,0,0
+2365,Social Media > Paid Search > Organic Search,3,0,0
+2366,Organic Search,1,1,468.36
+2367,Organic Search > Social Media,2,0,0
+2368,Direct,1,0,0
+2369,Organic Search > Paid Search,2,0,0
+2370,Direct,1,0,0
+2371,Organic Search,1,0,0
+2372,Organic Search > Paid Search,2,0,0
+2373,Social Media > Email > Organic Search,3,0,0
+2374,Paid Search,1,1,244.26
+2375,Email,1,0,0
+2376,Organic Search > Email > Paid Search > Organic Search,4,1,724.58
+2377,Organic Search,1,0,0
+2378,Social Media,1,0,0
+2379,Organic Search > Email > Direct,3,0,0
+2380,Social Media > Social Media > Paid Search,3,0,0
+2381,Organic Search,1,0,0
+2382,Paid Search > Organic Search,2,0,0
+2383,Social Media,1,0,0
+2384,Social Media,1,0,0
+2385,Direct,1,1,1135.51
+2386,Organic Search,1,0,0
+2387,Paid Search,1,0,0
+2388,Organic Search > Paid Search,2,1,95.92
+2389,Social Media,1,1,1724.84
+2390,Paid Search > Email,2,1,747.24
+2391,Email,1,1,77.1
+2392,Organic Search,1,1,542.07
+2393,Organic Search > Direct > Paid Search,3,1,963.68
+2394,Social Media,1,0,0
+2395,Organic Search > Social Media,2,0,0
+2396,Social Media,1,1,568.52
+2397,Paid Search,1,0,0
+2398,Organic Search > Email > Direct,3,1,237.96
+2399,Social Media,1,0,0
+2400,Social Media > Organic Search > Email,3,1,251.87
+2401,Organic Search,1,1,196.59
+2402,Direct > Direct > Social Media > Direct,4,0,0
+2403,Organic Search,1,0,0
+2404,Direct,1,0,0
+2405,Social Media,1,0,0
+2406,Organic Search,1,0,0
+2407,Paid Search,1,1,758.14
+2408,Paid Search,1,0,0
+2409,Paid Search > Direct,2,0,0
+2410,Paid Search,1,0,0
+2411,Email > Direct > Email,3,1,88.1
+2412,Social Media > Direct,2,0,0
+2413,Organic Search,1,0,0
+2414,Paid Search,1,0,0
+2415,Email > Paid Search > Paid Search > Email,4,0,0
+2416,Organic Search > Social Media > Email > Paid Search > Social Media,5,0,0
+2417,Organic Search > Direct > Email,3,0,0
+2418,Social Media > Paid Search > Paid Search,3,1,264.75
+2419,Paid Search,1,0,0
+2420,Direct > Paid Search > Direct,3,0,0
+2421,Direct,1,1,503.57
+2422,Organic Search,1,0,0
+2423,Social Media,1,0,0
+2424,Social Media,1,0,0
+2425,Organic Search,1,0,0
+2426,Organic Search,1,0,0
+2427,Organic Search > Paid Search > Direct > Paid Search > Direct,5,1,166.47
+2428,Social Media,1,0,0
+2429,Paid Search > Paid Search,2,1,469.0
+2430,Email > Social Media > Email > Direct,4,0,0
+2431,Paid Search,1,1,367.03
+2432,Organic Search > Paid Search > Direct,3,1,57.83
+2433,Social Media > Email,2,0,0
+2434,Paid Search > Direct,2,1,267.01
+2435,Direct,1,0,0
+2436,Organic Search,1,1,67.31
+2437,Paid Search > Email,2,1,309.91
+2438,Social Media > Social Media,2,0,0
+2439,Organic Search,1,0,0
+2440,Paid Search,1,0,0
+2441,Organic Search > Social Media > Email,3,1,296.41
+2442,Social Media > Email,2,1,52.48
+2443,Email,1,1,216.99
+2444,Social Media > Email,2,0,0
+2445,Direct,1,0,0
+2446,Social Media > Email > Social Media > Direct > Social Media,5,0,0
+2447,Organic Search,1,0,0
+2448,Paid Search,1,1,162.64
+2449,Email > Paid Search > Direct,3,0,0
+2450,Organic Search > Paid Search,2,0,0
+2451,Paid Search,1,1,144.39
+2452,Paid Search,1,0,0
+2453,Direct,1,1,253.44
+2454,Organic Search,1,0,0
+2455,Paid Search,1,0,0
+2456,Social Media,1,0,0
+2457,Paid Search > Direct,2,1,513.9
+2458,Email > Paid Search > Social Media > Direct > Social Media,5,1,428.94
+2459,Email,1,1,369.95
+2460,Social Media,1,0,0
+2461,Direct,1,0,0
+2462,Email > Paid Search,2,1,446.77
+2463,Paid Search,1,0,0
+2464,Direct > Paid Search > Direct,3,1,122.48
+2465,Paid Search > Social Media > Direct,3,1,167.39
+2466,Organic Search,1,0,0
+2467,Direct,1,1,1555.75
+2468,Social Media > Organic Search > Email > Social Media > Social Media,5,0,0
+2469,Organic Search,1,0,0
+2470,Email > Direct > Email,3,0,0
+2471,Paid Search > Organic Search > Paid Search > Direct,4,0,0
+2472,Email,1,1,289.79
+2473,Direct > Email,2,0,0
+2474,Organic Search,1,1,1702.0
+2475,Social Media > Paid Search,2,1,169.49
+2476,Direct,1,1,259.75
+2477,Email,1,1,670.57
+2478,Email,1,1,188.23
+2479,Direct > Email > Paid Search > Direct,4,1,216.69
+2480,Social Media,1,0,0
+2481,Organic Search > Email,2,1,163.43
+2482,Social Media > Email > Email,3,0,0
+2483,Organic Search > Direct > Email,3,0,0
+2484,Email,1,0,0
+2485,Social Media > Social Media,2,0,0
+2486,Social Media,1,0,0
+2487,Social Media > Paid Search > Direct,3,1,120.62
+2488,Direct > Paid Search > Direct,3,1,1086.2
+2489,Paid Search > Organic Search > Paid Search,3,0,0
+2490,Organic Search,1,1,128.4
+2491,Direct,1,0,0
+2492,Organic Search > Organic Search > Paid Search,3,1,218.87
+2493,Direct,1,0,0
+2494,Paid Search,1,1,295.03
+2495,Social Media,1,0,0
+2496,Organic Search > Organic Search > Organic Search > Direct > Social Media,5,0,0
+2497,Organic Search > Paid Search > Email > Social Media,4,0,0
+2498,Direct > Email,2,1,239.42
+2499,Social Media > Social Media,2,0,0
+2500,Paid Search,1,1,98.26
+2501,Organic Search,1,1,212.43
+2502,Paid Search,1,1,967.38
+2503,Email,1,0,0
+2504,Paid Search,1,0,0
+2505,Paid Search,1,1,1434.37
+2506,Social Media > Direct,2,1,208.17
+2507,Organic Search > Paid Search > Organic Search > Direct,4,1,256.67
+2508,Social Media,1,0,0
+2509,Paid Search > Organic Search > Paid Search > Email,4,0,0
+2510,Paid Search > Organic Search,2,1,244.88
+2511,Organic Search > Social Media > Organic Search > Social Media > Direct,5,0,0
+2512,Direct,1,1,200.45
+2513,Paid Search > Paid Search > Email,3,1,443.97
+2514,Organic Search,1,0,0
+2515,Paid Search,1,0,0
+2516,Paid Search > Email > Social Media,3,0,0
+2517,Paid Search,1,0,0
+2518,Paid Search > Paid Search > Social Media > Email > Direct,5,1,210.92
+2519,Direct,1,0,0
+2520,Direct > Direct,2,0,0
+2521,Paid Search,1,0,0
+2522,Direct > Organic Search,2,1,73.78
+2523,Email,1,1,238.42
+2524,Paid Search,1,1,203.08
+2525,Paid Search,1,1,709.2
+2526,Direct > Paid Search > Direct,3,1,61.96
+2527,Organic Search > Paid Search > Email,3,1,302.11
+2528,Organic Search,1,0,0
+2529,Paid Search,1,0,0
+2530,Direct,1,0,0
+2531,Direct > Email,2,0,0
+2532,Organic Search,1,0,0
+2533,Organic Search > Social Media,2,0,0
+2534,Email > Direct > Social Media > Paid Search > Direct > Paid Search,6,0,0
+2535,Email,1,0,0
+2536,Direct,1,1,273.42
+2537,Paid Search,1,1,785.81
+2538,Paid Search,1,1,115.95
+2539,Organic Search > Paid Search,2,1,363.79
+2540,Social Media > Paid Search > Organic Search,3,0,0
+2541,Organic Search > Organic Search > Paid Search,3,0,0
+2542,Organic Search > Paid Search > Social Media,3,1,715.08
+2543,Email > Direct,2,1,176.13
+2544,Direct > Email > Direct,3,0,0
+2545,Direct,1,1,781.93
+2546,Organic Search > Paid Search > Email,3,0,0
+2547,Social Media > Paid Search,2,0,0
+2548,Social Media > Paid Search,2,0,0
+2549,Organic Search > Organic Search,2,1,359.35
+2550,Direct > Paid Search > Direct > Social Media,4,1,231.89
+2551,Organic Search > Paid Search,2,1,1133.88
+2552,Organic Search > Email,2,1,496.17
+2553,Paid Search,1,1,775.38
+2554,Organic Search > Paid Search > Organic Search > Social Media > Organic Search > Paid Search > Social Media,7,0,0
+2555,Social Media > Email > Paid Search,3,1,207.31
+2556,Organic Search,1,0,0
+2557,Paid Search > Email,2,1,641.36
+2558,Paid Search,1,1,383.19
+2559,Direct > Email > Direct > Paid Search > Social Media,5,0,0
+2560,Organic Search > Organic Search > Direct,3,1,115.96
+2561,Organic Search,1,1,337.6
+2562,Direct,1,1,348.51
+2563,Organic Search,1,0,0
+2564,Social Media,1,0,0
+2565,Email,1,1,86.65
+2566,Organic Search > Social Media,2,0,0
+2567,Paid Search,1,1,202.94
+2568,Paid Search > Direct > Organic Search > Email,4,1,409.81
+2569,Direct,1,0,0
+2570,Social Media > Paid Search,2,1,531.09
+2571,Direct,1,0,0
+2572,Social Media > Paid Search > Direct > Email,4,1,243.77
+2573,Social Media > Paid Search,2,0,0
+2574,Social Media,1,0,0
+2575,Direct,1,1,279.71
+2576,Direct,1,1,219.77
+2577,Direct,1,1,796.37
+2578,Paid Search > Organic Search > Direct,3,1,460.08
+2579,Paid Search,1,0,0
+2580,Email > Direct,2,0,0
+2581,Paid Search,1,1,290.14
+2582,Direct,1,1,382.19
+2583,Organic Search,1,0,0
+2584,Organic Search > Organic Search > Social Media,3,1,126.46
+2585,Paid Search,1,1,112.86
+2586,Paid Search > Email,2,0,0
+2587,Social Media,1,0,0
+2588,Organic Search > Paid Search > Email,3,0,0
+2589,Organic Search,1,1,104.71
+2590,Paid Search > Direct,2,0,0
+2591,Social Media > Direct,2,0,0
+2592,Organic Search > Social Media > Email > Direct,4,1,393.49
+2593,Social Media,1,0,0
+2594,Organic Search > Paid Search,2,1,71.4
+2595,Social Media,1,0,0
+2596,Paid Search > Direct,2,0,0
+2597,Paid Search > Social Media > Direct > Direct,4,0,0
+2598,Social Media > Direct,2,1,446.16
+2599,Organic Search,1,1,268.37
+2600,Email,1,1,110.66
+2601,Paid Search > Paid Search,2,1,376.01
+2602,Email > Direct,2,1,251.87
+2603,Direct,1,1,63.67
+2604,Email,1,1,74.35
+2605,Organic Search > Direct,2,1,235.12
+2606,Social Media,1,0,0
+2607,Organic Search > Paid Search > Social Media,3,0,0
+2608,Paid Search > Social Media,2,0,0
+2609,Direct > Direct > Direct,3,0,0
+2610,Organic Search > Direct,2,0,0
+2611,Organic Search > Organic Search,2,1,74.22
+2612,Organic Search > Direct,2,0,0
+2613,Paid Search > Organic Search > Paid Search > Direct,4,0,0
+2614,Email,1,0,0
+2615,Paid Search,1,0,0
+2616,Social Media,1,0,0
+2617,Social Media > Direct,2,1,254.64
+2618,Social Media > Paid Search,2,1,485.7
+2619,Organic Search,1,1,297.19
+2620,Social Media > Email,2,1,154.22
+2621,Paid Search > Organic Search > Direct,3,1,125.69
+2622,Social Media,1,0,0
+2623,Social Media > Organic Search,2,0,0
+2624,Direct,1,1,915.36
+2625,Direct,1,1,301.28
+2626,Paid Search,1,1,65.69
+2627,Social Media > Email,2,1,228.8
+2628,Email > Direct,2,0,0
+2629,Paid Search > Direct,2,0,0
+2630,Social Media > Email,2,1,545.62
+2631,Direct,1,0,0
+2632,Paid Search > Paid Search > Email,3,0,0
+2633,Paid Search,1,1,226.96
+2634,Direct > Social Media > Organic Search > Paid Search,4,0,0
+2635,Paid Search,1,0,0
+2636,Direct,1,0,0
+2637,Social Media > Paid Search,2,0,0
+2638,Organic Search,1,0,0
+2639,Email > Direct > Paid Search,3,1,261.7
+2640,Organic Search,1,0,0
+2641,Social Media,1,0,0
+2642,Direct > Direct,2,0,0
+2643,Paid Search,1,0,0
+2644,Social Media > Paid Search > Email > Direct > Direct > Email > Social Media,7,0,0
+2645,Email > Social Media,2,1,601.19
+2646,Organic Search,1,0,0
+2647,Direct,1,1,527.95
+2648,Organic Search > Paid Search,2,1,356.89
+2649,Paid Search,1,0,0
+2650,Social Media > Direct,2,1,535.22
+2651,Organic Search > Paid Search > Direct,3,1,69.54
+2652,Email > Direct > Paid Search > Social Media,4,0,0
+2653,Paid Search > Social Media,2,0,0
+2654,Direct > Email,2,1,267.87
+2655,Direct > Paid Search,2,1,472.72
+2656,Paid Search > Direct > Paid Search,3,1,167.74
+2657,Direct > Email > Organic Search > Social Media > Social Media > Email,6,0,0
+2658,Organic Search > Direct,2,0,0
+2659,Direct,1,1,194.25
+2660,Organic Search,1,0,0
+2661,Direct,1,0,0
+2662,Email > Organic Search,2,0,0
+2663,Direct,1,1,248.36
+2664,Social Media,1,0,0
+2665,Organic Search > Organic Search > Organic Search > Direct,4,1,382.05
+2666,Email,1,0,0
+2667,Organic Search > Paid Search,2,0,0
+2668,Email,1,1,372.78
+2669,Social Media,1,1,241.42
+2670,Social Media > Direct,2,1,159.49
+2671,Direct,1,0,0
+2672,Paid Search > Social Media > Direct > Paid Search > Social Media,5,1,236.87
+2673,Direct,1,0,0
+2674,Social Media,1,0,0
+2675,Organic Search,1,0,0
+2676,Email > Paid Search > Paid Search > Social Media > Organic Search > Social Media,6,0,0
+2677,Organic Search > Social Media,2,0,0
+2678,Paid Search > Paid Search > Organic Search > Social Media,4,1,641.13
+2679,Paid Search,1,0,0
+2680,Organic Search,1,0,0
+2681,Direct,1,0,0
+2682,Organic Search,1,1,360.52
+2683,Social Media,1,1,275.11
+2684,Social Media,1,0,0
+2685,Organic Search > Paid Search > Social Media,3,0,0
+2686,Organic Search,1,0,0
+2687,Organic Search > Email,2,0,0
+2688,Organic Search,1,0,0
+2689,Social Media,1,0,0
+2690,Paid Search > Paid Search > Direct > Organic Search > Social Media > Email,6,0,0
+2691,Organic Search > Social Media,2,0,0
+2692,Paid Search,1,0,0
+2693,Paid Search > Organic Search > Paid Search > Social Media > Direct > Paid Search > Email,7,1,56.5
+2694,Social Media,1,0,0
+2695,Direct,1,0,0
+2696,Email,1,1,1011.42
+2697,Email > Direct,2,1,1603.12
+2698,Organic Search > Paid Search > Direct,3,0,0
+2699,Social Media,1,0,0
+2700,Direct,1,1,540.98
+2701,Paid Search > Social Media > Email,3,1,152.75
+2702,Organic Search,1,0,0
+2703,Direct > Paid Search > Social Media,3,1,148.65
+2704,Social Media > Email,2,1,1715.39
+2705,Social Media > Paid Search,2,1,116.13
+2706,Organic Search > Direct,2,1,779.53
+2707,Paid Search,1,0,0
+2708,Organic Search > Paid Search,2,0,0
+2709,Organic Search,1,1,66.01
+2710,Organic Search,1,0,0
+2711,Organic Search,1,0,0
+2712,Organic Search,1,1,204.49
+2713,Organic Search > Paid Search > Organic Search,3,1,331.96
+2714,Organic Search,1,0,0
+2715,Organic Search,1,0,0
+2716,Organic Search > Social Media,2,0,0
+2717,Direct,1,1,1400.87
+2718,Paid Search > Organic Search > Direct,3,1,131.45
+2719,Paid Search,1,0,0
+2720,Paid Search,1,1,157.23
+2721,Paid Search,1,0,0
+2722,Paid Search > Direct,2,1,784.1
+2723,Social Media > Paid Search > Organic Search,3,0,0
+2724,Direct > Organic Search,2,1,1266.19
+2725,Email,1,1,406.43
+2726,Organic Search,1,0,0
+2727,Organic Search,1,0,0
+2728,Paid Search,1,0,0
+2729,Organic Search > Paid Search,2,0,0
+2730,Organic Search > Direct,2,1,450.85
+2731,Social Media,1,0,0
+2732,Paid Search > Organic Search > Direct,3,1,361.51
+2733,Email > Direct > Email > Email,4,0,0
+2734,Paid Search > Direct,2,0,0
+2735,Organic Search > Paid Search,2,1,244.75
+2736,Paid Search,1,1,361.33
+2737,Social Media > Direct,2,1,696.07
+2738,Organic Search > Direct,2,0,0
+2739,Paid Search,1,1,115.07
+2740,Organic Search > Social Media > Organic Search > Email,4,0,0
+2741,Social Media,1,0,0
+2742,Email,1,0,0
+2743,Direct > Organic Search > Paid Search > Email,4,1,397.14
+2744,Organic Search > Organic Search > Direct,3,0,0
+2745,Direct > Social Media,2,0,0
+2746,Direct,1,0,0
+2747,Paid Search > Direct,2,1,678.54
+2748,Direct,1,0,0
+2749,Social Media,1,0,0
+2750,Direct > Organic Search,2,0,0
+2751,Paid Search > Direct,2,1,700.88
+2752,Organic Search > Direct > Social Media > Paid Search,4,0,0
+2753,Direct,1,0,0
+2754,Organic Search,1,0,0
+2755,Social Media > Email,2,1,159.65
+2756,Paid Search,1,1,138.76
+2757,Organic Search > Social Media,2,1,331.93
+2758,Email > Direct > Direct > Direct > Social Media > Paid Search,6,0,0
+2759,Social Media,1,0,0
+2760,Organic Search > Direct,2,1,259.68
+2761,Organic Search > Paid Search > Email > Direct,4,0,0
+2762,Organic Search,1,0,0
+2763,Direct,1,0,0
+2764,Direct,1,1,101.71
+2765,Email,1,1,275.64
+2766,Direct,1,1,510.0
+2767,Email > Organic Search > Paid Search,3,0,0
+2768,Social Media,1,0,0
+2769,Paid Search,1,0,0
+2770,Organic Search > Paid Search,2,1,1166.61
+2771,Paid Search > Email,2,0,0
+2772,Direct,1,0,0
+2773,Organic Search > Email > Paid Search,3,0,0
+2774,Social Media > Email,2,1,207.66
+2775,Paid Search,1,0,0
+2776,Social Media > Email,2,0,0
+2777,Paid Search,1,0,0
+2778,Email > Direct,2,0,0
+2779,Social Media,1,0,0
+2780,Organic Search,1,1,84.22
+2781,Paid Search,1,0,0
+2782,Social Media > Social Media > Paid Search,3,0,0
+2783,Social Media > Social Media > Paid Search,3,0,0
+2784,Direct,1,0,0
+2785,Social Media > Organic Search > Paid Search,3,1,94.53
+2786,Paid Search > Email > Direct,3,1,490.54
+2787,Social Media > Paid Search > Email > Email > Direct,5,1,1088.32
+2788,Paid Search > Direct > Paid Search > Paid Search,4,0,0
+2789,Email > Direct,2,0,0
+2790,Paid Search,1,1,166.18
+2791,Paid Search > Paid Search,2,1,1660.52
+2792,Paid Search,1,0,0
+2793,Paid Search > Direct > Email > Direct,4,1,413.13
+2794,Organic Search,1,0,0
+2795,Organic Search > Social Media > Email > Direct,4,1,207.33
+2796,Social Media > Email,2,0,0
+2797,Paid Search > Direct,2,1,101.55
+2798,Social Media,1,0,0
+2799,Social Media > Email,2,1,230.56
+2800,Email > Paid Search,2,1,406.74
+2801,Social Media,1,0,0
+2802,Paid Search > Direct > Email > Social Media,4,1,191.73
+2803,Email,1,0,0
+2804,Paid Search > Social Media,2,0,0
+2805,Direct > Organic Search > Organic Search,3,0,0
+2806,Organic Search > Email,2,1,125.37
+2807,Organic Search,1,0,0
+2808,Organic Search > Social Media > Paid Search,3,0,0
+2809,Social Media > Paid Search,2,1,71.23
+2810,Organic Search,1,0,0
+2811,Email > Direct > Organic Search,3,0,0
+2812,Social Media > Paid Search,2,1,791.43
+2813,Social Media > Email > Direct,3,1,118.51
+2814,Organic Search > Social Media,2,0,0
+2815,Paid Search > Email > Paid Search,3,0,0
+2816,Social Media > Direct,2,0,0
+2817,Paid Search > Social Media > Organic Search > Direct,4,1,186.65
+2818,Organic Search > Paid Search,2,0,0
+2819,Paid Search > Social Media > Email,3,1,399.46
+2820,Email,1,0,0
+2821,Organic Search > Paid Search,2,0,0
+2822,Paid Search > Social Media > Paid Search,3,1,633.82
+2823,Social Media > Paid Search,2,0,0
+2824,Organic Search > Social Media > Email > Social Media > Email,5,1,203.34
+2825,Social Media,1,0,0
+2826,Email,1,1,213.0
+2827,Paid Search,1,1,715.19
+2828,Direct > Paid Search > Paid Search,3,1,239.22
+2829,Organic Search,1,0,0
+2830,Organic Search > Direct,2,0,0
+2831,Organic Search > Email > Social Media,3,0,0
+2832,Paid Search,1,1,439.64
+2833,Organic Search > Direct > Direct,3,0,0
+2834,Social Media,1,1,422.98
+2835,Social Media > Paid Search,2,1,203.5
+2836,Social Media,1,1,165.72
+2837,Direct,1,0,0
+2838,Social Media,1,0,0
+2839,Organic Search > Direct,2,0,0
+2840,Organic Search > Email > Social Media > Organic Search,4,0,0
+2841,Paid Search > Social Media,2,0,0
+2842,Paid Search > Email > Paid Search > Direct > Social Media > Email,6,1,207.21
+2843,Direct > Email,2,0,0
+2844,Direct,1,1,206.13
+2845,Paid Search > Email,2,1,246.49
+2846,Organic Search,1,0,0
+2847,Organic Search > Social Media > Paid Search,3,0,0
+2848,Social Media,1,0,0
+2849,Paid Search,1,0,0
+2850,Social Media > Social Media,2,0,0
+2851,Direct,1,1,300.86
+2852,Email,1,0,0
+2853,Organic Search,1,0,0
+2854,Organic Search > Paid Search,2,0,0
+2855,Paid Search,1,0,0
+2856,Organic Search > Direct,2,1,396.25
+2857,Paid Search > Paid Search,2,1,146.38
+2858,Paid Search > Email,2,1,729.97
+2859,Email,1,0,0
+2860,Direct,1,0,0
+2861,Social Media,1,0,0
+2862,Social Media > Direct,2,0,0
+2863,Social Media,1,1,408.91
+2864,Organic Search > Email,2,1,637.09
+2865,Organic Search,1,1,475.76
+2866,Paid Search > Social Media,2,0,0
+2867,Organic Search > Direct,2,1,127.6
+2868,Organic Search > Email > Email,3,0,0
+2869,Social Media > Organic Search > Social Media > Direct > Organic Search,5,1,206.32
+2870,Direct,1,0,0
+2871,Direct,1,0,0
+2872,Direct,1,1,484.07
+2873,Direct,1,0,0
+2874,Email > Organic Search > Organic Search,3,0,0
+2875,Organic Search,1,0,0
+2876,Direct > Social Media > Email,3,0,0
+2877,Organic Search,1,1,74.37
+2878,Paid Search,1,0,0
+2879,Organic Search,1,1,259.32
+2880,Email > Direct,2,0,0
+2881,Direct,1,1,306.54
+2882,Direct,1,1,1504.46
+2883,Organic Search,1,0,0
+2884,Paid Search,1,1,160.85
+2885,Organic Search > Paid Search,2,1,236.71
+2886,Email > Organic Search > Social Media > Email > Direct,5,1,539.71
+2887,Paid Search > Paid Search > Paid Search,3,1,197.79
+2888,Direct,1,0,0
+2889,Email > Social Media > Email > Paid Search,4,1,259.33
+2890,Social Media,1,0,0
+2891,Organic Search,1,0,0
+2892,Organic Search > Paid Search,2,1,85.11
+2893,Paid Search > Social Media > Paid Search,3,0,0
+2894,Organic Search > Social Media,2,0,0
+2895,Organic Search > Direct,2,1,210.46
+2896,Paid Search,1,1,555.1
+2897,Email > Direct,2,1,225.55
+2898,Paid Search,1,0,0
+2899,Email > Social Media,2,0,0
+2900,Paid Search,1,0,0
+2901,Email > Paid Search,2,0,0
+2902,Organic Search > Direct > Organic Search > Paid Search,4,1,84.95
+2903,Social Media > Email > Direct,3,1,225.32
+2904,Social Media,1,0,0
+2905,Organic Search > Email > Direct,3,1,278.29
+2906,Paid Search > Direct > Email > Organic Search,4,0,0
+2907,Paid Search,1,1,439.6
+2908,Email > Email > Direct,3,1,380.1
+2909,Direct,1,0,0
+2910,Email,1,0,0
+2911,Paid Search > Direct,2,0,0
+2912,Direct,1,1,178.05
+2913,Direct,1,0,0
+2914,Direct,1,0,0
+2915,Organic Search,1,0,0
+2916,Email > Paid Search > Email,3,0,0
+2917,Direct > Direct,2,0,0
+2918,Email > Direct > Social Media > Organic Search > Paid Search,5,0,0
+2919,Paid Search > Paid Search > Social Media > Paid Search > Paid Search > Social Media,6,0,0
+2920,Email > Direct,2,1,167.7
+2921,Social Media,1,0,0
+2922,Direct,1,1,1559.34
+2923,Email > Paid Search > Paid Search,3,0,0
+2924,Organic Search,1,0,0
+2925,Direct,1,0,0
+2926,Social Media > Direct,2,1,172.08
+2927,Social Media,1,1,202.13
+2928,Email > Direct,2,1,1415.85
+2929,Email,1,0,0
+2930,Social Media > Paid Search > Social Media > Paid Search > Direct,5,1,455.43
+2931,Organic Search > Email,2,0,0
+2932,Organic Search,1,0,0
+2933,Paid Search > Social Media,2,0,0
+2934,Email,1,1,221.52
+2935,Organic Search,1,0,0
+2936,Email > Organic Search > Social Media,3,1,163.67
+2937,Paid Search,1,0,0
+2938,Paid Search,1,0,0
+2939,Paid Search > Email,2,1,681.45
+2940,Paid Search > Direct,2,1,183.76
+2941,Paid Search,1,0,0
+2942,Direct,1,1,218.68
+2943,Organic Search > Social Media,2,0,0
+2944,Social Media > Paid Search,2,0,0
+2945,Social Media > Direct > Organic Search > Social Media > Paid Search > Direct,6,1,374.56
+2946,Organic Search > Social Media > Social Media,3,0,0
+2947,Paid Search > Social Media > Email > Organic Search > Social Media,5,0,0
+2948,Social Media > Email > Organic Search,3,0,0
+2949,Organic Search > Paid Search > Paid Search,3,1,458.66
+2950,Organic Search,1,0,0
+2951,Social Media > Paid Search,2,0,0
+2952,Email,1,1,475.05
+2953,Organic Search > Email > Paid Search,3,0,0
+2954,Social Media,1,0,0
+2955,Paid Search,1,0,0
+2956,Organic Search,1,0,0
+2957,Social Media > Direct > Organic Search,3,0,0
+2958,Organic Search,1,1,434.74
+2959,Paid Search > Paid Search > Social Media > Social Media > Email,5,1,197.5
+2960,Email > Direct,2,1,1155.42
+2961,Social Media,1,0,0
+2962,Organic Search,1,1,745.85
+2963,Social Media > Social Media > Email > Organic Search > Email > Paid Search > Email,7,1,227.26
+2964,Organic Search > Organic Search > Social Media > Organic Search > Social Media,5,0,0
+2965,Email,1,1,397.25
+2966,Paid Search,1,0,0
+2967,Organic Search > Social Media > Email > Direct,4,1,815.96
+2968,Social Media,1,0,0
+2969,Organic Search > Organic Search,2,0,0
+2970,Direct,1,1,407.18
+2971,Organic Search,1,0,0
+2972,Paid Search > Email > Direct,3,1,206.22
+2973,Organic Search > Email > Direct,3,0,0
+2974,Organic Search,1,0,0
+2975,Social Media > Direct > Email,3,0,0
+2976,Organic Search,1,1,645.47
+2977,Organic Search,1,0,0
+2978,Social Media > Paid Search > Social Media,3,0,0
+2979,Social Media > Email > Direct,3,0,0
+2980,Paid Search,1,1,140.79
+2981,Organic Search,1,0,0
+2982,Direct,1,0,0
+2983,Paid Search,1,1,264.76
+2984,Paid Search > Direct,2,0,0
+2985,Paid Search,1,0,0
+2986,Organic Search > Social Media,2,1,166.01
+2987,Organic Search,1,0,0
+2988,Paid Search,1,1,264.12
+2989,Social Media,1,0,0
+2990,Organic Search,1,1,339.83
+2991,Social Media,1,0,0
+2992,Paid Search > Social Media,2,1,254.58
+2993,Paid Search,1,1,361.65
+2994,Social Media,1,0,0
+2995,Direct > Social Media > Email,3,0,0
+2996,Organic Search,1,0,0
+2997,Direct > Direct > Direct,3,0,0
+2998,Organic Search > Direct > Email,3,1,418.7
+2999,Direct,1,1,201.0
+3000,Paid Search,1,0,0
+3001,Organic Search > Direct,2,0,0
+3002,Organic Search > Organic Search,2,1,498.21
+3003,Direct > Paid Search > Direct > Email,4,1,244.15
+3004,Social Media,1,1,170.2
+3005,Social Media > Social Media > Email,3,0,0
+3006,Email > Direct,2,0,0
+3007,Paid Search,1,1,274.43
+3008,Organic Search > Social Media,2,0,0
+3009,Email > Paid Search > Social Media > Email > Direct,5,0,0
+3010,Email > Social Media > Organic Search,3,1,274.8
+3011,Paid Search > Social Media > Social Media > Social Media > Direct,5,0,0
+3012,Social Media,1,1,656.79
+3013,Organic Search > Social Media > Paid Search > Direct,4,1,286.2
+3014,Organic Search,1,1,463.92
+3015,Organic Search,1,0,0
+3016,Social Media > Paid Search > Email > Direct,4,1,102.92
+3017,Paid Search,1,1,230.28
+3018,Social Media,1,0,0
+3019,Paid Search,1,1,136.05
+3020,Organic Search,1,0,0
+3021,Paid Search > Direct,2,0,0
+3022,Paid Search > Social Media,2,1,274.28
+3023,Organic Search,1,0,0
+3024,Paid Search > Email > Social Media > Social Media,4,0,0
+3025,Email,1,1,164.83
+3026,Direct,1,0,0
+3027,Email,1,0,0
+3028,Email,1,1,100.63
+3029,Social Media > Email > Paid Search > Email > Paid Search,5,1,644.75
+3030,Direct,1,0,0
+3031,Organic Search,1,1,114.02
+3032,Social Media,1,0,0
+3033,Social Media > Paid Search,2,1,224.14
+3034,Social Media,1,1,97.5
+3035,Email > Paid Search,2,0,0
+3036,Paid Search > Organic Search > Paid Search,3,1,478.56
+3037,Paid Search,1,0,0
+3038,Paid Search,1,1,79.1
+3039,Organic Search > Paid Search,2,1,171.81
+3040,Social Media,1,1,144.61
+3041,Direct,1,0,0
+3042,Organic Search,1,0,0
+3043,Social Media > Direct > Organic Search,3,0,0
+3044,Social Media > Direct > Social Media,3,1,770.86
+3045,Organic Search,1,0,0
+3046,Organic Search > Social Media,2,1,160.01
+3047,Direct,1,0,0
+3048,Paid Search > Email,2,0,0
+3049,Paid Search > Social Media > Organic Search > Direct > Direct,5,0,0
+3050,Paid Search,1,1,309.59
+3051,Email,1,0,0
+3052,Organic Search > Direct > Direct,3,1,125.02
+3053,Social Media,1,1,89.1
+3054,Email,1,0,0
+3055,Direct,1,1,289.18
+3056,Direct,1,1,1669.63
+3057,Organic Search,1,0,0
+3058,Paid Search,1,0,0
+3059,Paid Search > Social Media > Email > Direct,4,0,0
+3060,Paid Search > Direct,2,1,657.33
+3061,Paid Search,1,0,0
+3062,Paid Search,1,0,0
+3063,Direct,1,0,0
+3064,Organic Search,1,0,0
+3065,Organic Search,1,0,0
+3066,Organic Search > Email > Direct,3,0,0
+3067,Paid Search,1,1,103.74
+3068,Paid Search,1,0,0
+3069,Organic Search > Paid Search > Email,3,1,1204.81
+3070,Direct > Organic Search,2,1,745.33
+3071,Paid Search > Email,2,1,75.36
+3072,Social Media > Social Media > Email,3,0,0
+3073,Organic Search > Paid Search,2,1,243.81
+3074,Paid Search > Social Media > Paid Search > Email > Social Media > Organic Search > Paid Search,7,1,891.08
+3075,Paid Search > Email > Organic Search,3,0,0
+3076,Organic Search,1,0,0
+3077,Social Media > Email,2,0,0
+3078,Direct,1,1,173.66
+3079,Paid Search > Direct,2,1,622.44
+3080,Organic Search,1,0,0
+3081,Organic Search > Paid Search > Direct,3,1,228.82
+3082,Paid Search,1,0,0
+3083,Paid Search > Organic Search > Direct > Organic Search > Direct,5,0,0
+3084,Email,1,1,580.62
+3085,Social Media,1,1,412.24
+3086,Paid Search,1,0,0
+3087,Email > Paid Search,2,0,0
+3088,Social Media,1,0,0
+3089,Email,1,0,0
+3090,Paid Search > Email > Direct,3,0,0
+3091,Social Media,1,0,0
+3092,Organic Search,1,1,181.93
+3093,Social Media,1,0,0
+3094,Paid Search > Organic Search,2,1,257.06
+3095,Organic Search > Paid Search > Direct > Email > Social Media,5,0,0
+3096,Paid Search > Direct,2,1,1361.66
+3097,Paid Search,1,0,0
+3098,Direct > Social Media,2,0,0
+3099,Organic Search > Paid Search > Organic Search,3,1,1669.19
+3100,Paid Search,1,0,0
+3101,Paid Search > Email > Email > Social Media > Email > Direct > Email,7,0,0
+3102,Organic Search > Email > Paid Search,3,0,0
+3103,Paid Search,1,0,0
+3104,Paid Search > Direct,2,0,0
+3105,Social Media > Email > Direct,3,1,145.13
+3106,Email > Paid Search > Social Media,3,0,0
+3107,Social Media > Paid Search,2,0,0
+3108,Organic Search > Direct,2,1,975.32
+3109,Organic Search,1,0,0
+3110,Email > Direct > Email > Paid Search > Direct > Organic Search,6,0,0
+3111,Paid Search,1,0,0
+3112,Paid Search,1,0,0
+3113,Email > Direct,2,0,0
+3114,Paid Search,1,0,0
+3115,Organic Search,1,1,167.84
+3116,Direct > Email,2,1,85.18
+3117,Organic Search,1,1,88.94
+3118,Social Media,1,0,0
+3119,Organic Search,1,0,0
+3120,Direct,1,1,153.72
+3121,Organic Search > Paid Search,2,0,0
+3122,Direct,1,0,0
+3123,Email > Social Media,2,0,0
+3124,Organic Search > Paid Search > Direct > Direct,4,1,206.07
+3125,Paid Search,1,0,0
+3126,Paid Search,1,0,0
+3127,Organic Search,1,0,0
+3128,Direct > Organic Search > Email,3,1,294.9
+3129,Organic Search,1,0,0
+3130,Organic Search,1,0,0
+3131,Organic Search > Direct,2,0,0
+3132,Direct,1,1,200.82
+3133,Social Media > Email,2,1,151.28
+3134,Social Media > Email,2,1,1216.68
+3135,Social Media,1,0,0
+3136,Organic Search > Paid Search > Paid Search,3,0,0
+3137,Organic Search > Paid Search > Paid Search > Direct,4,0,0
+3138,Organic Search > Paid Search > Social Media,3,0,0
+3139,Paid Search,1,0,0
+3140,Social Media,1,1,730.15
+3141,Email > Paid Search > Direct,3,1,760.77
+3142,Organic Search,1,0,0
+3143,Paid Search > Organic Search > Paid Search > Social Media > Paid Search > Organic Search,6,0,0
+3144,Organic Search > Social Media,2,1,406.34
+3145,Social Media,1,0,0
+3146,Social Media > Direct > Email,3,1,270.69
+3147,Organic Search,1,0,0
+3148,Direct,1,1,202.11
+3149,Email,1,1,597.95
+3150,Social Media > Email,2,1,141.36
+3151,Social Media,1,0,0
+3152,Organic Search > Paid Search > Direct > Paid Search,4,1,268.33
+3153,Paid Search > Direct,2,0,0
+3154,Organic Search,1,0,0
+3155,Paid Search > Direct,2,0,0
+3156,Direct > Email,2,0,0
+3157,Organic Search > Organic Search,2,0,0
+3158,Paid Search,1,1,264.98
+3159,Paid Search,1,0,0
+3160,Paid Search > Social Media,2,0,0
+3161,Paid Search > Direct > Paid Search > Social Media,4,0,0
+3162,Social Media,1,0,0
+3163,Email > Social Media,2,0,0
+3164,Social Media,1,0,0
+3165,Organic Search,1,0,0
+3166,Direct > Direct,2,0,0
+3167,Direct,1,0,0
+3168,Paid Search > Social Media,2,0,0
+3169,Organic Search > Social Media,2,1,280.76
+3170,Social Media,1,0,0
+3171,Organic Search > Email > Paid Search,3,0,0
+3172,Email,1,0,0
+3173,Direct > Email,2,0,0
+3174,Social Media > Email > Social Media,3,0,0
+3175,Organic Search,1,0,0
+3176,Organic Search,1,0,0
+3177,Organic Search,1,0,0
+3178,Direct > Social Media > Direct,3,1,516.15
+3179,Organic Search > Social Media > Paid Search,3,1,596.25
+3180,Organic Search > Paid Search,2,1,242.24
+3181,Direct,1,0,0
+3182,Paid Search > Email,2,0,0
+3183,Paid Search,1,0,0
+3184,Organic Search > Direct,2,1,376.57
+3185,Email,1,1,75.76
+3186,Direct,1,1,417.53
+3187,Direct,1,1,1944.87
+3188,Paid Search,1,1,212.08
+3189,Social Media > Social Media > Social Media,3,1,701.78
+3190,Direct > Paid Search > Paid Search,3,0,0
+3191,Organic Search > Direct,2,1,262.38
+3192,Email,1,1,702.45
+3193,Paid Search,1,1,253.03
+3194,Social Media,1,1,1931.11
+3195,Social Media > Paid Search,2,0,0
+3196,Paid Search,1,1,268.73
+3197,Paid Search,1,1,247.03
+3198,Direct,1,1,764.12
+3199,Email,1,1,1503.6
+3200,Organic Search,1,1,286.49
+3201,Organic Search,1,0,0
+3202,Email,1,1,880.27
+3203,Email > Direct,2,0,0
+3204,Organic Search > Direct > Organic Search > Direct,4,0,0
+3205,Organic Search,1,0,0
+3206,Organic Search,1,0,0
+3207,Paid Search > Email > Direct,3,1,1767.08
+3208,Direct,1,1,643.92
+3209,Email > Social Media,2,0,0
+3210,Organic Search,1,0,0
+3211,Social Media > Email,2,1,145.67
+3212,Organic Search,1,0,0
+3213,Paid Search,1,0,0
+3214,Direct,1,0,0
+3215,Direct > Direct > Paid Search,3,1,380.09
+3216,Social Media,1,0,0
+3217,Paid Search > Direct,2,0,0
+3218,Organic Search > Paid Search,2,1,261.85
+3219,Organic Search,1,0,0
+3220,Paid Search > Direct,2,0,0
+3221,Organic Search,1,0,0
+3222,Email,1,0,0
+3223,Organic Search,1,1,299.86
+3224,Paid Search > Organic Search > Direct,3,1,173.62
+3225,Email,1,0,0
+3226,Organic Search > Paid Search,2,1,53.1
+3227,Organic Search > Organic Search,2,1,1121.79
+3228,Social Media,1,1,708.74
+3229,Social Media,1,0,0
+3230,Direct,1,0,0
+3231,Social Media,1,0,0
+3232,Direct,1,0,0
+3233,Organic Search > Email,2,0,0
+3234,Direct > Direct,2,1,153.8
+3235,Direct,1,0,0
+3236,Organic Search > Direct > Paid Search,3,0,0
+3237,Email,1,1,388.09
+3238,Email,1,1,1576.35
+3239,Social Media,1,1,286.11
+3240,Social Media > Organic Search,2,1,461.71
+3241,Direct > Social Media,2,1,234.53
+3242,Paid Search,1,0,0
+3243,Organic Search,1,1,229.72
+3244,Social Media,1,0,0
+3245,Social Media,1,0,0
+3246,Paid Search,1,1,494.48
+3247,Organic Search > Direct,2,1,398.32
+3248,Social Media,1,0,0
+3249,Direct > Social Media,2,1,388.68
+3250,Organic Search,1,1,1037.52
+3251,Organic Search,1,0,0
+3252,Social Media,1,1,1598.83
+3253,Organic Search,1,1,769.01
+3254,Organic Search,1,1,271.7
+3255,Organic Search,1,0,0
+3256,Social Media,1,0,0
+3257,Paid Search > Direct,2,0,0
+3258,Organic Search > Social Media > Organic Search > Email,4,1,299.87
+3259,Organic Search > Email > Social Media,3,0,0
+3260,Social Media > Email,2,1,212.24
+3261,Social Media,1,0,0
+3262,Organic Search > Email > Social Media,3,0,0
+3263,Paid Search > Organic Search > Email > Organic Search,4,0,0
+3264,Social Media,1,0,0
+3265,Direct > Email,2,1,104.59
+3266,Paid Search,1,0,0
+3267,Direct,1,1,734.86
+3268,Social Media,1,0,0
+3269,Organic Search > Paid Search,2,0,0
+3270,Organic Search > Organic Search > Direct,3,0,0
+3271,Direct,1,0,0
+3272,Paid Search > Email > Direct > Email,4,1,299.06
+3273,Social Media,1,0,0
+3274,Direct,1,0,0
+3275,Direct,1,1,161.98
+3276,Organic Search,1,1,141.42
+3277,Organic Search,1,0,0
+3278,Organic Search > Email > Direct,3,0,0
+3279,Direct,1,0,0
+3280,Direct,1,0,0
+3281,Email > Paid Search,2,1,392.33
+3282,Paid Search,1,1,436.51
+3283,Paid Search > Social Media > Email > Direct > Email,5,0,0
+3284,Paid Search > Direct > Paid Search > Organic Search > Paid Search,5,1,383.54
+3285,Direct,1,0,0
+3286,Email,1,1,224.98
+3287,Direct > Direct,2,1,317.11
+3288,Social Media,1,0,0
+3289,Paid Search > Organic Search > Social Media > Paid Search,4,0,0
+3290,Organic Search,1,0,0
+3291,Direct,1,0,0
+3292,Paid Search > Social Media > Email,3,1,139.46
+3293,Direct,1,0,0
+3294,Social Media > Organic Search > Paid Search > Social Media,4,0,0
+3295,Organic Search,1,0,0
+3296,Organic Search,1,1,101.9
+3297,Organic Search,1,0,0
+3298,Email,1,0,0
+3299,Direct,1,0,0
+3300,Paid Search,1,0,0
+3301,Organic Search > Paid Search > Social Media,3,0,0
+3302,Direct,1,1,718.25
+3303,Social Media > Paid Search,2,0,0
+3304,Social Media > Social Media,2,0,0
+3305,Paid Search > Direct > Email,3,0,0
+3306,Email,1,1,575.92
+3307,Paid Search,1,1,597.78
+3308,Organic Search,1,1,275.55
+3309,Paid Search > Social Media > Email,3,0,0
+3310,Organic Search,1,1,259.28
+3311,Paid Search > Email,2,1,79.85
+3312,Email,1,0,0
+3313,Direct,1,1,276.27
+3314,Direct,1,1,107.16
+3315,Email > Social Media,2,0,0
+3316,Email > Email,2,1,285.66
+3317,Social Media > Organic Search,2,0,0
+3318,Email > Social Media > Paid Search > Email,4,1,236.54
+3319,Direct,1,0,0
+3320,Paid Search > Social Media,2,0,0
+3321,Paid Search > Social Media > Social Media > Organic Search > Paid Search > Social Media,6,0,0
+3322,Paid Search,1,0,0
+3323,Organic Search > Paid Search,2,1,286.02
+3324,Direct > Paid Search,2,1,520.56
+3325,Social Media > Paid Search,2,0,0
+3326,Paid Search > Social Media > Paid Search > Social Media > Email,5,1,1653.04
+3327,Organic Search > Paid Search,2,1,244.35
+3328,Social Media,1,0,0
+3329,Direct,1,1,204.01
+3330,Paid Search,1,1,567.57
+3331,Paid Search,1,0,0
+3332,Paid Search,1,0,0
+3333,Organic Search > Direct,2,1,209.27
+3334,Organic Search,1,0,0
+3335,Direct,1,0,0
+3336,Paid Search > Organic Search,2,0,0
+3337,Organic Search > Direct,2,0,0
+3338,Paid Search > Social Media > Email,3,0,0
+3339,Paid Search,1,0,0
+3340,Paid Search > Direct,2,0,0
+3341,Paid Search > Direct,2,1,149.72
+3342,Social Media > Paid Search > Social Media > Paid Search > Social Media,5,0,0
+3343,Social Media,1,0,0
+3344,Direct,1,1,1112.31
+3345,Social Media > Paid Search > Social Media > Paid Search,4,1,258.22
+3346,Email,1,1,104.29
+3347,Social Media > Paid Search > Direct,3,1,160.75
+3348,Social Media > Email,2,1,236.49
+3349,Social Media > Paid Search > Direct,3,0,0
+3350,Organic Search > Email,2,1,152.22
+3351,Direct > Direct,2,0,0
+3352,Social Media,1,0,0
+3353,Direct,1,1,628.63
+3354,Organic Search,1,0,0
+3355,Organic Search,1,0,0
+3356,Paid Search,1,0,0
+3357,Organic Search > Paid Search > Social Media,3,0,0
+3358,Paid Search,1,0,0
+3359,Social Media,1,0,0
+3360,Paid Search,1,1,75.37
+3361,Social Media,1,0,0
+3362,Organic Search > Email,2,1,294.97
+3363,Social Media > Direct,2,0,0
+3364,Social Media,1,0,0
+3365,Direct,1,1,161.23
+3366,Email > Paid Search > Direct,3,1,54.99
+3367,Social Media,1,0,0
+3368,Direct,1,1,273.5
+3369,Direct,1,0,0
+3370,Social Media,1,0,0
+3371,Direct,1,0,0
+3372,Organic Search > Paid Search > Email > Direct > Social Media,5,0,0
+3373,Email,1,1,228.28
+3374,Social Media,1,0,0
+3375,Organic Search,1,1,523.93
+3376,Direct,1,1,262.81
+3377,Organic Search > Social Media,2,1,295.84
+3378,Direct > Paid Search > Social Media > Email > Direct,5,1,237.5
+3379,Email > Direct > Paid Search,3,1,294.56
+3380,Social Media,1,0,0
+3381,Organic Search > Email,2,0,0
+3382,Paid Search > Organic Search,2,1,401.38
+3383,Email,1,0,0
+3384,Email > Direct,2,1,387.65
+3385,Social Media > Direct > Email,3,0,0
+3386,Direct > Paid Search,2,1,177.2
+3387,Organic Search,1,0,0
+3388,Email > Paid Search > Organic Search > Email > Social Media,5,0,0
+3389,Email,1,0,0
+3390,Organic Search > Organic Search,2,0,0
+3391,Direct,1,1,206.53
+3392,Direct,1,1,414.45
+3393,Organic Search > Paid Search,2,1,236.52
+3394,Organic Search > Paid Search,2,0,0
+3395,Organic Search,1,0,0
+3396,Organic Search > Organic Search > Paid Search > Email,4,1,318.38
+3397,Direct,1,1,122.02
+3398,Social Media,1,0,0
+3399,Organic Search > Paid Search > Organic Search > Paid Search > Social Media > Paid Search,6,1,379.99
+3400,Social Media > Organic Search > Paid Search > Email,4,0,0
+3401,Organic Search,1,1,560.93
+3402,Paid Search > Email > Direct,3,0,0
+3403,Social Media,1,1,780.88
+3404,Organic Search,1,0,0
+3405,Organic Search > Paid Search > Email,3,1,690.62
+3406,Organic Search,1,0,0
+3407,Social Media > Organic Search,2,0,0
+3408,Organic Search,1,1,244.59
+3409,Social Media,1,0,0
+3410,Organic Search > Social Media,2,0,0
+3411,Paid Search,1,1,499.82
+3412,Email > Direct,2,0,0
+3413,Organic Search,1,1,138.22
+3414,Paid Search > Direct,2,0,0
+3415,Email,1,0,0
+3416,Paid Search,1,0,0
+3417,Paid Search > Social Media,2,0,0
+3418,Paid Search > Organic Search > Paid Search > Email,4,0,0
+3419,Social Media > Email > Organic Search,3,0,0
+3420,Social Media > Paid Search,2,1,73.71
+3421,Paid Search > Social Media > Email > Organic Search > Email > Direct,6,0,0
+3422,Paid Search > Social Media > Direct,3,0,0
+3423,Paid Search,1,0,0
+3424,Organic Search,1,0,0
+3425,Organic Search,1,0,0
+3426,Organic Search > Social Media > Direct > Direct > Email,5,0,0
+3427,Email > Direct > Organic Search > Social Media > Paid Search,5,1,457.4
+3428,Organic Search > Paid Search > Email,3,1,1796.15
+3429,Paid Search,1,0,0
+3430,Organic Search > Direct,2,1,131.55
+3431,Organic Search,1,0,0
+3432,Paid Search,1,0,0
+3433,Direct,1,0,0
+3434,Social Media,1,1,98.59
+3435,Organic Search > Social Media,2,0,0
+3436,Direct > Email,2,1,254.91
+3437,Paid Search > Direct > Organic Search > Direct > Paid Search,5,0,0
+3438,Social Media > Organic Search > Direct,3,1,483.31
+3439,Organic Search > Direct,2,0,0
+3440,Email > Direct > Social Media,3,0,0
+3441,Organic Search > Paid Search,2,1,256.21
+3442,Paid Search > Social Media > Social Media > Email,4,0,0
+3443,Social Media,1,1,1468.76
+3444,Direct,1,1,233.35
+3445,Social Media > Paid Search,2,0,0
+3446,Organic Search,1,0,0
+3447,Paid Search,1,0,0
+3448,Organic Search > Social Media > Paid Search > Organic Search,4,1,618.06
+3449,Paid Search,1,0,0
+3450,Organic Search,1,1,556.31
+3451,Email > Paid Search > Email > Direct,4,0,0
+3452,Paid Search > Social Media > Paid Search,3,0,0
+3453,Organic Search,1,0,0
+3454,Social Media > Email > Direct,3,0,0
+3455,Social Media,1,0,0
+3456,Social Media > Email > Direct,3,0,0
+3457,Organic Search > Social Media,2,1,729.96
+3458,Organic Search,1,0,0
+3459,Organic Search > Paid Search > Organic Search > Paid Search,4,1,194.01
+3460,Email,1,0,0
+3461,Paid Search > Direct,2,0,0
+3462,Paid Search,1,1,585.09
+3463,Paid Search > Social Media,2,0,0
+3464,Email > Direct > Paid Search,3,0,0
+3465,Organic Search > Paid Search,2,1,231.49
+3466,Email > Social Media > Organic Search > Paid Search > Social Media > Paid Search,6,0,0
+3467,Paid Search > Email,2,1,211.55
+3468,Email,1,1,618.27
+3469,Social Media > Organic Search,2,1,195.68
+3470,Organic Search,1,0,0
+3471,Social Media > Email,2,0,0
+3472,Organic Search > Paid Search,2,1,397.7
+3473,Organic Search,1,1,295.92
+3474,Organic Search,1,1,131.76
+3475,Organic Search > Paid Search > Email > Organic Search,4,1,507.08
+3476,Paid Search > Social Media > Organic Search,3,0,0
+3477,Social Media,1,0,0
+3478,Organic Search,1,1,1749.39
+3479,Social Media,1,0,0
+3480,Email > Direct > Paid Search,3,1,730.63
+3481,Organic Search > Direct > Direct > Email > Social Media > Email,6,1,1579.95
+3482,Paid Search > Direct,2,0,0
+3483,Direct,1,1,677.0
+3484,Social Media,1,0,0
+3485,Organic Search > Paid Search > Organic Search > Organic Search > Paid Search > Organic Search > Social Media > Organic Search > Direct,9,0,0
+3486,Direct > Paid Search > Direct,3,1,396.74
+3487,Paid Search > Email,2,1,58.75
+3488,Organic Search > Paid Search > Direct,3,0,0
+3489,Direct,1,0,0
+3490,Organic Search,1,1,417.11
+3491,Direct,1,0,0
+3492,Organic Search > Paid Search,2,1,731.86
+3493,Social Media > Social Media > Organic Search,3,1,222.95
+3494,Organic Search > Email > Direct > Organic Search > Direct,5,1,53.32
+3495,Direct,1,1,450.55
+3496,Social Media,1,0,0
+3497,Organic Search > Social Media,2,0,0
+3498,Direct > Email,2,1,1993.76
+3499,Organic Search,1,1,323.58
+3500,Social Media,1,0,0
+3501,Social Media,1,0,0
+3502,Organic Search > Paid Search > Direct,3,0,0
+3503,Paid Search > Direct,2,0,0
+3504,Social Media,1,1,209.83
+3505,Paid Search,1,1,295.88
+3506,Email > Paid Search,2,1,370.28
+3507,Paid Search,1,0,0
+3508,Organic Search > Social Media > Paid Search,3,0,0
+3509,Social Media > Direct,2,1,733.84
+3510,Paid Search,1,0,0
+3511,Direct > Social Media > Email,3,1,1776.65
+3512,Social Media,1,0,0
+3513,Email,1,0,0
+3514,Paid Search,1,0,0
+3515,Direct,1,0,0
+3516,Paid Search,1,1,352.83
+3517,Social Media,1,0,0
+3518,Social Media,1,0,0
+3519,Email,1,1,259.12
+3520,Paid Search,1,0,0
+3521,Paid Search,1,0,0
+3522,Organic Search > Email > Direct,3,0,0
+3523,Organic Search,1,1,700.61
+3524,Direct > Email > Organic Search,3,0,0
+3525,Paid Search > Paid Search > Social Media > Organic Search,4,0,0
+3526,Organic Search > Email,2,0,0
+3527,Paid Search > Paid Search,2,0,0
+3528,Organic Search > Organic Search > Paid Search > Social Media,4,0,0
+3529,Organic Search > Social Media,2,0,0
+3530,Paid Search > Direct,2,1,380.13
+3531,Paid Search > Social Media > Direct,3,1,568.88
+3532,Organic Search > Direct > Organic Search > Social Media > Organic Search,5,0,0
+3533,Direct,1,1,258.8
+3534,Social Media,1,0,0
+3535,Paid Search,1,0,0
+3536,Paid Search > Organic Search > Organic Search > Direct,4,0,0
+3537,Paid Search,1,1,231.07
+3538,Social Media,1,0,0
+3539,Paid Search,1,1,296.0
+3540,Organic Search > Social Media,2,0,0
+3541,Direct > Email > Direct > Organic Search > Paid Search,5,0,0
+3542,Email,1,0,0
+3543,Paid Search,1,1,618.28
+3544,Paid Search,1,0,0
+3545,Social Media > Organic Search,2,1,494.66
+3546,Direct > Direct > Social Media > Social Media > Email > Paid Search > Social Media,7,0,0
+3547,Organic Search > Direct > Organic Search,3,0,0
+3548,Email,1,0,0
+3549,Email > Organic Search > Paid Search > Email,4,1,843.1
+3550,Paid Search,1,1,140.62
+3551,Organic Search,1,0,0
+3552,Direct,1,1,420.01
+3553,Social Media > Organic Search > Direct,3,0,0
+3554,Social Media > Paid Search > Direct > Email,4,1,239.11
+3555,Organic Search,1,0,0
+3556,Paid Search > Direct,2,0,0
+3557,Direct,1,0,0
+3558,Organic Search > Paid Search,2,1,467.66
+3559,Direct,1,1,66.7
+3560,Email > Social Media > Email,3,1,86.85
+3561,Organic Search,1,0,0
+3562,Organic Search > Paid Search,2,0,0
+3563,Organic Search,1,1,205.31
+3564,Direct > Social Media,2,0,0
+3565,Direct,1,0,0
+3566,Organic Search > Direct,2,1,146.96
+3567,Social Media,1,1,719.17
+3568,Organic Search > Direct,2,0,0
+3569,Organic Search > Direct,2,0,0
+3570,Social Media > Paid Search,2,0,0
+3571,Email > Direct > Email > Direct > Paid Search > Direct,6,0,0
+3572,Email > Organic Search,2,1,256.31
+3573,Social Media,1,0,0
+3574,Social Media > Paid Search,2,1,1833.12
+3575,Social Media,1,0,0
+3576,Organic Search,1,1,243.27
+3577,Paid Search > Organic Search > Paid Search > Paid Search,4,0,0
+3578,Organic Search,1,1,148.32
+3579,Paid Search,1,0,0
+3580,Direct > Direct,2,1,127.04
+3581,Direct,1,1,267.79
+3582,Social Media,1,0,0
+3583,Direct,1,1,544.39
+3584,Paid Search > Paid Search > Direct,3,1,578.82
+3585,Organic Search > Social Media > Social Media > Social Media,4,1,276.45
+3586,Direct,1,1,126.59
+3587,Email,1,1,358.35
+3588,Paid Search,1,1,1835.83
+3589,Organic Search,1,0,0
+3590,Organic Search,1,1,185.69
+3591,Paid Search,1,0,0
+3592,Social Media > Paid Search,2,1,355.44
+3593,Organic Search,1,0,0
+3594,Email > Social Media,2,0,0
+3595,Paid Search > Social Media > Direct > Email,4,1,287.8
+3596,Social Media > Social Media,2,0,0
+3597,Email,1,0,0
+3598,Organic Search > Paid Search,2,0,0
+3599,Direct,1,1,333.43
+3600,Organic Search,1,1,62.75
+3601,Paid Search,1,0,0
+3602,Social Media > Direct,2,1,95.28
+3603,Paid Search,1,0,0
+3604,Organic Search,1,0,0
+3605,Organic Search > Direct > Email,3,0,0
+3606,Direct,1,0,0
+3607,Organic Search,1,0,0
+3608,Social Media > Organic Search > Social Media,3,0,0
+3609,Organic Search > Email > Email,3,1,360.04
+3610,Social Media,1,0,0
+3611,Organic Search,1,1,104.97
+3612,Email,1,0,0
+3613,Organic Search,1,1,136.47
+3614,Social Media,1,0,0
+3615,Organic Search > Direct > Paid Search,3,0,0
+3616,Organic Search > Direct > Social Media > Paid Search > Social Media > Paid Search > Social Media > Email,8,1,432.02
+3617,Organic Search > Paid Search > Paid Search,3,1,643.5
+3618,Paid Search,1,1,185.32
+3619,Organic Search,1,0,0
+3620,Paid Search,1,0,0
+3621,Paid Search > Email,2,1,702.93
+3622,Social Media > Email,2,1,619.36
+3623,Paid Search,1,0,0
+3624,Organic Search > Social Media > Email > Email > Direct > Email,6,1,214.57
+3625,Direct > Email,2,1,680.06
+3626,Paid Search > Email > Direct,3,1,1863.78
+3627,Organic Search > Social Media > Paid Search > Direct,4,0,0
+3628,Paid Search > Social Media,2,0,0
+3629,Social Media,1,1,1768.85
+3630,Direct,1,1,634.96
+3631,Direct > Paid Search,2,1,69.81
+3632,Direct,1,1,264.63
+3633,Organic Search,1,0,0
+3634,Organic Search > Social Media,2,1,73.07
+3635,Organic Search,1,1,1930.76
+3636,Direct > Social Media,2,1,457.97
+3637,Organic Search,1,0,0
+3638,Organic Search,1,0,0
+3639,Organic Search > Paid Search,2,0,0
+3640,Organic Search > Paid Search > Direct,3,0,0
+3641,Social Media > Paid Search,2,0,0
+3642,Organic Search > Organic Search,2,0,0
+3643,Email,1,1,176.13
+3644,Organic Search > Paid Search > Organic Search > Paid Search > Social Media,5,0,0
+3645,Email,1,1,111.45
+3646,Organic Search > Paid Search > Social Media,3,0,0
+3647,Email > Paid Search > Direct > Organic Search > Direct,5,0,0
+3648,Social Media > Email,2,1,515.03
+3649,Direct,1,0,0
+3650,Paid Search,1,1,1624.01
+3651,Email,1,1,501.89
+3652,Paid Search,1,0,0
+3653,Organic Search,1,1,124.61
+3654,Social Media > Email > Direct,3,1,99.68
+3655,Organic Search > Direct,2,1,266.3
+3656,Email,1,1,381.18
+3657,Organic Search > Organic Search > Paid Search > Direct,4,1,479.12
+3658,Direct,1,1,230.81
+3659,Direct,1,0,0
+3660,Direct > Direct > Paid Search > Direct,4,1,460.03
+3661,Social Media > Email,2,1,760.39
+3662,Direct,1,1,98.37
+3663,Direct > Social Media,2,0,0
+3664,Organic Search,1,0,0
+3665,Organic Search > Organic Search > Paid Search,3,1,150.85
+3666,Email,1,1,370.96
+3667,Organic Search > Direct > Paid Search > Direct,4,1,554.23
+3668,Email,1,1,240.37
+3669,Direct,1,0,0
+3670,Paid Search,1,1,633.53
+3671,Organic Search > Paid Search,2,0,0
+3672,Organic Search > Email > Direct > Organic Search > Social Media,5,0,0
+3673,Organic Search,1,1,695.55
+3674,Organic Search > Direct > Email,3,0,0
+3675,Organic Search > Paid Search,2,0,0
+3676,Organic Search > Direct > Paid Search > Direct,4,0,0
+3677,Direct,1,1,164.9
+3678,Direct,1,1,440.24
+3679,Direct > Email,2,1,425.75
+3680,Paid Search,1,1,600.65
+3681,Email,1,1,683.71
+3682,Email > Email,2,0,0
+3683,Paid Search > Email,2,0,0
+3684,Paid Search,1,0,0
+3685,Direct > Paid Search,2,1,886.46
+3686,Email,1,1,828.43
+3687,Direct,1,1,74.65
+3688,Paid Search > Direct,2,0,0
+3689,Paid Search > Email > Paid Search > Social Media > Direct,5,0,0
+3690,Organic Search > Social Media,2,0,0
+3691,Paid Search,1,0,0
+3692,Organic Search > Direct > Organic Search,3,0,0
+3693,Organic Search > Paid Search,2,0,0
+3694,Paid Search,1,0,0
+3695,Social Media > Email,2,0,0
+3696,Organic Search,1,1,89.8
+3697,Paid Search > Direct > Paid Search > Paid Search,4,0,0
+3698,Organic Search > Direct,2,1,292.52
+3699,Email,1,1,100.83
+3700,Organic Search > Paid Search,2,0,0
+3701,Paid Search,1,1,1035.88
+3702,Social Media > Organic Search,2,0,0
+3703,Paid Search > Organic Search,2,1,345.75
+3704,Email > Social Media > Paid Search > Direct,4,0,0
+3705,Organic Search,1,1,515.65
+3706,Email > Direct > Paid Search,3,1,210.87
+3707,Social Media > Organic Search,2,1,219.22
+3708,Direct,1,1,686.16
+3709,Paid Search,1,1,226.41
+3710,Paid Search,1,0,0
+3711,Organic Search,1,0,0
+3712,Paid Search > Email > Email > Paid Search > Social Media > Organic Search,6,1,76.92
+3713,Paid Search > Social Media > Organic Search,3,0,0
+3714,Social Media,1,1,1153.0
+3715,Organic Search,1,1,320.85
+3716,Social Media,1,0,0
+3717,Organic Search > Direct > Organic Search > Paid Search > Social Media > Organic Search > Organic Search,7,0,0
+3718,Organic Search > Paid Search > Direct,3,1,227.29
+3719,Paid Search > Social Media > Email,3,0,0
+3720,Paid Search > Email,2,0,0
+3721,Social Media,1,0,0
+3722,Organic Search,1,0,0
+3723,Direct,1,1,793.02
+3724,Organic Search,1,0,0
+3725,Organic Search,1,1,462.92
+3726,Social Media > Email,2,0,0
+3727,Social Media,1,0,0
+3728,Email > Direct > Organic Search > Direct,4,0,0
+3729,Paid Search > Social Media > Email,3,1,1257.47
+3730,Paid Search,1,0,0
+3731,Direct,1,1,460.96
+3732,Direct,1,0,0
+3733,Paid Search,1,1,523.28
+3734,Email > Organic Search > Social Media > Email,4,1,1211.78
+3735,Direct,1,0,0
+3736,Direct,1,1,128.79
+3737,Social Media > Direct > Direct,3,1,107.37
+3738,Direct > Email > Direct,3,1,288.0
+3739,Paid Search > Direct,2,1,420.96
+3740,Organic Search,1,0,0
+3741,Paid Search > Direct,2,1,417.85
+3742,Social Media > Email,2,1,297.22
+3743,Organic Search,1,1,78.97
+3744,Organic Search,1,0,0
+3745,Social Media > Email,2,1,221.27
+3746,Organic Search,1,1,108.28
+3747,Organic Search,1,0,0
+3748,Organic Search,1,1,449.35
+3749,Direct > Email > Social Media > Organic Search,4,0,0
+3750,Paid Search,1,1,241.15
+3751,Direct,1,0,0
+3752,Direct > Organic Search > Paid Search,3,0,0
+3753,Email,1,0,0
+3754,Direct > Paid Search > Direct > Paid Search,4,0,0
+3755,Email,1,1,217.0
+3756,Organic Search > Paid Search,2,0,0
+3757,Paid Search > Direct > Email,3,0,0
+3758,Social Media,1,0,0
+3759,Social Media,1,0,0
+3760,Email,1,0,0
+3761,Organic Search > Social Media,2,1,316.5
+3762,Direct,1,0,0
+3763,Paid Search > Email > Direct,3,0,0
+3764,Organic Search > Direct,2,0,0
+3765,Organic Search > Paid Search,2,1,1621.6
+3766,Organic Search,1,0,0
+3767,Organic Search,1,1,297.75
+3768,Email > Direct,2,1,60.49
+3769,Paid Search > Organic Search > Email,3,0,0
+3770,Direct,1,1,702.51
+3771,Direct,1,0,0
+3772,Organic Search,1,0,0
+3773,Social Media,1,1,83.94
+3774,Paid Search,1,0,0
+3775,Social Media > Email,2,1,258.81
+3776,Paid Search > Email,2,0,0
+3777,Organic Search,1,0,0
+3778,Organic Search > Social Media,2,0,0
+3779,Organic Search > Social Media > Email > Social Media > Email > Direct > Paid Search,7,1,127.1
+3780,Organic Search > Organic Search,2,0,0
+3781,Paid Search,1,1,472.56
+3782,Social Media,1,0,0
+3783,Paid Search > Paid Search > Email > Direct,4,0,0
+3784,Organic Search > Paid Search,2,0,0
+3785,Organic Search > Social Media,2,0,0
+3786,Social Media,1,1,424.63
+3787,Paid Search,1,1,378.32
+3788,Social Media > Social Media,2,0,0
+3789,Email > Organic Search,2,0,0
+3790,Paid Search,1,1,63.01
+3791,Organic Search,1,0,0
+3792,Social Media > Paid Search > Direct,3,1,185.49
+3793,Organic Search,1,1,676.46
+3794,Organic Search > Paid Search,2,1,720.02
+3795,Social Media > Organic Search > Paid Search,3,1,289.32
+3796,Direct,1,1,102.11
+3797,Paid Search > Email,2,0,0
+3798,Email > Social Media,2,1,102.75
+3799,Social Media > Paid Search,2,1,151.13
+3800,Social Media,1,0,0
+3801,Organic Search > Paid Search,2,0,0
+3802,Organic Search > Email,2,1,786.69
+3803,Paid Search > Social Media > Social Media > Paid Search > Social Media,5,0,0
+3804,Organic Search,1,1,60.05
+3805,Direct,1,0,0
+3806,Social Media,1,0,0
+3807,Organic Search > Paid Search,2,0,0
+3808,Social Media,1,0,0
+3809,Social Media,1,0,0
+3810,Organic Search > Paid Search > Social Media > Paid Search,4,1,1803.2
+3811,Paid Search > Direct,2,1,466.05
+3812,Organic Search,1,1,138.29
+3813,Direct,1,0,0
+3814,Social Media > Direct,2,0,0
+3815,Paid Search > Email > Direct > Social Media,4,0,0
+3816,Email,1,1,322.3
+3817,Organic Search > Social Media > Social Media > Paid Search,4,0,0
+3818,Paid Search,1,0,0
+3819,Organic Search > Direct > Direct > Email > Social Media,5,0,0
+3820,Email,1,0,0
+3821,Organic Search > Direct,2,1,245.25
+3822,Social Media > Email,2,0,0
+3823,Social Media,1,0,0
+3824,Organic Search > Social Media > Email > Email > Paid Search,5,0,0
+3825,Paid Search > Email > Direct > Paid Search,4,0,0
+3826,Organic Search,1,0,0
+3827,Organic Search > Paid Search,2,0,0
+3828,Direct,1,0,0
+3829,Social Media,1,0,0
+3830,Direct,1,1,101.35
+3831,Direct > Direct,2,0,0
+3832,Social Media,1,1,98.35
+3833,Organic Search > Social Media,2,0,0
+3834,Organic Search,1,0,0
+3835,Social Media,1,0,0
+3836,Social Media,1,0,0
+3837,Social Media > Email > Direct,3,1,229.89
+3838,Direct,1,1,1298.73
+3839,Paid Search > Direct,2,1,261.92
+3840,Direct > Email,2,0,0
+3841,Organic Search > Email,2,0,0
+3842,Organic Search,1,1,276.51
+3843,Organic Search,1,0,0
+3844,Organic Search > Paid Search > Email,3,0,0
+3845,Paid Search,1,0,0
+3846,Social Media,1,0,0
+3847,Direct > Paid Search,2,0,0
+3848,Social Media > Organic Search > Social Media,3,1,1907.41
+3849,Organic Search > Direct > Email > Social Media,4,0,0
+3850,Social Media,1,0,0
+3851,Paid Search,1,0,0
+3852,Email,1,0,0
+3853,Organic Search > Direct > Email,3,1,224.09
+3854,Direct,1,0,0
+3855,Social Media > Paid Search,2,1,328.68
+3856,Social Media > Paid Search,2,0,0
+3857,Organic Search > Organic Search > Paid Search,3,0,0
+3858,Organic Search > Social Media > Organic Search > Direct,4,1,231.44
+3859,Social Media > Email,2,1,1752.12
+3860,Paid Search,1,1,738.6
+3861,Paid Search > Social Media > Organic Search > Paid Search,4,0,0
+3862,Paid Search > Paid Search > Social Media > Organic Search > Email > Direct,6,0,0
+3863,Organic Search,1,0,0
+3864,Social Media,1,0,0
+3865,Paid Search,1,0,0
+3866,Social Media,1,0,0
+3867,Social Media > Email > Direct,3,0,0
+3868,Social Media,1,0,0
+3869,Organic Search > Direct > Social Media,3,0,0
+3870,Paid Search > Email,2,1,419.32
+3871,Email > Social Media > Social Media,3,0,0
+3872,Paid Search > Paid Search,2,1,690.17
+3873,Organic Search,1,0,0
+3874,Paid Search,1,0,0
+3875,Social Media > Email,2,1,1725.06
+3876,Organic Search > Paid Search,2,0,0
+3877,Email > Email > Paid Search,3,0,0
+3878,Paid Search > Organic Search > Direct > Paid Search,4,1,115.29
+3879,Paid Search,1,0,0
+3880,Organic Search > Direct,2,0,0
+3881,Organic Search,1,0,0
+3882,Social Media > Organic Search > Paid Search > Direct,4,1,248.09
+3883,Email,1,1,795.65
+3884,Paid Search > Organic Search > Organic Search > Organic Search,4,1,252.4
+3885,Organic Search > Social Media,2,0,0
+3886,Email,1,1,97.61
+3887,Direct > Paid Search,2,0,0
+3888,Paid Search > Direct,2,0,0
+3889,Social Media,1,0,0
+3890,Social Media,1,0,0
+3891,Paid Search,1,1,1256.03
+3892,Organic Search > Social Media > Paid Search,3,1,217.04
+3893,Paid Search > Email,2,1,725.87
+3894,Email > Direct,2,1,144.86
+3895,Organic Search > Direct > Organic Search,3,1,115.32
+3896,Organic Search > Social Media > Email > Direct,4,1,443.11
+3897,Social Media > Paid Search > Social Media > Social Media > Paid Search > Email,6,1,255.39
+3898,Email > Direct > Organic Search,3,0,0
+3899,Social Media > Organic Search > Paid Search > Direct,4,0,0
+3900,Social Media,1,0,0
+3901,Email > Organic Search,2,1,763.16
+3902,Direct > Email > Paid Search > Email > Organic Search > Paid Search > Direct,7,0,0
+3903,Organic Search,1,1,202.98
+3904,Social Media > Social Media,2,0,0
+3905,Organic Search,1,0,0
+3906,Paid Search,1,0,0
+3907,Paid Search > Direct,2,0,0
+3908,Paid Search > Organic Search > Social Media > Paid Search > Organic Search,5,1,377.09
+3909,Organic Search,1,1,638.33
+3910,Paid Search > Social Media > Paid Search > Direct,4,0,0
+3911,Paid Search,1,1,328.32
+3912,Paid Search,1,0,0
+3913,Organic Search,1,0,0
+3914,Email > Direct,2,0,0
+3915,Paid Search > Direct,2,0,0
+3916,Email,1,0,0
+3917,Organic Search > Email > Social Media,3,0,0
+3918,Paid Search,1,1,289.8
+3919,Direct > Organic Search > Paid Search > Direct,4,1,122.65
+3920,Social Media,1,0,0
+3921,Paid Search,1,0,0
+3922,Email,1,1,189.02
+3923,Paid Search > Social Media,2,0,0
+3924,Paid Search,1,0,0
+3925,Paid Search,1,0,0
+3926,Organic Search,1,1,221.71
+3927,Organic Search,1,0,0
+3928,Organic Search,1,0,0
+3929,Organic Search,1,0,0
+3930,Paid Search,1,0,0
+3931,Organic Search > Social Media,2,0,0
+3932,Paid Search > Social Media > Paid Search > Paid Search > Paid Search,5,1,632.75
+3933,Email,1,1,319.17
+3934,Social Media,1,0,0
+3935,Organic Search > Paid Search > Direct > Direct > Email,5,0,0
+3936,Direct,1,0,0
+3937,Direct,1,0,0
+3938,Social Media,1,1,991.16
+3939,Paid Search > Direct,2,1,531.53
+3940,Direct,1,0,0
+3941,Organic Search > Paid Search,2,0,0
+3942,Direct > Organic Search > Paid Search,3,0,0
+3943,Organic Search > Paid Search,2,1,197.75
+3944,Paid Search > Direct,2,0,0
+3945,Organic Search > Social Media,2,0,0
+3946,Organic Search,1,0,0
+3947,Paid Search > Organic Search,2,1,141.98
+3948,Email > Paid Search > Organic Search > Social Media > Organic Search > Paid Search,6,1,930.25
+3949,Paid Search > Social Media > Email,3,1,1379.84
+3950,Email > Direct > Social Media,3,0,0
+3951,Direct,1,1,244.1
+3952,Paid Search > Email > Direct > Paid Search,4,0,0
+3953,Social Media,1,0,0
+3954,Organic Search > Direct,2,1,1744.37
+3955,Social Media,1,0,0
+3956,Paid Search > Direct,2,1,674.44
+3957,Organic Search,1,1,82.2
+3958,Email > Organic Search > Organic Search > Paid Search,4,0,0
+3959,Paid Search > Social Media > Email,3,0,0
+3960,Organic Search,1,0,0
+3961,Organic Search > Paid Search > Direct > Direct,4,0,0
+3962,Organic Search > Paid Search > Social Media,3,0,0
+3963,Paid Search,1,0,0
+3964,Paid Search > Social Media,2,1,708.46
+3965,Paid Search,1,1,348.47
+3966,Direct,1,0,0
+3967,Organic Search,1,0,0
+3968,Organic Search > Social Media,2,1,1977.72
+3969,Email > Direct > Email,3,0,0
+3970,Direct,1,0,0
+3971,Paid Search > Direct > Email,3,1,274.48
+3972,Organic Search > Email,2,1,255.56
+3973,Paid Search,1,0,0
+3974,Social Media > Organic Search > Social Media,3,1,385.86
+3975,Paid Search > Email,2,0,0
+3976,Paid Search,1,1,765.55
+3977,Paid Search,1,1,1804.37
+3978,Social Media,1,0,0
+3979,Social Media,1,0,0
+3980,Social Media,1,0,0
+3981,Email,1,0,0
+3982,Organic Search > Direct > Social Media,3,0,0
+3983,Social Media,1,0,0
+3984,Social Media > Paid Search,2,1,243.07
+3985,Direct,1,1,1785.25
+3986,Direct,1,0,0
+3987,Organic Search,1,0,0
+3988,Email > Social Media,2,0,0
+3989,Email > Direct,2,1,121.91
+3990,Social Media > Organic Search,2,1,210.06
+3991,Paid Search > Direct,2,0,0
+3992,Social Media > Paid Search > Social Media,3,1,191.24
+3993,Social Media > Email,2,1,360.08
+3994,Direct,1,1,536.69
+3995,Organic Search,1,0,0
+3996,Organic Search > Organic Search > Social Media > Email,4,1,460.9
+3997,Social Media > Direct > Organic Search,3,0,0
+3998,Email > Direct,2,0,0
+3999,Paid Search > Social Media,2,0,0
+4000,Organic Search,1,1,406.83
+4001,Social Media,1,0,0
+4002,Organic Search,1,1,647.38
+4003,Email,1,0,0
+4004,Email,1,0,0
+4005,Paid Search > Email,2,0,0
+4006,Organic Search,1,0,0
+4007,Email > Direct > Social Media,3,1,1774.65
+4008,Organic Search,1,0,0
+4009,Direct,1,0,0
+4010,Organic Search,1,0,0
+4011,Organic Search,1,1,560.24
+4012,Direct,1,1,146.71
+4013,Direct,1,1,70.3
+4014,Organic Search,1,1,1734.99
+4015,Organic Search,1,0,0
+4016,Paid Search > Organic Search,2,1,207.47
+4017,Organic Search,1,0,0
+4018,Organic Search > Email > Social Media,3,0,0
+4019,Organic Search,1,1,446.68
+4020,Organic Search,1,0,0
+4021,Organic Search > Social Media > Organic Search > Direct,4,1,90.58
+4022,Social Media > Direct > Social Media > Email,4,0,0
+4023,Social Media,1,1,188.87
+4024,Organic Search,1,0,0
+4025,Social Media,1,0,0
+4026,Direct,1,0,0
+4027,Direct,1,1,126.72
+4028,Email > Organic Search,2,0,0
+4029,Social Media > Social Media,2,0,0
+4030,Organic Search > Direct > Paid Search > Social Media,4,0,0
+4031,Paid Search,1,0,0
+4032,Organic Search,1,0,0
+4033,Paid Search > Direct,2,0,0
+4034,Paid Search > Social Media,2,0,0
+4035,Direct,1,1,90.85
+4036,Paid Search > Social Media > Direct,3,0,0
+4037,Direct > Direct,2,1,785.86
+4038,Paid Search > Social Media > Direct,3,0,0
+4039,Paid Search > Email,2,1,753.04
+4040,Social Media > Organic Search,2,0,0
+4041,Organic Search > Organic Search,2,0,0
+4042,Paid Search > Email > Paid Search > Direct,4,0,0
+4043,Email > Direct,2,1,462.02
+4044,Social Media > Direct,2,1,130.07
+4045,Email,1,1,457.71
+4046,Social Media,1,0,0
+4047,Organic Search > Paid Search,2,1,168.65
+4048,Paid Search,1,1,638.74
+4049,Social Media > Paid Search > Direct,3,0,0
+4050,Direct,1,1,439.23
+4051,Organic Search,1,1,57.29
+4052,Organic Search,1,0,0
+4053,Direct > Organic Search,2,0,0
+4054,Social Media,1,0,0
+4055,Paid Search,1,1,281.43
+4056,Social Media > Email,2,0,0
+4057,Organic Search > Email,2,0,0
+4058,Organic Search,1,0,0
+4059,Paid Search > Organic Search > Direct > Paid Search,4,0,0
+4060,Organic Search,1,1,89.8
+4061,Direct,1,1,208.9
+4062,Paid Search,1,0,0
+4063,Direct,1,0,0
+4064,Paid Search > Social Media > Organic Search,3,1,129.1
+4065,Social Media > Email > Direct,3,1,223.66
+4066,Social Media,1,0,0
+4067,Organic Search > Email,2,1,186.68
+4068,Organic Search > Paid Search,2,0,0
+4069,Organic Search > Social Media > Organic Search,3,1,1493.47
+4070,Paid Search,1,0,0
+4071,Social Media,1,0,0
+4072,Paid Search > Email > Paid Search,3,0,0
+4073,Paid Search,1,1,577.71
+4074,Social Media > Social Media > Direct,3,1,686.16
+4075,Direct,1,0,0
+4076,Paid Search > Direct > Social Media,3,0,0
+4077,Paid Search > Direct > Email,3,0,0
+4078,Social Media > Organic Search,2,1,245.06
+4079,Direct > Paid Search,2,1,297.96
+4080,Paid Search > Direct > Social Media,3,0,0
+4081,Direct,1,1,730.87
+4082,Email > Direct,2,1,649.86
+4083,Email,1,1,200.39
+4084,Social Media,1,0,0
+4085,Email > Direct,2,0,0
+4086,Direct,1,1,402.23
+4087,Paid Search,1,1,164.16
+4088,Organic Search,1,1,274.94
+4089,Organic Search,1,0,0
+4090,Direct > Email > Social Media,3,1,436.44
+4091,Organic Search,1,0,0
+4092,Social Media > Paid Search > Social Media,3,0,0
+4093,Social Media,1,0,0
+4094,Email,1,0,0
+4095,Email > Social Media,2,0,0
+4096,Paid Search,1,0,0
+4097,Social Media > Paid Search > Direct > Email,4,1,174.64
+4098,Email,1,1,171.16
+4099,Direct,1,1,168.74
+4100,Direct > Email,2,1,201.98
+4101,Social Media > Paid Search,2,0,0
+4102,Direct > Paid Search,2,1,56.41
+4103,Social Media,1,1,479.83
+4104,Social Media > Organic Search > Social Media > Direct,4,0,0
+4105,Email > Social Media > Paid Search,3,1,218.86
+4106,Paid Search,1,1,145.28
+4107,Paid Search > Direct > Organic Search > Direct,4,0,0
+4108,Social Media > Social Media > Organic Search,3,0,0
+4109,Organic Search > Social Media > Email > Direct > Direct > Direct > Paid Search,7,1,271.52
+4110,Email,1,1,1286.79
+4111,Organic Search > Email,2,0,0
+4112,Organic Search,1,0,0
+4113,Organic Search,1,0,0
+4114,Social Media,1,0,0
+4115,Organic Search,1,0,0
+4116,Email > Organic Search > Email > Direct,4,1,148.81
+4117,Social Media > Direct > Paid Search,3,1,169.5
+4118,Organic Search > Paid Search,2,0,0
+4119,Paid Search,1,0,0
+4120,Paid Search > Social Media > Paid Search > Email,4,0,0
+4121,Email > Direct > Paid Search > Email,4,0,0
+4122,Paid Search,1,0,0
+4123,Paid Search > Direct > Direct > Social Media > Direct,5,1,235.2
+4124,Social Media,1,1,197.08
+4125,Direct,1,0,0
+4126,Paid Search,1,1,306.67
+4127,Organic Search,1,0,0
+4128,Direct,1,0,0
+4129,Email > Direct,2,1,262.75
+4130,Direct > Organic Search,2,0,0
+4131,Paid Search > Social Media,2,0,0
+4132,Organic Search,1,0,0
+4133,Organic Search,1,0,0
+4134,Direct,1,0,0
+4135,Email,1,0,0
+4136,Organic Search > Organic Search > Social Media > Organic Search > Paid Search,5,1,309.29
+4137,Organic Search > Social Media,2,0,0
+4138,Paid Search > Direct,2,1,296.25
+4139,Paid Search,1,0,0
+4140,Direct > Email > Direct,3,1,769.67
+4141,Social Media > Paid Search > Organic Search > Email,4,1,751.56
+4142,Paid Search > Social Media,2,0,0
+4143,Paid Search,1,0,0
+4144,Organic Search > Direct,2,0,0
+4145,Social Media > Paid Search > Organic Search > Paid Search > Social Media,5,0,0
+4146,Organic Search > Social Media > Organic Search > Email > Organic Search > Paid Search > Social Media > Social Media > Paid Search,9,1,214.54
+4147,Organic Search > Direct,2,1,164.01
+4148,Email,1,0,0
+4149,Paid Search > Email,2,1,206.93
+4150,Paid Search > Direct,2,0,0
+4151,Direct > Direct,2,1,665.31
+4152,Social Media > Direct,2,0,0
+4153,Social Media,1,0,0
+4154,Paid Search,1,1,159.88
+4155,Organic Search > Direct > Paid Search,3,1,246.8
+4156,Social Media,1,0,0
+4157,Social Media,1,0,0
+4158,Direct,1,0,0
+4159,Paid Search > Social Media,2,1,568.89
+4160,Social Media,1,0,0
+4161,Direct,1,0,0
+4162,Email,1,1,584.21
+4163,Organic Search,1,1,91.64
+4164,Social Media,1,0,0
+4165,Organic Search,1,1,181.27
+4166,Social Media > Email > Direct,3,1,642.27
+4167,Direct > Email,2,0,0
+4168,Organic Search,1,0,0
+4169,Social Media > Social Media > Social Media,3,0,0
+4170,Email,1,1,770.69
+4171,Paid Search,1,0,0
+4172,Direct,1,1,93.58
+4173,Organic Search > Paid Search > Social Media,3,0,0
+4174,Paid Search,1,1,267.51
+4175,Paid Search,1,0,0
+4176,Paid Search,1,1,748.99
+4177,Organic Search > Paid Search,2,0,0
+4178,Email > Paid Search,2,0,0
+4179,Paid Search,1,0,0
+4180,Direct,1,1,270.84
+4181,Organic Search,1,1,763.84
+4182,Direct,1,1,541.35
+4183,Paid Search > Social Media,2,0,0
+4184,Social Media > Email,2,1,209.36
+4185,Paid Search > Organic Search,2,0,0
+4186,Email,1,0,0
+4187,Email > Social Media > Social Media > Email,4,0,0
+4188,Social Media,1,0,0
+4189,Direct,1,1,66.6
+4190,Email > Social Media > Paid Search,3,1,447.04
+4191,Organic Search > Paid Search,2,1,1594.65
+4192,Social Media > Email > Organic Search > Social Media > Direct,5,1,789.28
+4193,Social Media > Paid Search > Organic Search > Email,4,1,198.37
+4194,Organic Search,1,0,0
+4195,Organic Search > Organic Search > Paid Search > Social Media > Paid Search > Paid Search,6,1,1190.52
+4196,Paid Search,1,1,201.46
+4197,Social Media > Organic Search > Paid Search > Direct > Paid Search > Social Media > Paid Search,7,1,633.8
+4198,Social Media,1,0,0
+4199,Email,1,0,0
+4200,Organic Search,1,1,555.53
+4201,Social Media > Direct,2,1,596.2
+4202,Paid Search,1,0,0
+4203,Email,1,0,0
+4204,Organic Search,1,0,0
+4205,Organic Search > Paid Search > Email,3,0,0
+4206,Social Media,1,0,0
+4207,Organic Search > Social Media > Organic Search,3,1,160.05
+4208,Organic Search > Paid Search,2,0,0
+4209,Social Media,1,0,0
+4210,Paid Search,1,0,0
+4211,Social Media,1,0,0
+4212,Organic Search,1,0,0
+4213,Social Media,1,0,0
+4214,Organic Search,1,1,276.92
+4215,Social Media > Direct > Organic Search > Paid Search,4,0,0
+4216,Organic Search > Social Media > Direct,3,1,141.67
+4217,Paid Search,1,0,0
+4218,Organic Search > Organic Search,2,0,0
+4219,Direct,1,0,0
+4220,Organic Search,1,0,0
+4221,Direct,1,1,90.49
+4222,Organic Search > Direct > Paid Search,3,1,229.71
+4223,Direct,1,1,108.95
+4224,Organic Search > Paid Search > Email,3,1,236.96
+4225,Organic Search,1,0,0
+4226,Email,1,1,333.1
+4227,Social Media > Social Media > Paid Search > Paid Search,4,1,262.22
+4228,Paid Search,1,0,0
+4229,Social Media > Email,2,0,0
+4230,Paid Search > Organic Search > Direct,3,1,248.79
+4231,Paid Search > Social Media > Paid Search > Direct > Paid Search,5,0,0
+4232,Organic Search > Direct > Paid Search,3,1,1695.89
+4233,Paid Search > Organic Search > Organic Search,3,0,0
+4234,Email,1,1,149.66
+4235,Email > Paid Search > Social Media,3,1,510.11
+4236,Email,1,1,288.88
+4237,Organic Search,1,0,0
+4238,Direct,1,0,0
+4239,Paid Search > Social Media > Organic Search > Direct > Email,5,1,69.93
+4240,Organic Search,1,0,0
+4241,Paid Search,1,1,125.06
+4242,Email > Social Media,2,0,0
+4243,Organic Search,1,1,182.92
+4244,Paid Search > Direct,2,1,352.26
+4245,Organic Search > Paid Search > Organic Search > Paid Search,4,1,180.15
+4246,Paid Search,1,0,0
+4247,Direct,1,1,159.37
+4248,Paid Search,1,0,0
+4249,Organic Search,1,1,698.42
+4250,Social Media > Direct > Organic Search,3,0,0
+4251,Paid Search > Direct > Direct,3,1,653.06
+4252,Email > Paid Search,2,1,274.59
+4253,Organic Search > Organic Search,2,1,526.33
+4254,Direct > Paid Search,2,1,1786.88
+4255,Social Media > Social Media > Organic Search > Paid Search,4,0,0
+4256,Organic Search,1,0,0
+4257,Organic Search,1,1,684.7
+4258,Organic Search,1,0,0
+4259,Email,1,0,0
+4260,Paid Search,1,1,355.55
+4261,Social Media > Paid Search,2,1,688.2
+4262,Paid Search,1,1,152.72
+4263,Paid Search > Paid Search > Social Media > Social Media > Organic Search > Direct > Email > Email > Social Media > Email > Social Media,11,0,0
+4264,Social Media,1,0,0
+4265,Social Media,1,1,747.18
+4266,Direct,1,1,227.87
+4267,Direct > Social Media > Direct,3,0,0
+4268,Social Media > Organic Search > Direct,3,1,1310.83
+4269,Organic Search > Paid Search > Organic Search > Paid Search,4,1,250.81
+4270,Social Media > Organic Search,2,0,0
+4271,Direct,1,0,0
+4272,Email > Email,2,1,1357.34
+4273,Social Media,1,0,0
+4274,Email > Direct > Social Media > Paid Search,4,0,0
+4275,Direct,1,0,0
+4276,Paid Search,1,1,471.12
+4277,Paid Search,1,0,0
+4278,Direct,1,0,0
+4279,Direct,1,0,0
+4280,Paid Search > Social Media,2,0,0
+4281,Paid Search,1,0,0
+4282,Paid Search,1,1,328.44
+4283,Paid Search,1,1,206.92
+4284,Organic Search,1,0,0
+4285,Organic Search > Organic Search > Direct,3,1,260.65
+4286,Email > Direct > Paid Search,3,1,211.99
+4287,Organic Search > Paid Search,2,0,0
+4288,Social Media,1,1,1399.85
+4289,Paid Search,1,0,0
+4290,Organic Search,1,0,0
+4291,Paid Search,1,0,0
+4292,Social Media,1,0,0
+4293,Social Media > Organic Search > Organic Search > Email,4,1,247.62
+4294,Email > Direct,2,1,274.9
+4295,Social Media > Paid Search > Email,3,0,0
+4296,Social Media,1,1,144.35
+4297,Organic Search,1,0,0
+4298,Social Media,1,0,0
+4299,Social Media,1,0,0
+4300,Organic Search,1,1,470.49
+4301,Social Media > Social Media,2,0,0
+4302,Paid Search > Social Media > Social Media,3,0,0
+4303,Organic Search > Direct > Direct > Paid Search > Organic Search,5,1,85.58
+4304,Direct,1,1,1738.28
+4305,Paid Search,1,1,175.63
+4306,Social Media,1,0,0
+4307,Organic Search > Direct,2,1,568.45
+4308,Direct > Social Media > Social Media > Direct,4,0,0
+4309,Email > Direct,2,1,573.94
+4310,Organic Search > Social Media > Paid Search,3,0,0
+4311,Social Media,1,0,0
+4312,Social Media > Email,2,1,688.92
+4313,Direct,1,0,0
+4314,Social Media > Paid Search > Social Media,3,0,0
+4315,Direct,1,1,117.52
+4316,Organic Search,1,1,133.11
+4317,Email > Organic Search > Paid Search,3,0,0
+4318,Organic Search > Social Media > Paid Search > Paid Search > Paid Search > Email > Organic Search > Paid Search > Email > Organic Search,10,1,237.91
+4319,Email,1,1,399.01
+4320,Email > Paid Search > Email,3,1,1445.73
+4321,Paid Search,1,0,0
+4322,Social Media,1,0,0
+4323,Paid Search,1,1,69.9
+4324,Organic Search > Direct,2,0,0
+4325,Email,1,0,0
+4326,Social Media,1,0,0
+4327,Social Media,1,0,0
+4328,Paid Search,1,1,682.86
+4329,Organic Search,1,0,0
+4330,Paid Search,1,1,758.19
+4331,Paid Search > Email,2,0,0
+4332,Organic Search > Social Media > Social Media > Email,4,1,203.42
+4333,Social Media,1,0,0
+4334,Organic Search,1,1,416.79
+4335,Social Media > Email,2,1,67.6
+4336,Organic Search,1,1,258.13
+4337,Paid Search,1,0,0
+4338,Email > Social Media > Email > Direct,4,0,0
+4339,Organic Search > Direct > Email > Direct > Paid Search > Direct > Organic Search,7,1,380.68
+4340,Organic Search > Direct,2,1,123.33
+4341,Paid Search > Direct,2,0,0
+4342,Email,1,1,460.94
+4343,Paid Search > Organic Search,2,0,0
+4344,Organic Search > Organic Search,2,0,0
+4345,Paid Search > Direct,2,1,1009.88
+4346,Direct,1,1,962.78
+4347,Paid Search > Social Media,2,0,0
+4348,Email > Organic Search > Paid Search,3,0,0
+4349,Paid Search,1,0,0
+4350,Direct,1,0,0
+4351,Direct > Email > Direct,3,0,0
+4352,Organic Search > Email > Direct,3,1,63.42
+4353,Social Media,1,0,0
+4354,Organic Search > Paid Search > Social Media > Social Media,4,0,0
+4355,Email > Direct,2,0,0
+4356,Social Media > Direct,2,1,1419.91
+4357,Paid Search > Paid Search > Social Media,3,0,0
+4358,Organic Search > Email,2,0,0
+4359,Paid Search,1,0,0
+4360,Paid Search,1,1,64.99
+4361,Email,1,0,0
+4362,Organic Search > Direct,2,1,227.74
+4363,Direct > Paid Search,2,0,0
+4364,Organic Search,1,1,277.64
+4365,Email > Organic Search,2,0,0
+4366,Paid Search,1,0,0
+4367,Paid Search > Email > Social Media,3,0,0
+4368,Organic Search,1,0,0
+4369,Direct > Paid Search,2,1,239.93
+4370,Paid Search > Social Media > Email,3,1,238.14
+4371,Organic Search,1,1,354.22
+4372,Paid Search > Email,2,1,80.85
+4373,Social Media,1,0,0
+4374,Paid Search,1,0,0
+4375,Paid Search,1,0,0
+4376,Direct > Organic Search,2,1,383.3
+4377,Paid Search,1,1,86.41
+4378,Organic Search,1,0,0
+4379,Organic Search,1,0,0
+4380,Organic Search,1,0,0
+4381,Paid Search,1,0,0
+4382,Social Media,1,0,0
+4383,Direct,1,0,0
+4384,Social Media,1,0,0
+4385,Organic Search > Direct,2,0,0
+4386,Email > Email > Direct,3,1,1233.93
+4387,Organic Search,1,0,0
+4388,Social Media > Email > Social Media > Organic Search > Direct,5,0,0
+4389,Social Media > Organic Search,2,0,0
+4390,Social Media > Email > Email > Organic Search > Social Media,5,0,0
+4391,Organic Search,1,1,844.32
+4392,Social Media,1,1,206.03
+4393,Organic Search,1,0,0
+4394,Direct > Organic Search,2,0,0
+4395,Direct,1,0,0
+4396,Social Media,1,1,1094.51
+4397,Paid Search > Email,2,0,0
+4398,Email > Direct > Social Media > Social Media,4,0,0
+4399,Direct > Email > Direct,3,0,0
+4400,Organic Search > Direct,2,1,200.69
+4401,Organic Search,1,0,0
+4402,Social Media > Organic Search,2,1,1700.68
+4403,Social Media > Paid Search,2,1,164.12
+4404,Paid Search,1,1,394.14
+4405,Email,1,1,551.8
+4406,Paid Search > Social Media,2,0,0
+4407,Social Media > Organic Search,2,0,0
+4408,Paid Search,1,1,169.84
+4409,Organic Search > Direct > Social Media > Email > Organic Search > Paid Search,6,1,648.62
+4410,Paid Search > Email > Direct,3,0,0
+4411,Email,1,1,297.64
+4412,Organic Search,1,1,293.95
+4413,Direct,1,1,435.14
+4414,Email,1,0,0
+4415,Social Media,1,0,0
+4416,Paid Search,1,1,194.52
+4417,Direct > Social Media > Paid Search,3,0,0
+4418,Organic Search > Paid Search,2,0,0
+4419,Organic Search,1,1,158.49
+4420,Organic Search,1,0,0
+4421,Paid Search,1,1,534.87
+4422,Email,1,1,52.8
+4423,Organic Search > Social Media > Email,3,0,0
+4424,Organic Search,1,0,0
+4425,Organic Search,1,1,359.95
+4426,Social Media > Organic Search > Direct > Organic Search > Direct,5,1,1784.32
+4427,Social Media > Paid Search > Email,3,0,0
+4428,Social Media,1,0,0
+4429,Email > Organic Search > Paid Search,3,0,0
+4430,Organic Search,1,0,0
+4431,Paid Search > Social Media > Email,3,0,0
+4432,Direct,1,0,0
+4433,Social Media > Direct > Paid Search > Organic Search,4,1,783.47
+4434,Social Media > Direct > Paid Search > Organic Search,4,1,219.64
+4435,Organic Search > Paid Search,2,0,0
+4436,Direct > Email > Direct,3,0,0
+4437,Paid Search > Paid Search,2,1,336.59
+4438,Email,1,1,209.03
+4439,Email,1,0,0
+4440,Paid Search,1,1,85.21
+4441,Paid Search,1,1,295.58
+4442,Social Media,1,0,0
+4443,Paid Search,1,1,512.02
+4444,Social Media > Paid Search,2,1,584.5
+4445,Email > Paid Search > Organic Search,3,0,0
+4446,Paid Search > Direct,2,0,0
+4447,Social Media,1,0,0
+4448,Organic Search,1,1,285.82
+4449,Organic Search,1,0,0
+4450,Email > Direct,2,0,0
+4451,Social Media,1,1,780.16
+4452,Organic Search,1,0,0
+4453,Social Media > Organic Search,2,0,0
+4454,Direct,1,1,68.21
+4455,Paid Search > Email > Direct,3,0,0
+4456,Paid Search > Direct,2,0,0
+4457,Social Media > Paid Search > Email,3,1,644.86
+4458,Social Media,1,0,0
+4459,Social Media > Social Media,2,0,0
+4460,Social Media,1,0,0
+4461,Paid Search > Social Media > Paid Search,3,0,0
+4462,Paid Search,1,1,686.7
+4463,Direct,1,0,0
+4464,Organic Search,1,0,0
+4465,Organic Search > Paid Search,2,0,0
+4466,Paid Search > Email,2,1,978.44
+4467,Email > Paid Search,2,0,0
+4468,Organic Search,1,0,0
+4469,Paid Search,1,0,0
+4470,Social Media > Organic Search,2,0,0
+4471,Organic Search > Email,2,0,0
+4472,Direct,1,1,283.74
+4473,Organic Search > Paid Search,2,0,0
+4474,Paid Search > Social Media > Paid Search,3,1,230.28
+4475,Email > Organic Search > Paid Search,3,1,426.73
+4476,Organic Search,1,1,860.56
+4477,Organic Search > Email > Direct,3,0,0
+4478,Direct,1,0,0
+4479,Paid Search > Direct > Paid Search > Direct,4,1,769.27
+4480,Organic Search,1,1,344.17
+4481,Email,1,0,0
+4482,Organic Search,1,0,0
+4483,Organic Search > Paid Search > Paid Search,3,0,0
+4484,Social Media > Paid Search,2,0,0
+4485,Email > Paid Search,2,1,58.21
+4486,Organic Search > Direct > Direct > Organic Search,4,0,0
+4487,Organic Search,1,0,0
+4488,Direct > Paid Search,2,1,1342.66
+4489,Paid Search > Email,2,0,0
+4490,Organic Search,1,1,555.86
+4491,Social Media,1,0,0
+4492,Paid Search > Social Media > Social Media,3,0,0
+4493,Email > Direct,2,0,0
+4494,Direct,1,0,0
+4495,Paid Search > Social Media > Direct,3,0,0
+4496,Email > Paid Search,2,0,0
+4497,Social Media > Organic Search > Social Media > Organic Search > Email,5,1,333.07
+4498,Organic Search > Direct > Direct,3,0,0
+4499,Email,1,1,514.41
+4500,Direct > Email,2,0,0
+4501,Organic Search > Direct,2,1,186.42
+4502,Organic Search > Email > Social Media,3,1,498.58
+4503,Direct,1,0,0
+4504,Paid Search,1,1,227.17
+4505,Organic Search,1,0,0
+4506,Email,1,1,1108.84
+4507,Organic Search > Organic Search > Social Media > Direct,4,1,62.53
+4508,Paid Search,1,1,141.06
+4509,Paid Search > Social Media > Paid Search,3,0,0
+4510,Social Media,1,1,241.41
+4511,Organic Search > Direct,2,0,0
+4512,Social Media,1,0,0
+4513,Social Media,1,0,0
+4514,Organic Search > Paid Search > Paid Search,3,0,0
+4515,Direct > Paid Search,2,0,0
+4516,Organic Search > Social Media > Social Media,3,0,0
+4517,Social Media > Organic Search,2,0,0
+4518,Organic Search > Organic Search,2,0,0
+4519,Paid Search > Social Media,2,0,0
+4520,Direct,1,0,0
+4521,Organic Search > Paid Search > Organic Search > Paid Search > Social Media > Direct > Direct,7,0,0
+4522,Social Media,1,0,0
+4523,Organic Search > Paid Search > Direct,3,0,0
+4524,Direct > Paid Search > Paid Search > Social Media,4,0,0
+4525,Organic Search,1,0,0
+4526,Direct,1,1,355.78
+4527,Social Media,1,0,0
+4528,Organic Search > Social Media,2,0,0
+4529,Paid Search,1,0,0
+4530,Social Media,1,0,0
+4531,Paid Search,1,1,383.32
+4532,Social Media > Email > Organic Search > Paid Search,4,0,0
+4533,Organic Search > Organic Search > Email,3,0,0
+4534,Social Media,1,0,0
+4535,Email > Organic Search,2,1,201.8
+4536,Paid Search,1,0,0
+4537,Direct,1,1,619.24
+4538,Email > Paid Search,2,1,745.91
+4539,Direct,1,0,0
+4540,Paid Search,1,1,483.94
+4541,Paid Search,1,0,0
+4542,Organic Search > Email,2,1,140.34
+4543,Organic Search > Paid Search,2,0,0
+4544,Social Media,1,1,438.67
+4545,Paid Search,1,0,0
+4546,Email > Paid Search,2,1,1216.25
+4547,Organic Search,1,1,169.75
+4548,Organic Search,1,1,1934.62
+4549,Social Media,1,1,195.26
+4550,Direct,1,1,50.69
+4551,Paid Search > Direct,2,0,0
+4552,Organic Search > Social Media > Paid Search,3,1,609.32
+4553,Organic Search > Email > Email,3,0,0
+4554,Organic Search > Paid Search,2,1,65.29
+4555,Organic Search,1,0,0
+4556,Social Media > Paid Search,2,0,0
+4557,Paid Search,1,0,0
+4558,Organic Search,1,0,0
+4559,Organic Search > Organic Search,2,0,0
+4560,Paid Search,1,1,51.4
+4561,Email,1,1,304.17
+4562,Organic Search > Paid Search,2,0,0
+4563,Organic Search > Email > Social Media > Paid Search,4,0,0
+4564,Organic Search,1,1,469.41
+4565,Paid Search,1,0,0
+4566,Direct,1,1,280.46
+4567,Direct,1,0,0
+4568,Organic Search,1,1,454.1
+4569,Organic Search > Organic Search,2,0,0
+4570,Organic Search,1,1,418.94
+4571,Direct > Social Media > Email,3,1,165.49
+4572,Paid Search > Organic Search,2,1,161.23
+4573,Organic Search > Social Media > Paid Search,3,1,308.56
+4574,Paid Search,1,0,0
+4575,Organic Search,1,0,0
+4576,Social Media > Paid Search > Direct,3,0,0
+4577,Email,1,1,389.12
+4578,Social Media,1,1,663.68
+4579,Paid Search > Social Media > Email,3,1,197.14
+4580,Paid Search,1,1,482.27
+4581,Social Media > Organic Search,2,1,62.59
+4582,Direct,1,1,183.74
+4583,Email,1,1,186.87
+4584,Paid Search,1,0,0
+4585,Paid Search,1,1,421.48
+4586,Organic Search,1,0,0
+4587,Paid Search > Organic Search > Paid Search,3,1,238.5
+4588,Organic Search > Paid Search,2,1,521.99
+4589,Social Media,1,0,0
+4590,Organic Search,1,1,112.99
+4591,Organic Search > Direct > Email > Social Media > Paid Search,5,1,265.82
+4592,Paid Search,1,0,0
+4593,Paid Search,1,1,52.55
+4594,Organic Search,1,1,59.03
+4595,Organic Search > Paid Search,2,0,0
+4596,Social Media > Paid Search > Social Media,3,0,0
+4597,Paid Search,1,0,0
+4598,Organic Search,1,0,0
+4599,Organic Search,1,0,0
+4600,Organic Search,1,0,0
+4601,Organic Search > Paid Search > Email > Organic Search > Social Media > Paid Search,6,1,1016.65
+4602,Email > Email,2,0,0
+4603,Paid Search > Direct,2,0,0
+4604,Organic Search > Direct > Social Media > Organic Search > Organic Search > Paid Search,6,1,730.08
+4605,Social Media,1,0,0
+4606,Paid Search > Direct,2,1,163.65
+4607,Social Media,1,1,246.29
+4608,Organic Search,1,0,0
+4609,Social Media,1,0,0
+4610,Organic Search > Email > Social Media,3,1,804.54
+4611,Organic Search > Direct,2,1,189.3
+4612,Paid Search,1,0,0
+4613,Email,1,0,0
+4614,Paid Search,1,0,0
+4615,Direct,1,1,1894.79
+4616,Organic Search > Direct,2,1,125.8
+4617,Organic Search,1,0,0
+4618,Organic Search,1,1,458.89
+4619,Direct,1,0,0
+4620,Social Media > Paid Search > Social Media > Email > Organic Search,5,1,163.4
+4621,Organic Search > Paid Search > Social Media,3,0,0
+4622,Organic Search > Social Media > Paid Search > Social Media > Email > Paid Search,6,0,0
+4623,Paid Search,1,1,359.93
+4624,Organic Search,1,1,354.49
+4625,Direct,1,1,791.8
+4626,Direct,1,1,1895.46
+4627,Organic Search > Paid Search > Email,3,0,0
+4628,Organic Search,1,1,358.2
+4629,Organic Search > Social Media > Paid Search > Social Media,4,0,0
+4630,Direct,1,0,0
+4631,Direct > Email > Direct > Paid Search,4,1,115.19
+4632,Organic Search,1,0,0
+4633,Email > Email > Paid Search,3,0,0
+4634,Email,1,1,424.32
+4635,Social Media > Email,2,1,1874.21
+4636,Social Media > Social Media > Email > Direct,4,1,419.0
+4637,Organic Search,1,0,0
+4638,Direct,1,1,244.2
+4639,Organic Search > Email,2,1,257.21
+4640,Direct,1,1,777.37
+4641,Organic Search > Paid Search > Email > Paid Search > Email > Direct,6,1,329.07
+4642,Direct,1,0,0
+4643,Direct > Direct > Paid Search > Email,4,0,0
+4644,Social Media > Email,2,0,0
+4645,Social Media > Email,2,0,0
+4646,Organic Search,1,0,0
+4647,Organic Search > Direct,2,0,0
+4648,Organic Search > Email,2,1,206.28
+4649,Paid Search,1,0,0
+4650,Organic Search,1,0,0
+4651,Direct,1,1,348.69
+4652,Direct,1,0,0
+4653,Email > Direct > Direct > Direct,4,0,0
+4654,Organic Search,1,1,242.58
+4655,Organic Search,1,0,0
+4656,Social Media > Organic Search > Direct,3,0,0
+4657,Organic Search,1,0,0
+4658,Email,1,0,0
+4659,Organic Search > Paid Search > Direct,3,1,283.13
+4660,Organic Search > Paid Search > Direct,3,0,0
+4661,Organic Search,1,0,0
+4662,Paid Search,1,0,0
+4663,Email > Email,2,0,0
+4664,Social Media,1,0,0
+4665,Organic Search > Direct,2,1,212.03
+4666,Email > Organic Search > Direct,3,0,0
+4667,Direct,1,0,0
+4668,Organic Search > Direct,2,1,440.18
+4669,Paid Search > Social Media > Direct > Paid Search,4,0,0
+4670,Social Media > Organic Search,2,0,0
+4671,Social Media,1,0,0
+4672,Email,1,0,0
+4673,Organic Search,1,0,0
+4674,Paid Search,1,1,227.38
+4675,Organic Search > Paid Search,2,0,0
+4676,Organic Search > Paid Search > Email > Direct,4,1,147.97
+4677,Organic Search > Social Media,2,0,0
+4678,Social Media > Paid Search,2,0,0
+4679,Email,1,1,252.11
+4680,Direct,1,0,0
+4681,Organic Search > Paid Search,2,1,88.54
+4682,Email > Social Media,2,0,0
+4683,Social Media > Paid Search,2,1,413.64
+4684,Paid Search,1,1,240.9
+4685,Direct,1,1,108.66
+4686,Organic Search,1,1,1164.04
+4687,Social Media > Paid Search,2,1,200.85
+4688,Paid Search > Direct,2,0,0
+4689,Direct,1,0,0
+4690,Email > Social Media > Paid Search > Direct,4,1,287.82
+4691,Organic Search > Organic Search,2,0,0
+4692,Organic Search > Paid Search,2,1,681.19
+4693,Paid Search > Social Media,2,0,0
+4694,Paid Search > Paid Search > Direct > Social Media > Organic Search,5,1,492.19
+4695,Organic Search,1,0,0
+4696,Social Media,1,0,0
+4697,Organic Search > Paid Search,2,0,0
+4698,Social Media,1,0,0
+4699,Paid Search,1,1,264.88
+4700,Email,1,1,238.44
+4701,Organic Search > Paid Search,2,0,0
+4702,Organic Search,1,1,288.07
+4703,Direct,1,1,652.63
+4704,Organic Search,1,0,0
+4705,Paid Search,1,0,0
+4706,Direct,1,1,1497.51
+4707,Social Media,1,0,0
+4708,Organic Search,1,0,0
+4709,Paid Search > Direct,2,0,0
+4710,Social Media,1,0,0
+4711,Organic Search,1,1,196.9
+4712,Direct,1,0,0
+4713,Paid Search,1,0,0
+4714,Organic Search,1,1,362.93
+4715,Social Media > Direct > Paid Search > Social Media > Direct > Direct,6,0,0
+4716,Direct,1,0,0
+4717,Social Media > Email > Organic Search,3,1,146.34
+4718,Paid Search > Organic Search,2,0,0
+4719,Social Media > Paid Search,2,0,0
+4720,Paid Search > Direct > Paid Search,3,1,567.55
+4721,Paid Search,1,1,1905.18
+4722,Social Media > Email > Direct,3,0,0
+4723,Organic Search,1,1,236.89
+4724,Paid Search > Organic Search,2,0,0
+4725,Organic Search,1,0,0
+4726,Social Media > Paid Search > Email,3,1,96.22
+4727,Paid Search > Organic Search > Paid Search > Email > Direct > Social Media > Organic Search,7,1,257.66
+4728,Social Media > Organic Search > Social Media,3,0,0
+4729,Social Media,1,0,0
+4730,Paid Search,1,0,0
+4731,Paid Search,1,1,443.59
+4732,Social Media,1,1,91.24
+4733,Paid Search > Direct > Paid Search,3,1,697.78
+4734,Social Media,1,0,0
+4735,Organic Search,1,0,0
+4736,Social Media,1,0,0
+4737,Paid Search > Direct,2,1,260.17
+4738,Direct,1,0,0
+4739,Social Media,1,0,0
+4740,Social Media > Email > Paid Search > Paid Search,4,0,0
+4741,Paid Search > Social Media,2,0,0
+4742,Social Media,1,0,0
+4743,Social Media > Paid Search > Paid Search > Organic Search > Paid Search > Organic Search,6,0,0
+4744,Email,1,1,298.3
+4745,Social Media > Direct,2,0,0
+4746,Paid Search,1,1,155.22
+4747,Social Media > Email > Direct,3,1,440.55
+4748,Social Media,1,1,453.93
+4749,Organic Search,1,0,0
+4750,Paid Search > Email,2,1,264.48
+4751,Organic Search > Email > Direct,3,0,0
+4752,Paid Search > Organic Search,2,0,0
+4753,Direct,1,1,777.73
+4754,Paid Search > Paid Search,2,1,282.41
+4755,Social Media > Paid Search > Social Media,3,0,0
+4756,Social Media,1,0,0
+4757,Organic Search > Social Media > Paid Search > Social Media > Email > Social Media > Social Media,7,0,0
+4758,Direct,1,1,348.31
+4759,Social Media,1,1,148.37
+4760,Direct,1,1,379.12
+4761,Paid Search > Email,2,0,0
+4762,Direct,1,0,0
+4763,Paid Search > Email > Paid Search,3,0,0
+4764,Social Media > Email,2,0,0
+4765,Social Media,1,0,0
+4766,Organic Search,1,0,0
+4767,Direct > Email > Direct > Email,4,0,0
+4768,Direct > Email,2,1,594.43
+4769,Social Media > Paid Search > Organic Search > Social Media > Direct,5,1,761.11
+4770,Direct,1,1,662.32
+4771,Paid Search,1,0,0
+4772,Organic Search > Paid Search > Paid Search > Organic Search,4,0,0
+4773,Social Media > Paid Search,2,1,169.68
+4774,Organic Search > Social Media,2,0,0
+4775,Paid Search > Social Media,2,0,0
+4776,Email > Direct,2,1,715.49
+4777,Organic Search > Paid Search > Organic Search > Social Media > Direct > Direct,6,0,0
+4778,Organic Search,1,1,693.78
+4779,Organic Search,1,0,0
+4780,Paid Search > Social Media > Paid Search,3,1,715.08
+4781,Direct,1,1,314.19
+4782,Social Media,1,0,0
+4783,Email,1,0,0
+4784,Social Media > Direct,2,0,0
+4785,Direct,1,1,204.44
+4786,Paid Search > Email > Email > Direct,4,1,105.71
+4787,Paid Search > Direct,2,0,0
+4788,Organic Search > Paid Search,2,0,0
+4789,Organic Search,1,1,264.49
+4790,Organic Search > Direct > Email > Direct,4,1,108.0
+4791,Paid Search,1,1,615.89
+4792,Email > Direct,2,0,0
+4793,Email > Organic Search,2,0,0
+4794,Direct,1,1,1845.78
+4795,Social Media > Social Media,2,0,0
+4796,Direct > Social Media,2,0,0
+4797,Organic Search,1,1,733.56
+4798,Organic Search > Social Media,2,0,0
+4799,Paid Search,1,0,0
+4800,Organic Search > Paid Search,2,0,0
+4801,Email,1,0,0
+4802,Organic Search,1,0,0
+4803,Social Media > Social Media > Email > Social Media,4,0,0
+4804,Social Media,1,0,0
+4805,Email > Social Media > Paid Search,3,0,0
+4806,Social Media > Paid Search > Social Media > Paid Search > Direct,5,0,0
+4807,Organic Search,1,0,0
+4808,Organic Search > Paid Search > Email,3,1,223.06
+4809,Social Media > Direct,2,1,104.28
+4810,Direct > Social Media > Direct,3,1,972.78
+4811,Direct > Paid Search > Email > Direct > Paid Search,5,0,0
+4812,Organic Search > Paid Search,2,1,1724.1
+4813,Organic Search > Organic Search > Social Media,3,0,0
+4814,Email > Organic Search > Direct,3,1,419.82
+4815,Email,1,0,0
+4816,Direct > Organic Search > Direct > Social Media > Paid Search,5,0,0
+4817,Organic Search,1,0,0
+4818,Organic Search,1,0,0
+4819,Social Media,1,0,0
+4820,Organic Search,1,0,0
+4821,Paid Search,1,0,0
+4822,Organic Search,1,0,0
+4823,Social Media,1,0,0
+4824,Paid Search > Email > Paid Search,3,0,0
+4825,Social Media,1,0,0
+4826,Direct > Paid Search > Direct,3,1,752.3
+4827,Organic Search,1,1,403.69
+4828,Direct > Paid Search > Social Media,3,1,1377.4
+4829,Social Media > Email,2,1,113.68
+4830,Paid Search,1,1,294.19
+4831,Social Media > Direct,2,0,0
+4832,Organic Search > Paid Search > Paid Search > Paid Search > Organic Search > Direct,6,0,0
+4833,Organic Search,1,1,321.12
+4834,Email,1,1,279.08
+4835,Direct > Paid Search,2,0,0
+4836,Direct,1,1,678.76
+4837,Direct,1,1,196.94
+4838,Social Media > Social Media > Email,3,1,1846.1
+4839,Organic Search > Paid Search > Social Media,3,0,0
+4840,Direct,1,0,0
+4841,Organic Search,1,1,55.37
+4842,Direct > Social Media > Paid Search > Social Media,4,0,0
+4843,Social Media > Social Media,2,0,0
+4844,Paid Search,1,0,0
+4845,Direct,1,0,0
+4846,Organic Search > Direct > Email,3,0,0
+4847,Organic Search > Direct,2,0,0
+4848,Organic Search > Direct,2,1,548.07
+4849,Paid Search > Email > Organic Search > Paid Search,4,0,0
+4850,Social Media > Email,2,1,203.02
+4851,Direct > Email,2,1,574.35
+4852,Direct,1,1,325.52
+4853,Direct,1,1,108.29
+4854,Organic Search,1,0,0
+4855,Paid Search,1,0,0
+4856,Organic Search > Email > Social Media > Email,4,0,0
+4857,Paid Search > Paid Search,2,0,0
+4858,Organic Search,1,1,756.47
+4859,Organic Search > Social Media > Organic Search,3,0,0
+4860,Direct,1,0,0
+4861,Organic Search > Paid Search > Email,3,1,1103.33
+4862,Paid Search > Direct,2,0,0
+4863,Organic Search > Email,2,0,0
+4864,Social Media,1,0,0
+4865,Direct > Organic Search > Email > Direct > Email,5,1,530.73
+4866,Organic Search > Paid Search > Paid Search,3,1,560.67
+4867,Organic Search > Direct,2,0,0
+4868,Social Media > Paid Search,2,0,0
+4869,Organic Search,1,0,0
+4870,Organic Search,1,0,0
+4871,Email > Direct > Direct,3,1,384.49
+4872,Paid Search,1,0,0
+4873,Paid Search,1,1,219.18
+4874,Organic Search,1,0,0
+4875,Organic Search > Social Media,2,1,127.33
+4876,Paid Search > Social Media,2,0,0
+4877,Organic Search,1,0,0
+4878,Organic Search,1,0,0
+4879,Direct,1,1,488.26
+4880,Email,1,1,1939.64
+4881,Social Media > Social Media,2,0,0
+4882,Social Media,1,0,0
+4883,Organic Search > Direct > Paid Search > Email > Social Media,5,0,0
+4884,Social Media > Direct > Social Media > Organic Search > Paid Search > Email > Paid Search > Email,8,1,677.5
+4885,Organic Search,1,0,0
+4886,Direct,1,0,0
+4887,Social Media,1,0,0
+4888,Direct > Paid Search,2,0,0
+4889,Paid Search,1,0,0
+4890,Paid Search,1,1,211.07
+4891,Social Media > Organic Search > Paid Search,3,1,187.39
+4892,Organic Search,1,0,0
+4893,Paid Search > Organic Search,2,1,50.53
+4894,Organic Search,1,0,0
+4895,Social Media,1,1,149.01
+4896,Direct > Organic Search,2,1,94.87
+4897,Organic Search > Direct > Email,3,1,321.26
+4898,Organic Search > Email,2,0,0
+4899,Organic Search,1,0,0
+4900,Email > Paid Search > Direct,3,1,693.58
+4901,Email,1,0,0
+4902,Direct > Social Media,2,1,452.81
+4903,Paid Search,1,0,0
+4904,Social Media,1,0,0
+4905,Organic Search,1,0,0
+4906,Paid Search,1,1,581.0
+4907,Direct,1,0,0
+4908,Direct,1,0,0
+4909,Email > Social Media > Direct > Email,4,1,143.46
+4910,Direct > Email,2,1,801.69
+4911,Organic Search,1,1,185.14
+4912,Paid Search,1,0,0
+4913,Paid Search > Social Media,2,0,0
+4914,Social Media > Organic Search > Direct,3,0,0
+4915,Email,1,0,0
+4916,Organic Search,1,0,0
+4917,Paid Search > Direct,2,1,577.49
+4918,Paid Search,1,1,274.71
+4919,Paid Search > Paid Search,2,1,242.58
+4920,Social Media > Direct,2,1,476.39
+4921,Paid Search > Paid Search,2,0,0
+4922,Paid Search,1,0,0
+4923,Social Media,1,1,215.19
+4924,Organic Search,1,1,428.76
+4925,Organic Search > Email > Direct,3,0,0
+4926,Paid Search > Direct > Social Media,3,0,0
+4927,Social Media > Organic Search > Social Media > Paid Search,4,1,734.67
+4928,Organic Search > Social Media,2,0,0
+4929,Social Media,1,0,0
+4930,Organic Search > Direct > Direct > Social Media,4,0,0
+4931,Organic Search > Social Media > Direct,3,0,0
+4932,Paid Search,1,1,125.17
+4933,Paid Search,1,1,537.46
+4934,Social Media,1,1,219.93
+4935,Organic Search > Email,2,1,443.38
+4936,Organic Search > Direct,2,0,0
+4937,Email,1,0,0
+4938,Organic Search > Direct > Direct,3,1,237.35
+4939,Paid Search,1,1,660.23
+4940,Paid Search,1,0,0
+4941,Paid Search > Email > Direct,3,0,0
+4942,Organic Search,1,1,1813.76
+4943,Paid Search > Social Media,2,0,0
+4944,Direct > Social Media > Paid Search > Direct,4,1,200.46
+4945,Organic Search,1,0,0
+4946,Organic Search > Direct > Email,3,1,500.82
+4947,Direct,1,1,216.43
+4948,Organic Search > Direct,2,1,342.18
+4949,Social Media > Direct,2,0,0
+4950,Social Media > Paid Search > Email,3,0,0
+4951,Organic Search > Paid Search,2,0,0
+4952,Email,1,0,0
+4953,Organic Search > Paid Search,2,1,1639.66
+4954,Paid Search,1,1,338.58
+4955,Social Media > Organic Search,2,0,0
+4956,Paid Search > Email,2,1,787.37
+4957,Paid Search,1,1,1985.79
+4958,Paid Search,1,1,487.91
+4959,Social Media > Organic Search > Paid Search > Direct,4,1,220.95
+4960,Organic Search,1,0,0
+4961,Paid Search,1,0,0
+4962,Organic Search > Paid Search,2,0,0
+4963,Paid Search,1,0,0
+4964,Organic Search,1,1,170.99
+4965,Social Media,1,0,0
+4966,Social Media,1,0,0
+4967,Email > Direct > Direct > Organic Search > Paid Search,5,0,0
+4968,Organic Search,1,0,0
+4969,Social Media > Direct,2,1,156.37
+4970,Organic Search,1,0,0
+4971,Organic Search,1,1,103.86
+4972,Social Media,1,0,0
+4973,Paid Search > Organic Search > Direct,3,1,185.3
+4974,Social Media > Email,2,1,395.75
+4975,Organic Search,1,0,0
+4976,Organic Search > Paid Search > Organic Search,3,0,0
+4977,Direct > Direct,2,0,0
+4978,Organic Search > Paid Search,2,0,0
+4979,Direct > Paid Search,2,1,214.6
+4980,Direct,1,0,0
+4981,Organic Search,1,0,0
+4982,Paid Search,1,0,0
+4983,Social Media,1,0,0
+4984,Paid Search > Social Media,2,0,0
+4985,Paid Search,1,1,136.63
+4986,Paid Search,1,1,302.58
+4987,Social Media > Email,2,1,228.2
+4988,Paid Search > Direct,2,0,0
+4989,Paid Search > Direct > Paid Search > Organic Search > Social Media > Organic Search,6,0,0
+4990,Organic Search > Social Media > Organic Search > Direct > Direct,5,1,1457.94
+4991,Paid Search > Social Media > Direct,3,1,1598.37
+4992,Organic Search,1,0,0
+4993,Paid Search > Direct > Direct,3,0,0
+4994,Social Media > Paid Search > Email,3,0,0
+4995,Organic Search > Social Media > Direct,3,1,81.2
+4996,Organic Search > Paid Search,2,0,0
+4997,Social Media > Paid Search,2,1,492.16
+4998,Paid Search > Organic Search > Direct,3,1,278.4
+4999,Organic Search,1,0,0
+5000,Paid Search > Direct > Organic Search,3,0,0
