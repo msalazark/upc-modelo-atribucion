@@ -24,6 +24,14 @@ st.markdown("""
   padding:.9rem 1rem;margin-bottom:.6rem}
 .guide-box{background:#fafafa;border:1px solid #e2e8f0;border-radius:8px;
   padding:1rem 1.2rem;margin-bottom:1rem}
+.insight-card{background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;
+  padding:.65rem 1rem;margin:.3rem 0;font-size:.87rem;color:#334155;line-height:1.5}
+.pill-blue{display:inline-block;background:#dbeafe;color:#1e40af;border-radius:20px;
+  padding:2px 11px;font-size:.78rem;font-weight:600}
+.pill-purple{display:inline-block;background:#ede9fe;color:#6d28d9;border-radius:20px;
+  padding:2px 11px;font-size:.78rem;font-weight:600}
+.rec-box{background:linear-gradient(135deg,#f0f9ff,#f0fdf4);border-left:4px solid #3b82f6;
+  border-radius:8px;padding:1rem 1.2rem;font-size:.88rem;color:#1e293b;line-height:1.7}
 </style>
 """, unsafe_allow_html=True)
 
@@ -189,6 +197,286 @@ def compute_simple_models(df, channels, direct_chs=None):
         for c in channels: res[m].setdefault(c,0)
     return res
 
+# ── Simulator constants ───────────────────────────────────────────────────────
+_CH_COLORS={"Meta Ads":"#3b82f6","Google Search":"#10b981","TikTok Ads":"#ec4899",
+    "Display / Remarketing":"#f59e0b","Email / CRM":"#8b5cf6","SEO / Organic":"#06b6d4"}
+_SATURATION_MULT={"Baja":1.00,"Media":0.85,"Alta":0.70}
+_CAMPAIGN_TYPES =["Always On","Día D","Lanzamiento","Retención","Recorte"]
+_OBJECTIVES_SIM =["Conversiones","Ingresos","ROAS","Utilidad bruta","Crecimiento"]
+_ATT_MODELS_SIM =["Last Click","First Click","Lineal","Position-Based","Time Decay","Data-Driven Simulado"]
+_SCENARIOS_SIM  =["Base","Performance","Awareness","Balanceado","Recorte","Día D"]
+_FUNNEL_ROLES   =["Awareness","Consideración","Cierre","Retención","Awareness/Retención"]
+_ATT_ROLE_W={
+    "Last Click":    {"Awareness":0.05,"Consideración":0.15,"Cierre":1.00,"Retención":0.50,"Awareness/Retención":0.30},
+    "First Click":   {"Awareness":1.00,"Consideración":0.20,"Cierre":0.10,"Retención":0.20,"Awareness/Retención":0.70},
+    "Lineal":        {"Awareness":1.00,"Consideración":1.00,"Cierre":1.00,"Retención":1.00,"Awareness/Retención":1.00},
+    "Position-Based":{"Awareness":0.80,"Consideración":0.30,"Cierre":0.80,"Retención":0.50,"Awareness/Retención":0.65},
+    "Time Decay":    {"Awareness":0.20,"Consideración":0.45,"Cierre":1.00,"Retención":0.40,"Awareness/Retención":0.30},
+    "Data-Driven Simulado":None,
+}
+_SCENARIO_ALLOC={
+    "Base":       [0.278,0.333,0.111,0.089,0.056,0.133],
+    "Performance":[0.200,0.420,0.080,0.120,0.060,0.120],
+    "Awareness":  [0.350,0.150,0.250,0.050,0.050,0.150],
+    "Balanceado": [0.250,0.250,0.150,0.100,0.100,0.150],
+    "Recorte":    [0.200,0.380,0.040,0.040,0.140,0.200],
+    "Día D":      [0.300,0.350,0.200,0.050,0.050,0.050],
+}
+_SCENARIO_DESC={
+    "Base":       "Distribución de referencia sin cambios.",
+    "Performance":"Concentra en Google Search y Display para maximizar conversiones directas.",
+    "Awareness":  "Refuerza Meta y TikTok para descubrimiento de marca y nuevo alcance.",
+    "Balanceado": "Reparte equitativamente entre etapas del funnel.",
+    "Recorte":    "Eficiencia máxima: corta canales caros, mantiene rentables.",
+    "Día D":      "Pauta masiva para un evento puntual: lanzamiento o fecha clave.",
+}
+_ATT_MODEL_DESC={
+    "Last Click":          "100% del crédito al último canal antes de la conversión.",
+    "First Click":         "100% del crédito al primer canal. Valora el descubrimiento.",
+    "Lineal":              "Crédito repartido en partes iguales entre todos los canales.",
+    "Position-Based":      "40% primer canal + 40% último canal + 20% entre intermedios.",
+    "Time Decay":          "Más crédito a canales más cercanos en el tiempo a la conversión.",
+    "Data-Driven Simulado":"Peso proporcional a adstock × confianza de tracking.",
+}
+_OBJECTIVE_TIPS={
+    "Conversiones":  "Prioriza CPA bajo. Enfoca en canales con alta tasa de conversión y CPC razonable.",
+    "Ingresos":      "Maximiza ticket × volumen. Evalúa canales con ticket promedio alto.",
+    "ROAS":          "Maximiza ingresos por sol invertido. Corta canales con ROAS < 2×.",
+    "Utilidad bruta":"El margen importa más que el revenue. Un buen ROAS puede tener margen bajo.",
+    "Crecimiento":   "Invierte en awareness y canales con baja saturación. Piensa a mediano plazo.",
+}
+_DEFAULT_SIM=[
+    {"canal":"Meta Ads",              "inv. actual":25000,"inv. simulada":25000,"CPC":0.85,"tasa conv.(%)":2.5,"ticket promedio":180,"margen(%)":42,"saturación":"Media","rol funnel":"Awareness/Retención","lag (días)":3, "adstock":1.15,"tracking(%)":70},
+    {"canal":"Google Search",         "inv. actual":30000,"inv. simulada":30000,"CPC":1.20,"tasa conv.(%)":4.8,"ticket promedio":210,"margen(%)":40,"saturación":"Media","rol funnel":"Cierre",             "lag (días)":1, "adstock":1.05,"tracking(%)":90},
+    {"canal":"TikTok Ads",            "inv. actual":10000,"inv. simulada":10000,"CPC":0.55,"tasa conv.(%)":1.2,"ticket promedio":150,"margen(%)":44,"saturación":"Baja", "rol funnel":"Awareness",           "lag (días)":5, "adstock":1.25,"tracking(%)":55},
+    {"canal":"Display / Remarketing", "inv. actual":8000, "inv. simulada":8000, "CPC":0.40,"tasa conv.(%)":2.0,"ticket promedio":195,"margen(%)":41,"saturación":"Alta", "rol funnel":"Consideración",       "lag (días)":2, "adstock":1.10,"tracking(%)":75},
+    {"canal":"Email / CRM",           "inv. actual":5000, "inv. simulada":5000, "CPC":0.10,"tasa conv.(%)":6.5,"ticket promedio":220,"margen(%)":48,"saturación":"Baja", "rol funnel":"Retención",           "lag (días)":1, "adstock":1.00,"tracking(%)":85},
+    {"canal":"SEO / Organic",         "inv. actual":12000,"inv. simulada":12000,"CPC":0.25,"tasa conv.(%)":3.2,"ticket promedio":175,"margen(%)":46,"saturación":"Baja", "rol funnel":"Awareness",           "lag (días)":14,"adstock":1.30,"tracking(%)":60},
+]
+
+# ── Simulator functions ────────────────────────────────────────────────────────
+def safe_div(a,b,default=0.0):
+    return a/b if b and not(isinstance(b,float) and np.isnan(b)) else default
+
+def sim_apply_scenario(df,budget,scenario):
+    df=df.copy()
+    ratios=_SCENARIO_ALLOC.get(scenario,_SCENARIO_ALLOC["Base"])
+    for i in range(len(df)):
+        r=ratios[i] if i<len(ratios) else 1/len(df)
+        df.at[i,"inv. simulada"]=round(budget*r)
+    return df
+
+def sim_calc_metrics(df):
+    rows=[]
+    for _,r in df.iterrows():
+        inv    =max(float(r["inv. simulada"]),0)
+        cpc    =max(float(r["CPC"]),0.001)
+        tcr    =float(r["tasa conv.(%)"]) /100
+        tp     =max(float(r["ticket promedio"]),0)
+        mb     =float(r["margen(%)"])/100
+        sat_m  =_SATURATION_MULT.get(str(r["saturación"]),1.0)
+        adstock=max(float(r["adstock"]),0.01)
+        clicks =safe_div(inv,cpc)
+        convs  =clicks*tcr*sat_m*adstock
+        rev    =convs*tp; margin=rev*mb
+        rows.append({"canal":r["canal"],"inversión":inv,"clicks":round(clicks),
+            "conversiones":round(convs,1),"ingresos":round(rev,2),
+            "utilidad bruta":round(margin,2),
+            "CPA":round(safe_div(inv,convs),2),"ROAS":round(safe_div(rev,inv),2)})
+    return pd.DataFrame(rows)
+
+def sim_calc_base(df):
+    d=df.copy(); d["inv. simulada"]=d["inv. actual"]; return sim_calc_metrics(d)
+
+def sim_calc_attribution(df_m,df_in,model):
+    if model=="Data-Driven Simulado":
+        w=df_in["adstock"].values*(df_in["tracking(%)"].values/100)
+    else:
+        w=df_in["rol funnel"].map(_ATT_ROLE_W[model]).fillna(1.0).values
+    raw_w=w*df_m["conversiones"].values; tot_w=raw_w.sum()
+    norm=raw_w/tot_w if tot_w>0 else np.ones(len(df_m))/max(len(df_m),1)
+    res=df_m[["canal"]].copy()
+    res["conv. atribuidas"]    =(norm*df_m["conversiones"].sum()).round(1)
+    res["ingresos atribuidos"] =(norm*df_m["ingresos"].sum()).round(2)
+    res["crédito (%)"]         =(norm*100).round(1)
+    return res.reset_index(drop=True)
+
+def _sim_colors(chs):
+    return [_CH_COLORS.get(c,"#94a3b8") for c in chs]
+
+def _sim_layout(fig,title,ytitle,height=270):
+    fig.update_layout(title_text=title,height=height,margin=dict(l=0,r=0,t=36,b=8),
+        yaxis_title=ytitle,plot_bgcolor="white",paper_bgcolor="white",
+        legend=dict(orientation="h",y=1.14))
+
+def sim_chart_inversion(df):
+    chs=df["canal"].tolist()
+    fig=go.Figure([
+        go.Bar(name="Actual",  x=chs,y=df["inv. actual"].tolist(),  marker_color="#cbd5e1",opacity=0.85),
+        go.Bar(name="Simulada",x=chs,y=df["inv. simulada"].tolist(),marker_color=_sim_colors(chs),
+               text=[f"{v:,.0f}" for v in df["inv. simulada"]],textposition="outside"),
+    ])
+    fig.update_layout(barmode="group"); _sim_layout(fig,"Inversión por canal","S/"); return fig
+
+def sim_chart_conversiones(dm,db):
+    chs=dm["canal"].tolist()
+    fig=go.Figure([
+        go.Bar(name="Base",    x=chs,y=db["conversiones"].tolist(),marker_color="#cbd5e1",opacity=0.85),
+        go.Bar(name="Simulado",x=chs,y=dm["conversiones"].tolist(),marker_color=_sim_colors(chs),
+               text=[f"{v:.0f}" for v in dm["conversiones"]],textposition="outside"),
+    ])
+    fig.update_layout(barmode="group"); _sim_layout(fig,"Conversiones estimadas","Conv."); return fig
+
+def sim_chart_roas(dm,db):
+    chs=dm["canal"].tolist()
+    fig=go.Figure([
+        go.Bar(name="Base",    x=chs,y=db["ROAS"].tolist(),marker_color="#cbd5e1",opacity=0.85),
+        go.Bar(name="Simulado",x=chs,y=dm["ROAS"].tolist(),marker_color=_sim_colors(chs),
+               text=[f"{v:.1f}×" for v in dm["ROAS"]],textposition="outside"),
+    ])
+    fig.update_layout(barmode="group")
+    fig.add_hline(y=2,line_dash="dash",line_color="#ef4444",opacity=0.5,
+                  annotation_text="Mínimo 2×",annotation_position="bottom right")
+    _sim_layout(fig,"ROAS por canal","ROAS"); return fig
+
+def sim_chart_cpa(dm,db):
+    chs=dm["canal"].tolist()
+    vc=dm["CPA"].replace(0,np.nan); bc=db["CPA"].replace(0,np.nan)
+    fig=go.Figure([
+        go.Bar(name="Base",    x=chs,y=bc.tolist(),marker_color="#cbd5e1",opacity=0.85),
+        go.Bar(name="Simulado",x=chs,y=vc.tolist(),marker_color=_sim_colors(chs),
+               text=[f"{v:,.0f}" if not np.isnan(v) else "—" for v in vc],textposition="outside"),
+    ])
+    fig.update_layout(barmode="group"); _sim_layout(fig,"CPA por canal (S/)","S/"); return fig
+
+def sim_chart_credito(da,model):
+    chs=da["canal"].tolist()
+    fig=go.Figure(go.Bar(x=chs,y=da["crédito (%)"].tolist(),marker_color=_sim_colors(chs),
+        text=[f"{v:.1f}%" for v in da["crédito (%)"]],textposition="outside"))
+    _sim_layout(fig,f"Crédito atribuido — {model}","Crédito (%)")
+    fig.update_layout(yaxis_ticksuffix="%"); return fig
+
+def sim_chart_ingresos_att(da,dm):
+    chs=da["canal"].tolist()
+    fig=go.Figure([
+        go.Bar(name="Generados", x=chs,y=dm["ingresos"].tolist(),         marker_color="#cbd5e1",opacity=0.85),
+        go.Bar(name="Atribuidos",x=chs,y=da["ingresos atribuidos"].tolist(),marker_color=_sim_colors(chs),
+               text=[f"{v:,.0f}" for v in da["ingresos atribuidos"]],textposition="outside"),
+    ])
+    fig.update_layout(barmode="group"); _sim_layout(fig,"Ingresos atribuidos vs generados","S/"); return fig
+
+def sim_generate_insights(dm,di,objective,att_model):
+    ins=[]
+    # ROAS – explica qué significa el número
+    pos=dm[dm["ROAS"]>0]
+    if not pos.empty:
+        b=pos.loc[pos["ROAS"].idxmax()]; rv=b["ROAS"]
+        nivel="excelente" if rv>=4 else ("aceptable" if rv>=2 else "bajo")
+        consejo=("Hay margen para aumentar inversión si la saturación es baja."
+                 if rv>=2 else "Revisa CPC, tasa de conversión o ticket promedio.")
+        ins.append(("📊",
+            f"<b>{b['canal']}</b> tiene el mejor ROAS: <b>{rv:.1f}×</b> ({nivel}). "
+            f"Eso significa que por cada S/1 invertido aquí se generan S/{rv:.1f} en ventas. {consejo}"))
+    # CPA – compara el más caro vs el más barato
+    pc=dm[dm["CPA"]>0]
+    if len(pc)>=2:
+        wc=pc.loc[pc["CPA"].idxmax()]; bc=pc.loc[pc["CPA"].idxmin()]
+        ins.append(("💰",
+            f"El costo por conversión varía mucho entre canales: "
+            f"<b>{bc['canal']}</b> convierte a S/ <b>{bc['CPA']:,.0f}</b>, "
+            f"mientras que <b>{wc['canal']}</b> cuesta S/ <b>{wc['CPA']:,.0f}</b>. "
+            f"Si el ticket promedio es similar, mover presupuesto al canal más barato mejora la eficiencia."))
+    # Saturación – explica la consecuencia práctica
+    hi=di[di["saturación"]=="Alta"]["canal"].tolist()
+    if hi:
+        ins.append(("🔴",
+            f"<b>{', '.join(hi)}</b>: saturación alta. La audiencia ya vio muchas veces el anuncio. "
+            f"Agregar más presupuesto rinde ~30% menos que en condiciones normales. "
+            f"Opciones: renovar la creatividad, ampliar la audiencia o redistribuir a otro canal."))
+    # Tracking – desmitifica el dato bajo
+    lt=di[di["tracking(%)"]<65]["canal"].tolist()
+    if lt:
+        ins.append(("🔍",
+            f"<b>{', '.join(lt)}</b>: confianza de tracking baja. "
+            f"Esto no significa que el canal funcione mal — significa que no estamos midiendo bien. "
+            f"Con UTMs y píxel bien configurados, probablemente veríamos más conversiones atribuidas."))
+    # Modelo de atribución – ejemplo concreto
+    att_ctx={
+        "Last Click":   "Con <b>Last Click</b>: si un cliente vio un anuncio en Meta, luego buscó en Google y compró, Google recibe el 100% del crédito. Meta queda con 0%, aunque fue quien generó el interés inicial.",
+        "First Click":  "Con <b>First Click</b>: el canal que inicia el journey recibe todo el crédito. Útil para medir qué canal descubre clientes nuevos, pero ignora qué canal cerró la venta.",
+        "Lineal":       "Con <b>Lineal</b>: si un cliente tocó 4 canales, cada uno recibe 25% del crédito. Ningún canal domina artificialmente — el modelo es neutro.",
+        "Position-Based":"Con <b>Position-Based</b>: el primer canal recibe 40%, el último canal 40%, y el resto comparte el 20%. Reconoce tanto el descubrimiento como el cierre.",
+        "Time Decay":   "Con <b>Time Decay</b>: el canal más cercano a la compra recibe más crédito. Si Meta actuó hace 14 días y Google hace 1 día, Google recibe mucho más crédito.",
+        "Data-Driven Simulado":"Con <b>Data-Driven</b>: el crédito se pondera por adstock × confianza de tracking. Canales con mayor efecto acumulado y mejor medición capturan más crédito.",
+    }
+    if att_model in att_ctx:
+        ins.append(("📌", att_ctx[att_model]))
+    # CRM subinvertido – explica el por qué
+    crm=di[di["canal"].str.contains("Email|CRM",case=False)]
+    if not crm.empty:
+        cp=safe_div(crm["inv. simulada"].sum(),di["inv. simulada"].sum())*100
+        tcr=crm["tasa conv.(%)"].mean()
+        if cp<8 and tcr>4:
+            ins.append(("💡",
+                f"<b>Email/CRM</b> tiene {tcr:.1f}% de tasa de conversión — una de las más altas — "
+                f"pero solo recibe el {cp:.1f}% del presupuesto. Es tu base de clientes actuales: "
+                f"ya confían en ti y ya conocen el producto. Suele ser el canal con menor CPA."))
+    # Awareness para objetivo crecimiento
+    if objective=="Crecimiento":
+        aw=di[di["rol funnel"].isin(["Awareness","Awareness/Retención"])]["inv. simulada"].sum()
+        ap=safe_div(aw,di["inv. simulada"].sum())*100
+        if ap<25:
+            ins.append(("💡",
+                f"Solo el {ap:.0f}% del presupuesto va a canales de <b>Awareness</b>. "
+                f"Para un objetivo de Crecimiento necesitas nuevos clientes, no solo reactivar existentes. "
+                f"Se recomienda destinar al menos 25–35% a descubrimiento de marca."))
+    # Lag – explica cómo evaluarlos
+    lag_hi=di[di["lag (días)"]>7]["canal"].tolist()
+    if lag_hi:
+        ins.append(("⏳",
+            f"<b>{', '.join(lag_hi)}</b>: lag mayor a 7 días. Esto significa que si inviertes hoy, "
+            f"los resultados aparecen en semanas, no en días. "
+            f"No los juzgues con reportes semanales — compara períodos de 30–60 días."))
+    return ins
+
+def sim_generate_recommendation(dm,di,da,objective,att_model,campaign_type,scenario,sym):
+    ti=di["inv. simulada"].sum(); tc=dm["conversiones"].sum()
+    tr=dm["ingresos"].sum();      tm=dm["utilidad bruta"].sum()
+    roas=safe_div(tr,ti);         cpa=safe_div(ti,tc)
+    best=dm.loc[dm["ROAS"].idxmax(),"canal"] if not dm.empty else "—"
+    top_a=da.loc[da["crédito (%)"].idxmax(),"canal"] if not da.empty else "—"
+    hi_s=di[di["saturación"]=="Alta"]["canal"].tolist()
+    roas_txt="sólido (≥3×)" if roas>=3 else ("aceptable (2–3×)" if roas>=2 else "bajo (<2×, revisar)")
+    obj_adv={
+        "Conversiones":  f"Concentra incrementos en **{best}** (mejor ROAS) y revisa Email/CRM si no está saturado.",
+        "Ingresos":      f"Prioriza canales con ticket alto y tasa de conversión sólida. Utilidad bruta estimada: {sym} {tm:,.0f}.",
+        "ROAS":          f"ROAS {roas:.1f}× es {roas_txt}. {'Corta canales con ROAS < 1.5× y redistribuye a '+best+'.' if roas<2 else 'Mantén la mezcla y optimiza creatividades.'}",
+        "Utilidad bruta":f"Prioriza canales con margen > 45%. Un ROAS alto con margen bajo puede no justificar la inversión.",
+        "Crecimiento":   "Refuerza TikTok y SEO (bajo CPC, baja saturación, adstock alto). El impacto se ve en 2–4 semanas.",
+    }
+    parts=[
+        f"**Escenario {scenario}** · Campaña: {campaign_type} · Objetivo: {objective} · Modelo: {att_model}",
+        "",
+        f"Con **{sym} {ti:,.0f}** de inversión simulada, el modelo estima **{tc:,.0f} conversiones** "
+        f"y **{sym} {tr:,.0f}** en ingresos. ROAS: **{roas:.1f}×** ({roas_txt}). "
+        f"CPA promedio: **{sym} {cpa:,.0f}**.",
+        "",
+        obj_adv.get(objective,""),
+    ]
+    if att_model=="Last Click":
+        parts.append(f"\n⚠️ **Last Click** asigna el mayor crédito a **{top_a}**, pero puede ignorar "
+            "el trabajo de canales de awareness. Valida con un modelo multi-touch antes de cortes.")
+    elif att_model=="Data-Driven Simulado":
+        parts.append("\nEl modelo **Data-Driven** pondera adstock × confianza de tracking. "
+            "Mejora el tagging de canales con tracking bajo para obtener pesos más precisos.")
+    else:
+        parts.append(f"\n**{att_model}** distribuye el crédito de forma más equitativa, "
+            "reduciendo el riesgo de subestimar canales de funnel medio.")
+    if hi_s:
+        parts.append(f"\n🔴 **{', '.join(hi_s)}** con saturación alta: el presupuesto marginal "
+            "aquí rinde ~30% menos. Redirige ese excedente a canales con capacidad de escala.")
+    return "\n\n".join(parts)
+
 # ── Excel export ──────────────────────────────────────────────────────────────
 def build_excel(sheets_dict):
     buf=io.BytesIO()
@@ -213,7 +501,12 @@ def build_excel(sheets_dict):
                 a=ri%2==1
                 for ci,cn in enumerate(df_s.columns):
                     fk=col_fmts.get(cn,"text")
-                    ws.write(ri+3,ci,df_s.iloc[ri,ci],alt[fk] if a else base[fk])
+                    val=df_s.iloc[ri,ci]
+                    fmt=alt[fk] if a else base[fk]
+                    if pd.isna(val):
+                        ws.write_blank(ri+3,ci,None,fmt)
+                    else:
+                        ws.write(ri+3,ci,val,fmt)
             for ci,cn in enumerate(df_s.columns):
                 ml=max(len(str(cn)),df_s[cn].astype(str).str.len().max())
                 ws.set_column(ci,ci,min(ml+4,35))
@@ -621,219 +914,310 @@ with tab2:
 # ═══════════════════════════════════════════
 with tab3:
     try:
-        s_res=compute_simple_models(df,channels,direct_chs)
-        s_pct={m:to_pct(s_res[m],channels) for m in s_res}
-        all_res3=dict(s_res)
-        all_pct3=dict(s_pct)
-        if st.session_state.get("markov_result") is not None:
-            mk=st.session_state["markov_result"]
-            for c in channels: mk.setdefault(c,0)
-            all_res3["Markov"]=mk
-            all_pct3["Markov"]=to_pct(mk,channels)
-        if st.session_state.get("shapley_result") is not None:
-            sh=st.session_state["shapley_result"]
-            for c in channels: sh.setdefault(c,0)
-            all_res3["Data-Driven"]=sh
-            all_pct3["Data-Driven"]=to_pct(sh,channels)
-        model_names3=list(all_res3.keys())
+        # ── Config bar (inline) ───────────────────────────────────────────────
+        sim_budget = budget + seo_budget
+        cfg1,cfg2,cfg3,cfg4 = st.columns(4)
+        with cfg1:
+            st.markdown("**Tipo de campaña**")
+            campaign_type=st.selectbox("",_CAMPAIGN_TYPES,label_visibility="collapsed",key="sim_camp")
+        with cfg2:
+            st.markdown("**Objetivo principal**")
+            objective_sim=st.selectbox("",_OBJECTIVES_SIM,label_visibility="collapsed",key="sim_obj")
+        with cfg3:
+            st.markdown("**Modelo de atribución**")
+            att_model_sim=st.selectbox("",_ATT_MODELS_SIM,label_visibility="collapsed",key="sim_att")
+        with cfg4:
+            st.markdown("**Escenario**")
+            scenario_sim=st.selectbox("",_SCENARIOS_SIM,label_visibility="collapsed",key="sim_sc")
 
-        advanced_not_calc=[m for m in ["Markov","Data-Driven"] if m not in model_names3]
-        if advanced_not_calc:
-            st.markdown(f'<div class="warn-box">Modelos avanzados no calculados: <b>{" y ".join(advanced_not_calc)}</b>. Ve a "Modelos de atribución" para activarlos con sus botones.</div>',
-                        unsafe_allow_html=True)
+        st.markdown(
+            f'<span class="pill-blue">Escenario: {scenario_sim}</span>&nbsp;'
+            f'<span class="pill-purple">Modelo: {att_model_sim}</span>&nbsp;&nbsp;'
+            f'<span style="font-size:.82rem;color:#64748b;">{_SCENARIO_DESC[scenario_sim]}</span>',
+            unsafe_allow_html=True)
+        st.markdown(
+            f'<div class="info-box" style="font-size:.8rem;margin-top:.3rem;">'
+            f'<b>Objetivo {objective_sim}:</b> {_OBJECTIVE_TIPS[objective_sim]} &mdash; '
+            f'<b>Atribución:</b> {_ATT_MODEL_DESC[att_model_sim]}</div>',
+            unsafe_allow_html=True)
 
-        paid_chs =[c for c in channels if c not in direct_chs and c not in organic_chs]
-        seo_chs  =[c for c in channels if c in organic_chs]
-        inv_chs  =paid_chs+seo_chs
+        # ── Session state & scenario reset ────────────────────────────────────
+        if "sim_df" not in st.session_state:
+            st.session_state["sim_df"] = pd.DataFrame(_DEFAULT_SIM)
 
-        def ch_badge(c):
-            if c in direct_chs:  return "🔴"
-            if c in organic_chs: return "🟡"
-            return "🔵"
+        cfg_key = f"{scenario_sim}_{sim_budget}"
+        if st.session_state.get("_sim_cfg") != cfg_key:
+            st.session_state["_sim_cfg"] = cfg_key
+            st.session_state["sim_df"] = sim_apply_scenario(
+                st.session_state["sim_df"], sim_budget, scenario_sim)
 
-        total_budget=budget+seo_budget
-        legend_parts=[]
-        if paid_chs:  legend_parts.append(f"🔵 Pagado: **{curr_sym} {budget:,.0f}**")
-        if seo_chs:   legend_parts.append(f"🟡 SEO: **{curr_sym} {seo_budget:,.0f}**")
-        if direct_chs:legend_parts.append(f"🔴 Directo: referencia sin inversión")
-        st.markdown("  ·  ".join(legend_parts))
-        st.markdown('<div class="info-box">Los sliders de canales <b>pagados</b> distribuyen el presupuesto publicitario. Los canales SEO usan su propio presupuesto de contenido.</div>',
-                    unsafe_allow_html=True)
+        # ── Data editor ───────────────────────────────────────────────────────
+        st.markdown('<p class="section-title">📋 Tabla de canales — edita para simular</p>',
+            unsafe_allow_html=True)
 
-        sc1,sc2=st.columns([1,2])
-        with sc1:
-            scenario_name=st.text_input("Nombre del escenario","Escenario A")
-            base_model=st.selectbox("Modelo base",model_names3,
-                index=model_names3.index("Last Non-Direct") if "Last Non-Direct" in model_names3 else len(model_names3)-1)
-            active_chs=st.multiselect("Canales activos",channels,
-                default=[c for c in inv_chs if c in channels],
-                help="Directo excluido por defecto — puedes añadirlo como referencia")
+        with st.expander("📖 ¿Qué significa cada columna? Haz clic para ver la guía"):
+            st.markdown("""
+| Columna | Qué representa | Ejemplo concreto |
+|---|---|---|
+| **Inv. simulada** | Cuánto dinero asignas a este canal | S/ 30,000 al mes |
+| **CPC** | Costo por clic — cuánto pagas cada vez que alguien hace clic en tu anuncio | S/ 1.20 por clic |
+| **Conv. (%)** | De cada 100 personas que hacen clic, cuántas terminan comprando | 4.8% → ~5 de cada 100 |
+| **Ticket** | Cuánto vale en promedio cada venta | S/ 210 por pedido |
+| **Margen (%)** | De cada venta, qué porcentaje queda como ganancia después de pagar el costo del producto | 40% → ganas S/ 84 de una venta de S/ 210 |
+| **Saturación** | Si ya mostraste muchos anuncios a la misma audiencia | Alta → la audiencia ya está "fatigada" del anuncio |
+| **Rol funnel** | En qué etapa del proceso de compra actúa este canal | Awareness = descubrimiento · Cierre = última acción antes de comprar |
+| **Lag** | Cuántos días pasan en promedio entre que alguien ve el anuncio y compra | 14 días para SEO → el efecto es lento pero duradero |
+| **Adstock** | Si la publicidad acumula efecto en el tiempo (más allá del día que se invirtió) | 1.30 → 30% del impacto se extiende más allá del período |
+| **Tracking (%)** | Qué tan confiables son los datos de conversión de este canal | 55% → casi la mitad de las conversiones podrían no estar siendo contadas |
+""")
+            st.markdown("**Pista:** empieza cambiando la *Inv. simulada* de un canal y observa cómo cambian el ROAS y el CPA en los indicadores de abajo.")
 
-            if not active_chs:
-                st.warning("Selecciona al menos un canal.")
-                st.stop()
+        st.markdown(
+            '<div style="background:#fef9c3;border:2px dashed #eab308;border-radius:8px;'
+            'padding:.7rem 1rem;font-size:.9rem;color:#713f12;margin-bottom:.5rem;">'
+            '✏️ <b>La tabla de abajo es editable.</b> Haz clic en cualquier celda de color blanco '
+            'para cambiar el valor. Las columnas <b>Canal</b> e <b>Inv. actual</b> son de referencia '
+            '(no se pueden editar). Empieza por cambiar la columna <b>Inv. simulada</b>.</div>',
+            unsafe_allow_html=True)
 
-            base_pcts=all_pct3[base_model]
-            base_active_tot=sum(base_pcts.get(c,0) for c in active_chs)
-            base_norm={c:(base_pcts.get(c,0)/base_active_tot*100 if base_active_tot>0 else 0) for c in active_chs}
+        col_cfg={
+            "canal":          st.column_config.TextColumn("Canal",disabled=True,width="medium"),
+            "inv. actual":    st.column_config.NumberColumn(f"Inv. actual ({curr_sym})",disabled=True,
+                              format=f"{curr_sym} %,.0f"),
+            "inv. simulada":  st.column_config.NumberColumn(f"Inv. simulada ({curr_sym})",min_value=0,
+                              format=f"{curr_sym} %,.0f",
+                              help="Modifica para simular el nuevo escenario."),
+            "CPC":            st.column_config.NumberColumn(f"CPC ({curr_sym})",min_value=0.01,
+                              max_value=50.0,format=f"{curr_sym} %.2f",
+                              help="Costo por clic = inversión ÷ clicks."),
+            "tasa conv.(%)":  st.column_config.NumberColumn("Conv.(%)",min_value=0.0,max_value=100.0,
+                              step=0.1,format="%.1f %%",
+                              help="% de clics que se convierten."),
+            "ticket promedio":st.column_config.NumberColumn(f"Ticket ({curr_sym})",min_value=0,
+                              format=f"{curr_sym} %,.0f",
+                              help="Valor promedio por conversión."),
+            "margen(%)":      st.column_config.NumberColumn("Margen(%)",min_value=0,max_value=100,
+                              step=1,format="%.0f %%",
+                              help="% de ingresos como utilidad bruta."),
+            "saturación":     st.column_config.SelectboxColumn("Saturación",
+                              options=["Baja","Media","Alta"],
+                              help="Baja: sin penalización · Media: −15% · Alta: −30% eficiencia."),
+            "rol funnel":     st.column_config.SelectboxColumn("Rol funnel",options=_FUNNEL_ROLES,
+                              help="Define el peso del canal en el modelo de atribución."),
+            "lag (días)":     st.column_config.NumberColumn("Lag (días)",min_value=0,max_value=60,
+                              help="Días de retraso entre inversión y conversión observable."),
+            "adstock":        st.column_config.NumberColumn("Adstock",min_value=0.5,max_value=2.5,
+                              step=0.05,format="%.2f",
+                              help="Multiplicador de carryover: >1 indica que la pauta acumula efecto."),
+            "tracking(%)":    st.column_config.NumberColumn("Tracking(%)",min_value=0,max_value=100,
+                              step=5,format="%.0f %%",
+                              help="Confianza en la medición de conversiones. Bajo = datos incompletos."),
+        }
+        edited=st.data_editor(st.session_state["sim_df"],column_config=col_cfg,
+            use_container_width=True,hide_index=True,num_rows="fixed",key="t3_editor")
+        st.session_state["sim_df"]=edited
 
-            active_paid=[c for c in active_chs if c not in organic_chs and c not in direct_chs]
-            active_seo =[c for c in active_chs if c in organic_chs]
+        # ── Compute ───────────────────────────────────────────────────────────
+        dm=sim_calc_metrics(edited)
+        db=sim_calc_base(edited)
+        da=sim_calc_attribution(dm,edited,att_model_sim)
+        ti=float(edited["inv. simulada"].sum()); ti_b=float(edited["inv. actual"].sum())
+        tc=dm["conversiones"].sum();             tc_b=db["conversiones"].sum()
+        tr=dm["ingresos"].sum();                 tr_b=db["ingresos"].sum()
+        tm=dm["utilidad bruta"].sum()
+        cpa=safe_div(ti,tc); cpa_b=safe_div(ti_b,tc_b)
+        roas=safe_div(tr,ti); roas_b=safe_div(tr_b,ti_b)
 
-            weights={}
-            if active_paid:
-                st.markdown("**Canales pagados — % del presupuesto publicitario**")
-                for c in active_paid:
-                    paid_tot=sum(base_pcts.get(x,0) for x in active_paid)
-                    default_w=base_pcts.get(c,0)/paid_tot*100 if paid_tot>0 else 0
-                    weights[c]=st.slider(f"🔵 {c}",0.0,100.0,float(round(default_w,1)),step=0.5,format="%.1f%%")
-            if active_seo:
-                st.markdown("**Canales SEO — % del presupuesto SEO**")
-                for c in active_seo:
-                    seo_tot=sum(base_pcts.get(x,0) for x in active_seo)
-                    default_w=base_pcts.get(c,0)/seo_tot*100 if seo_tot>0 else 0
-                    weights[c]=st.slider(f"🟡 {c}",0.0,100.0,float(round(default_w,1)),step=0.5,format="%.1f%%")
-            active_direct=[c for c in active_chs if c in direct_chs]
-
-            paid_w_tot=sum(weights.get(c,0) for c in active_paid)
-            seo_w_tot =sum(weights.get(c,0) for c in active_seo)
-            alloc={}
-            norm={}
-            for c in active_paid:
-                norm[c]=weights.get(c,0)/paid_w_tot*100 if paid_w_tot>0 else 0
-                alloc[c]=norm[c]/100*budget
-            for c in active_seo:
-                norm[c]=weights.get(c,0)/seo_w_tot*100 if seo_w_tot>0 else 0
-                alloc[c]=norm[c]/100*seo_budget
-            for c in active_direct:
-                norm[c]=0; alloc[c]=0
-
-        with sc2:
-            plot_chs=[c for c in active_chs if c not in active_direct]
-            if plot_chs:
-                fig_sc=go.Figure([
-                    go.Bar(name=f"Modelo base ({base_model})",x=plot_chs,
-                           y=[round(base_norm.get(c,0),1) for c in plot_chs],
-                           marker_color="#94a3b8",opacity=0.7,
-                           text=[f"{base_norm.get(c,0):.1f}%" for c in plot_chs],textposition="outside"),
-                    go.Bar(name=scenario_name,x=plot_chs,
-                           y=[round(norm.get(c,0),1) for c in plot_chs],
-                           marker_color="#3b82f6",
-                           text=[f"{norm.get(c,0):.1f}%" for c in plot_chs],textposition="outside"),
-                ])
-                fig_sc.update_layout(barmode="group",height=280,
-                    yaxis=dict(title="% dentro de su tipo",ticksuffix="%"),
-                    plot_bgcolor="white",paper_bgcolor="white",
-                    legend=dict(orientation="h",y=1.12),margin=dict(l=0,r=0,t=40,b=8))
-                st.plotly_chart(fig_sc,use_container_width=True)
-
-            if active_paid and active_seo:
-                d1,d2=st.columns(2)
-                with d1:
-                    st.caption(f"Pagado — {curr_sym} {budget:,.0f}")
-                    fp=go.Figure(go.Pie(labels=active_paid,
-                        values=[round(alloc[c],0) for c in active_paid],
-                        hole=0.55,marker_colors=PALETTE[:len(active_paid)],
-                        textinfo="label+percent",
-                        hovertemplate="%{label}<br>%{value:,.0f} "+curr_sym+"<extra></extra>"))
-                    fp.update_layout(height=230,margin=dict(l=0,r=0,t=5,b=5),paper_bgcolor="white",
-                        annotations=[dict(text=f"{curr_sym}\n{budget:,.0f}",x=0.5,y=0.5,font_size=11,showarrow=False)])
-                    st.plotly_chart(fp,use_container_width=True)
-                with d2:
-                    st.caption(f"SEO — {curr_sym} {seo_budget:,.0f}")
-                    fs=go.Figure(go.Pie(labels=active_seo,
-                        values=[round(alloc[c],0) for c in active_seo],
-                        hole=0.55,marker_colors=["#10b981","#34d399","#6ee7b7"][:len(active_seo)],
-                        textinfo="label+percent",
-                        hovertemplate="%{label}<br>%{value:,.0f} "+curr_sym+"<extra></extra>"))
-                    fs.update_layout(height=230,margin=dict(l=0,r=0,t=5,b=5),paper_bgcolor="white",
-                        annotations=[dict(text=f"{curr_sym}\n{seo_budget:,.0f}",x=0.5,y=0.5,font_size=11,showarrow=False)])
-                    st.plotly_chart(fs,use_container_width=True)
-            else:
-                donut_chs=[c for c in active_chs if c not in active_direct]
-                total_shown=budget if not active_seo else seo_budget
-                fig_donut=go.Figure(go.Pie(
-                    labels=donut_chs,values=[round(alloc.get(c,0),0) for c in donut_chs],
-                    hole=0.55,marker_colors=[PALETTE[i%len(PALETTE)] for i in range(len(donut_chs))],
-                    textinfo="label+percent",
-                    hovertemplate="%{label}<br>%{value:,.0f} "+curr_sym+"<extra></extra>"))
-                fig_donut.update_layout(height=260,margin=dict(l=0,r=0,t=8,b=8),paper_bgcolor="white",
-                    annotations=[dict(text=f"{curr_sym}<br>{total_shown:,.0f}",x=0.5,y=0.5,font_size=13,showarrow=False)])
-                st.plotly_chart(fig_donut,use_container_width=True)
-
-            bud_rows=[]
-            for c in active_chs:
-                tipo="Directo" if c in direct_chs else ("SEO" if c in organic_chs else "Pagado")
-                delta=round(norm.get(c,0)-base_norm.get(c,0),1)
-                bud_rows.append({"Canal":c,"Tipo":tipo,
-                    f"Base {base_model} (%)":round(base_norm.get(c,0),1),
-                    "Escenario (%)":round(norm.get(c,0),1),
-                    f"Inversión ({curr_sym})":round(alloc.get(c,0),0),
-                    "Δ (pp)":f"{'+'if delta>=0 else ''}{delta}"})
-            bud_df=pd.DataFrame(bud_rows)
-            st.dataframe(bud_df,use_container_width=True,hide_index=True)
-
+        # ── KPI cards ─────────────────────────────────────────────────────────
         st.divider()
-        st.markdown('<p class="section-title">Comparar inversión por modelo — solo canales invertibles</p>',unsafe_allow_html=True)
-        inv_channels=[c for c in channels if c not in direct_chs]
-        multi_rows=[]
-        for c in inv_channels:
-            tipo="SEO" if c in organic_chs else "Pagado"
-            ch_budget=seo_budget if c in organic_chs else budget
-            row={"Canal":c,"Tipo":tipo}
-            for m in model_names3:
-                p_act={ch:all_pct3[m].get(ch,0) for ch in inv_channels}
-                tot=sum(p_act.values())
-                row[f"{m} ({curr_sym})"]=round(p_act[c]/tot*ch_budget if tot>0 else 0,0)
-            multi_rows.append(row)
-        multi_df=pd.DataFrame(multi_rows)
+        st.markdown('<p class="section-title">📌 Resultados proyectados del escenario</p>',
+            unsafe_allow_html=True)
+        st.markdown(
+            '<div class="info-box" style="font-size:.82rem;">Las flechas (↑↓) comparan el escenario simulado '
+            'contra la inversión actual (base). Verde = mejora, rojo = empeora. '
+            'En CPA, rojo significa que cuesta más conseguir una conversión — menor es mejor.</div>',
+            unsafe_allow_html=True)
+        k1,k2,k3,k4,k5,k6=st.columns(6)
+        k1.metric(f"Inversión ({curr_sym})", f"{ti:,.0f}",   delta=f"{ti-ti_b:+,.0f}")
+        k2.metric("Conversiones",            f"{tc:,.0f}",   delta=f"{tc-tc_b:+,.0f}")
+        k3.metric(f"Ingresos ({curr_sym})",  f"{tr:,.0f}",   delta=f"{tr-tr_b:+,.0f}")
+        k4.metric(f"Utilidad bruta ({curr_sym})", f"{tm:,.0f}", help="Ingresos × margen bruto ponderado. Es lo que queda antes de sueldos y gastos fijos.")
+        k5.metric(f"CPA ({curr_sym})",       f"{cpa:,.0f}",  delta=f"{cpa-cpa_b:+,.0f}",delta_color="inverse")
+        k6.metric("ROAS total",              f"{roas:.2f}×", delta=f"{roas-roas_b:+.2f}×")
 
-        fig_multi=go.Figure()
-        for m in model_names3:
-            fig_multi.add_trace(go.Bar(name=m,x=multi_df["Canal"],y=multi_df[f"{m} ({curr_sym})"],
-                marker_color=MODEL_COLORS.get(m,PALETTE[0]),
-                text=[f"{curr_sym} {int(vv):,}" for vv in multi_df[f"{m} ({curr_sym})"]],
-                textposition="outside"))
-        fig_multi.update_layout(barmode="group",height=320,
-            yaxis_title=f"Inversión ({curr_sym})",
-            plot_bgcolor="white",paper_bgcolor="white",
-            legend=dict(orientation="h",y=1.1),margin=dict(l=0,r=0,t=40,b=8))
-        st.plotly_chart(fig_multi,use_container_width=True)
-        st.dataframe(multi_df,use_container_width=True,hide_index=True)
+        # Contexto ROAS y CPA
+        roas_color="#16a34a" if roas>=3 else ("#d97706" if roas>=2 else "#dc2626")
+        roas_label="Excelente ✓" if roas>=3 else ("Aceptable" if roas>=2 else "Bajo — revisa los supuestos")
+        st.markdown(
+            f'<div style="display:flex;gap:.8rem;margin:.5rem 0 0;">'
+            f'<div class="info-box" style="flex:1;margin:0;">'
+            f'<b>¿Qué es el ROAS?</b> Return On Ad Spend = ingresos ÷ inversión.<br>'
+            f'Tu ROAS de <b style="color:{roas_color};">{roas:.1f}× ({roas_label})</b> significa que '
+            f'por cada {curr_sym} 1 invertido, generas {curr_sym} {roas:.1f} en ventas.<br>'
+            f'<span style="font-size:.8rem;color:#64748b;">Referencia: &lt;2× bajo · 2–3× aceptable · &gt;3× excelente</span></div>'
+            f'<div class="info-box" style="flex:1;margin:0;">'
+            f'<b>¿Qué es el CPA?</b> Costo Por Adquisición = inversión ÷ conversiones.<br>'
+            f'Tu CPA promedio de <b>{curr_sym} {cpa:,.0f}</b> es lo que cuesta conseguir una venta o lead.<br>'
+            f'<span style="font-size:.8rem;color:#64748b;">Regla rápida: CPA debe ser menor que el ticket promedio × margen.</span></div>'
+            f'</div>',
+            unsafe_allow_html=True)
 
+        # ── Charts ────────────────────────────────────────────────────────────
         st.divider()
-        exp3a,exp3b,_=st.columns([1,1,2])
-        with exp3a:
-            bud_exp=bud_df.copy()
-            for col in [f"Base {base_model} (%)","Escenario (%)",f"Inversión ({curr_sym})"]:
-                bud_exp[col]=pd.to_numeric(bud_exp[col],errors="coerce")
-            bud_fmts={"Canal":"text",f"Base {base_model} (%)":"pct","Escenario (%)":"pct",
-                      f"Inversión ({curr_sym})":"money","Δ (pp)":"text"}
-            multi_fmts={"Canal":"text",**{f"{m} ({curr_sym})":"money" for m in model_names3}}
-            sheets3={"Escenario activo":(bud_exp,bud_fmts,f"Escenario: {scenario_name}"),
-                     "Multi-modelo":    (multi_df,multi_fmts,f"Inversión por modelo — {curr_sym} {budget:,.0f}")}
-            buf3=build_excel(sheets3)
-            st.download_button("⬇️ Descargar escenarios (.xlsx)",buf3,"escenarios.xlsx",
-                "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
-        with exp3b:
-            rows_pct_all=[{"Canal":c,**{m:round(all_pct3[m][c],1) for m in model_names3}} for c in channels]
-            rows_rev_all=[{"Canal":c,**{f"{m} ({curr_sym})":round(all_res3[m].get(c,0),0) for m in model_names3}} for c in channels]
-            all_sheets={
-                "KPIs":(pd.DataFrame({"Métrica":["Journeys","Conversiones","Tasa conv. (%)","Revenue total","Ticket prom."],
-                                       "Valor":[n_total,n_conv,round(conv_rate,1),round(total_rev,0),round(avg_order,0)]}),
-                        {"Métrica":"text","Valor":"text"},"Resumen del dataset"),
-                "Frecuencia canales":(pd.DataFrame({"Canal":list(ch_cnt.keys()),"Touchpoints":list(ch_cnt.values())}).sort_values("Touchpoints",ascending=False),
-                                      {"Canal":"text","Touchpoints":"int"},"Touchpoints por canal"),
-                "Crédito (%)":(pd.DataFrame(rows_pct_all),{"Canal":"text",**{m:"pct" for m in model_names3}},"Crédito por canal (%)"),
-                "Crédito rev.":(pd.DataFrame(rows_rev_all),{"Canal":"text",**{f"{m} ({curr_sym})":"money" for m in model_names3}},f"Revenue atribuido ({curr_sym})"),
-                "Escenario activo":(bud_exp,bud_fmts,f"Escenario: {scenario_name}"),
-                "Multi-modelo":(multi_df,multi_fmts,"Inversión por modelo"),
-            }
-            buf_all=build_excel(all_sheets)
-            st.download_button("⬇️ Reporte completo (.xlsx)",buf_all,"attribution_reporte_completo.xlsx",
-                "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",type="primary")
+        st.markdown('<p class="section-title">📊 Comparación por canal: base vs simulado</p>',
+            unsafe_allow_html=True)
+        st.markdown(
+            '<div class="info-box" style="font-size:.82rem;">'
+            '<b>Cómo leer los gráficos:</b> las barras grises son el escenario base (inversión actual). '
+            'Las barras de color son el escenario simulado. '
+            'Si la barra de color es más alta → ese canal mejora en el escenario nuevo. '
+            'Si son iguales → no cambió.</div>',
+            unsafe_allow_html=True)
+        r1,r2=st.columns(2)
+        with r1: st.plotly_chart(sim_chart_inversion(edited),    use_container_width=True)
+        with r2: st.plotly_chart(sim_chart_conversiones(dm,db),  use_container_width=True)
+
+        st.markdown(
+            '<div class="info-box" style="font-size:.82rem;">'
+            '<b>Inversión ≠ Conversiones:</b> un canal puede recibir más presupuesto y generar menos conversiones '
+            'si tiene CPC alto, baja tasa de conversión o saturación alta. '
+            'Compara siempre ambos gráficos juntos.</div>',
+            unsafe_allow_html=True)
+
+        r3,r4=st.columns(2)
+        with r3: st.plotly_chart(sim_chart_roas(dm,db),          use_container_width=True)
+        with r4: st.plotly_chart(sim_chart_cpa(dm,db),           use_container_width=True)
+        st.markdown(
+            '<div class="info-box" style="font-size:.82rem;">'
+            '<b>ROAS y CPA miden eficiencia, no volumen.</b> '
+            'Un canal puede tener excelente ROAS pero pocas conversiones (canal pequeño pero rentable). '
+            'La línea roja punteada en ROAS marca el mínimo de 2× — por debajo, el canal apenas cubre costos.</div>',
+            unsafe_allow_html=True)
+
+        # ── Attribution ───────────────────────────────────────────────────────
+        st.divider()
+        st.markdown(f'<p class="section-title">🏅 ¿A quién le damos el crédito? — Modelo: {att_model_sim}</p>',
+            unsafe_allow_html=True)
+
+        _att_examples={
+            "Last Click":   ("Ana ve un anuncio en Meta → busca en Google → compra.",
+                             "Google recibe el 100% del crédito. Meta recibe 0%, aunque fue el primer contacto.",
+                             "Útil para optimizar el canal de cierre. Riesgo: infravalora el awareness."),
+            "First Click":  ("Ana ve un anuncio en TikTok → recibe un email → compra.",
+                             "TikTok recibe el 100% del crédito. El email que cerró la venta recibe 0%.",
+                             "Útil para medir qué canal descubre nuevos clientes."),
+            "Lineal":       ("Ana toca Meta, TikTok, Google y Email antes de comprar.",
+                             "Cada canal recibe exactamente el 25% del crédito (4 canales = 25% c/u).",
+                             "Neutral y simple. No asume que ningún canal importa más que otro."),
+            "Position-Based":("Ana toca Meta → TikTok → Google → Email → compra.",
+                              "Meta: 40% · Email: 40% · TikTok y Google: 10% c/u.",
+                              "Valora tanto el inicio (descubrimiento) como el cierre de la venta."),
+            "Time Decay":   ("Ana ve Meta hace 14 días, luego Google hace 2 días, luego compra.",
+                             "Google recibe mucho más crédito por estar más cerca en el tiempo.",
+                             "Útil en ciclos de compra cortos. Penaliza canales de awareness de largo plazo."),
+            "Data-Driven Simulado":("Se pondera por adstock × confianza de tracking de cada canal.",
+                                    "Canales con mayor efecto acumulado y mejor medición capturan más crédito.",
+                                    "Más realista si los datos de tracking son confiables (>70%)."),
+        }
+        ex_sit,ex_res,ex_tip=_att_examples.get(att_model_sim,("","",""))
+
+        al,ar=st.columns([3,2])
+        with al:
+            ac1,ac2=st.columns(2)
+            with ac1: st.plotly_chart(sim_chart_credito(da,att_model_sim),  use_container_width=True)
+            with ac2: st.plotly_chart(sim_chart_ingresos_att(da,dm),        use_container_width=True)
+        with ar:
+            st.markdown(
+                f'<div class="info-box">'
+                f'<b>Ejemplo con {att_model_sim}:</b><br><br>'
+                f'🧍 <b>Situación:</b> {ex_sit}<br><br>'
+                f'📊 <b>Resultado:</b> {ex_res}<br><br>'
+                f'💡 <b>Cuándo usarlo:</b> {ex_tip}</div>',
+                unsafe_allow_html=True)
+            st.markdown('<p class="section-title">Crédito por canal</p>',unsafe_allow_html=True)
+            att_show=da.rename(columns={"canal":"Canal","crédito (%)":"Crédito (%)",
+                "conv. atribuidas":"Conv. atribuidas",
+                "ingresos atribuidos":f"Ingresos ({curr_sym})"})
+            st.dataframe(att_show,use_container_width=True,hide_index=True)
+            st.markdown(
+                '<div class="info-box" style="font-size:.8rem;margin-top:.5rem;">'
+                '💡 Cambia el modelo en la barra de configuración y observa '
+                'cómo el mismo escenario produce un reparto de crédito muy diferente.</div>',
+                unsafe_allow_html=True)
+
+        # ── Results table ─────────────────────────────────────────────────────
+        st.divider()
+        st.markdown('<p class="section-title">📄 Resultados por canal</p>',
+            unsafe_allow_html=True)
+        res=dm.rename(columns={"canal":"Canal","inversión":f"Inversión ({curr_sym})",
+            "clicks":"Clicks","conversiones":"Conversiones","ingresos":f"Ingresos ({curr_sym})",
+            "utilidad bruta":f"Utilidad bruta ({curr_sym})","CPA":f"CPA ({curr_sym})","ROAS":"ROAS"})
+        st.dataframe(res.style.format({
+            f"Inversión ({curr_sym})":"{:,.0f}","Clicks":"{:,.0f}","Conversiones":"{:.1f}",
+            f"Ingresos ({curr_sym})":"{:,.0f}",f"Utilidad bruta ({curr_sym})":"{:,.0f}",
+            f"CPA ({curr_sym})":"{:,.0f}","ROAS":"{:.2f}×"}),
+            use_container_width=True,hide_index=True)
+
+        with st.expander("📖 ¿Cómo leer esta tabla?"):
+            dm_pos=dm[dm["CPA"]>0]
+            best_roas_ch=dm.loc[dm["ROAS"].idxmax(),"canal"] if not dm.empty else "—"
+            best_roas_v=dm["ROAS"].max()
+            best_cpa_ch=dm_pos.loc[dm_pos["CPA"].idxmin(),"canal"] if not dm_pos.empty else "—"
+            best_cpa_v=dm_pos["CPA"].min() if not dm_pos.empty else 0
+            st.markdown(f"""
+- **Clicks** = Inversión ÷ CPC. Si inviertes S/ 30,000 con CPC S/ 1.20 → consigues ~25,000 clics.
+- **Conversiones** = Clicks × Tasa de conversión × Saturación × Adstock. Es el volumen de ventas proyectado.
+- **Ingresos** = Conversiones × Ticket promedio. El dinero que entra por ventas.
+- **Utilidad bruta** = Ingresos × Margen. Lo que queda después de pagar el costo del producto.
+- **CPA** = Inversión ÷ Conversiones. Cuánto cuesta conseguir una venta. **Menor es mejor.**
+- **ROAS** = Ingresos ÷ Inversión. Cuánto generas por cada sol invertido. **Mayor es mejor.**
+
+En este escenario, **{best_roas_ch}** tiene el mejor ROAS ({best_roas_v:.1f}×) y **{best_cpa_ch}** tiene el CPA más bajo ({curr_sym} {best_cpa_v:,.0f}).
+""")
+
+        # ── Insights educativos ────────────────────────────────────────────────
+        st.divider()
+        st.markdown('<p class="section-title">💡 ¿Qué te dicen los datos?</p>',
+            unsafe_allow_html=True)
+        st.markdown(
+            '<div class="info-box" style="font-size:.82rem;">Cada observación explica el concepto detrás del dato '
+            'y qué podrías hacer al respecto. Cambia parámetros en la tabla y observa cómo cambian.</div>',
+            unsafe_allow_html=True)
+        insights=sim_generate_insights(dm,edited,objective_sim,att_model_sim)
+        for icon,text in insights:
+            st.markdown(f'<div class="insight-card">{icon}&nbsp; {text}</div>',
+                unsafe_allow_html=True)
+
+        # ── Resumen simple ────────────────────────────────────────────────────
+        st.divider()
+        st.markdown('<p class="section-title">📝 Resumen del escenario</p>',
+            unsafe_allow_html=True)
+
+        roas_sem="🟢 excelente" if roas>=4 else ("🟡 aceptable" if roas>=2 else "🔴 bajo")
+        best_ch=dm.loc[dm["ROAS"].idxmax(),"canal"] if not dm.empty else "—"
+        best_v=dm["ROAS"].max()
+        hi_sat=edited[edited["saturación"]=="Alta"]["canal"].tolist()
+        low_tr=edited[edited["tracking(%)"]<65]["canal"].tolist()
+
+        st.markdown(f"""
+- **Eficiencia global:** ROAS {roas:.1f}× — {roas_sem}. Por cada {curr_sym} 1 invertido, se generan {curr_sym} {roas:.1f} en ventas.
+- **Canal más eficiente:** {best_ch} con ROAS {best_v:.1f}×. Si su saturación es baja, hay espacio para escalar.
+- **Objetivo del escenario ({objective_sim}):** {_OBJECTIVE_TIPS[objective_sim]}
+""")
+        if hi_sat:
+            st.markdown(f"- **Saturación alta en {', '.join(hi_sat)}:** aumentar más presupuesto aquí rinde menos. Renueva la creatividad o redistribuye a otro canal.")
+        if low_tr:
+            st.markdown(f"- **Tracking limitado en {', '.join(low_tr)}:** los resultados reales podrían ser mejores que lo simulado. Configura bien el píxel y los UTMs.")
+        st.markdown(f"- **¿Qué probar a continuación?** Cambia el modelo de atribución y compara cómo se redistribuye el crédito. Prueba el escenario **Performance** vs **Awareness** para ver qué estrategia funciona mejor con tu objetivo.")
+        st.markdown(
+            '<div class="info-box" style="margin-top:.6rem;">'
+            '📌 <b>Recuerda:</b> este simulador usa supuestos simplificados. '
+            'Los valores reales dependen de la calidad de las campañas, el mercado y la época del año. '
+            'Úsalo como punto de partida para el análisis, no como predicción exacta.</div>',
+            unsafe_allow_html=True)
+
     except Exception as e:
-        st.error(f"Error en escenarios: {e}")
+        st.error(f"Error en escenarios de inversión: {e}")
         st.exception(e)
 
 # ═══════════════════════════════════════════
