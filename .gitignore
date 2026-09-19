@@ -1,1 +1,37 @@
-/vevn
+# Entornos virtuales
+vevn/
+venv/
+.venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Variables de entorno y credenciales
+.env
+.env.*
+*.key
+*.pem
+
+# Config local de Claude Code / MCP
+.claude/settings.local.json
+.mcp.json
+
+# Editor / SO
+.vscode/
+.idea/
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log

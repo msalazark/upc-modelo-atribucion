@@ -3,5 +3,8 @@
     "allow": [
       "Bash(python -m py_compile attribution_app.py)"
     ]
-  }
+  },
+  "enabledMcpjsonServers": [
+    "colab-mcp"
+  ]
 }
