@@ -821,6 +821,32 @@ más lento y necesita más volumen de datos.
 | **Radar** | Compara la "forma" del reparto: un pico marcado = el modelo concentra crédito en pocos canales; una forma más circular = lo reparte parejo. |
 """,unsafe_allow_html=True)
 
+        # ── Ventanas de atribución por plataforma (visible, no plegado) ────────
+        st.markdown('<p class="section-title">🪟 Ventanas de atribución — Meta, Google Ads y TikTok vs. este análisis</p>',
+            unsafe_allow_html=True)
+        st.markdown(
+            '<div class="info-box">Los modelos de arriba reparten crédito <b>dentro</b> de los journeys de '
+            'este dataset, usando la ventana con la que lo construiste. Pero cada plataforma publicitaria '
+            'mide sus propias conversiones con <b>su propia</b> ventana — por eso el Ads Manager de Meta, '
+            'Google Ads y TikTok casi nunca "calzan" entre sí ni con este dashboard.</div>',
+            unsafe_allow_html=True)
+        pw_col1,pw_col2=st.columns([3,2])
+        with pw_col1:
+            st.plotly_chart(platform_windows_chart(),use_container_width=True,key="pw_chart_tab2")
+        with pw_col2:
+            pw_df=pd.DataFrame([{
+                "Plataforma":p["plataforma"],
+                "Click (default)":f'{p["click_default"]}d',
+                "Click (máx.)":f'{p["click_max"]}d',
+                "Vista (default)":f'{p["view_default"]}d' if p["view_default"] else "—",
+            } for p in _PLATFORM_WINDOWS])
+            st.dataframe(pw_df,use_container_width=True,hide_index=True)
+            st.markdown(
+                '<span style="font-size:.78rem;color:#64748b;">Detalle por plataforma y '
+                'recomendación práctica en <b>📋 Guía: preparar datos → 2.1</b>.</span>',
+                unsafe_allow_html=True)
+        st.divider()
+
         simple_res=compute_simple_models(df,channels,direct_chs)
         simple_pct={m:to_pct(simple_res[m],channels) for m in simple_res}
 
@@ -1349,7 +1375,7 @@ atribución — por defecto, ninguna coincide con la otra, y ninguna coincide co
 elijas para este análisis multi-touch. Esta es la causa más común de que "los números no calcen"
 entre Ads Manager, Google Ads y este dashboard.
 """)
-        st.plotly_chart(platform_windows_chart(),use_container_width=True)
+        st.plotly_chart(platform_windows_chart(),use_container_width=True,key="pw_chart_tab4")
 
         pw_df=pd.DataFrame([{
             "Plataforma":p["plataforma"],
