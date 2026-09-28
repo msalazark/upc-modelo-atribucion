@@ -48,6 +48,50 @@ MODEL_COLORS = {
 }
 CH_TYPE_COLOR = {"paid":"#3b82f6","seo":"#10b981","direct":"#94a3b8"}
 
+# ── Ventanas de atribución por plataforma (referencia educativa) ──────────────
+# Fuente: configuración por defecto documentada de cada plataforma (2025).
+# view_default=0 se interpreta como "no aplica / la plataforma no lo reporta".
+_PLATFORM_WINDOWS = [
+    {"plataforma":"Meta Ads",                  "click_default":7,  "click_max":28,
+     "view_default":1, "color":"#1877f2",
+     "nota":"Configurable en Events Manager (1 / 7 / 28 días). Desde iOS 14.5 (ATT), "
+            "Meta modela parte de las conversiones que no puede rastrear directamente — "
+            "por eso sus números casi nunca calzan 1:1 con GA4."},
+    {"plataforma":"Google Ads",                "click_default":30, "click_max":90,
+     "view_default":1, "color":"#ea4335",
+     "nota":"30 días es el default de las conversiones nativas; ajustable hasta 90 días "
+            "por acción de conversión. El view-through (1 día) solo aplica a Display y YouTube."},
+    {"plataforma":"TikTok Ads",                "click_default":7,  "click_max":28,
+     "view_default":1, "color":"#000000",
+     "nota":"Igual que Meta: configurable en 1 / 7 / 28 días. También usa modelado agregado "
+            "de conversiones tras las restricciones de iOS 14.5."},
+    {"plataforma":"GA4 / BigQuery (este dataset)","click_default":30,"click_max":90,
+     "view_default":0, "color":"#f9ab00",
+     "nota":"Tú defines la ventana en la query SQL (constante WINDOW, ver Guía: preparar datos). "
+            "No mide view-through por defecto — solo sesiones y clics dentro del journey."},
+]
+
+def platform_windows_chart():
+    plats     =[p["plataforma"]      for p in _PLATFORM_WINDOWS]
+    click     =[p["click_default"]   for p in _PLATFORM_WINDOWS]
+    click_max =[p["click_max"]       for p in _PLATFORM_WINDOWS]
+    view      =[p["view_default"]    for p in _PLATFORM_WINDOWS]
+    colors    =[p["color"]           for p in _PLATFORM_WINDOWS]
+    fig=go.Figure([
+        go.Bar(name="Click-through (default)",y=plats,x=click,orientation="h",
+               marker_color=colors,text=[f"{v} días" for v in click],textposition="outside"),
+        go.Bar(name="Click-through (máx. configurable)",y=plats,x=click_max,orientation="h",
+               marker_color=colors,opacity=0.30,
+               text=[f"hasta {v} días" for v in click_max],textposition="outside"),
+        go.Bar(name="View-through (default)",y=plats,x=view,orientation="h",
+               marker_color="#94a3b8",text=[f"{v} día" if v else "No aplica" for v in view],
+               textposition="outside"),
+    ])
+    fig.update_layout(barmode="group",height=300,margin=dict(l=0,r=90,t=30,b=8),
+        xaxis_title="Días de ventana de atribución",plot_bgcolor="white",paper_bgcolor="white",
+        legend=dict(orientation="h",y=1.2))
+    return fig
+
 # ── Helpers ───────────────────────────────────────────────────────────────────
 def parse_path(p):
     return [c.strip() for c in str(p).split(">") if c.strip()]
@@ -637,17 +681,34 @@ with tab1:
         k5.metric(f"Ticket prom. ({curr_sym})",f"{avg_order:,.0f}")
         st.divider()
 
+        def channel_type(c):
+            if c in direct_chs: return "direct"
+            if c in organic_chs: return "seo"
+            return "paid"
+
         c1,c2=st.columns(2)
         with c1:
             st.markdown('<p class="section-title">Frecuencia de touchpoints por canal</p>',unsafe_allow_html=True)
             ch_df_sorted=pd.DataFrame({"Canal":list(ch_cnt.keys()),"N":list(ch_cnt.values())}).sort_values("N")
+            ch_df_sorted["Tipo"]=ch_df_sorted["Canal"].apply(channel_type)
             fig1=go.Figure(go.Bar(x=ch_df_sorted["N"],y=ch_df_sorted["Canal"],orientation="h",
-                marker_color=[PALETTE[i%len(PALETTE)] for i in range(len(ch_df_sorted))],
+                marker_color=[CH_TYPE_COLOR[t] for t in ch_df_sorted["Tipo"]],
                 text=ch_df_sorted["N"],textposition="outside"))
             fig1.update_layout(height=260,margin=dict(l=0,r=50,t=8,b=8),
                                plot_bgcolor="white",paper_bgcolor="white",
                                xaxis_title="Nro. de apariciones")
             st.plotly_chart(fig1,use_container_width=True)
+            st.markdown(
+                '<span style="font-size:.78rem;color:#64748b;">'
+                '<b>Leyenda:</b>&nbsp; '
+                '<span style="display:inline-block;width:9px;height:9px;background:#3b82f6;'
+                'border-radius:2px;margin-right:4px;"></span>Pagado&nbsp;&nbsp;'
+                '<span style="display:inline-block;width:9px;height:9px;background:#10b981;'
+                'border-radius:2px;margin-right:4px;"></span>SEO / Orgánico&nbsp;&nbsp;'
+                '<span style="display:inline-block;width:9px;height:9px;background:#94a3b8;'
+                'border-radius:2px;margin-right:4px;"></span>Directo'
+                '&nbsp;&nbsp;<i>(clasificación definida en la barra lateral)</i>'
+                '</span>',unsafe_allow_html=True)
 
         with c2:
             st.markdown('<p class="section-title">Distribución de longitud de journey</p>',unsafe_allow_html=True)
@@ -742,6 +803,23 @@ with tab2:
     try:
         st.markdown('<div class="info-box">Los modelos de regla (First Click, Last Click, Lineal, Time Decay, U-Shape) se calculan al instante. <b>Markov</b> y <b>Data-Driven (Shapley)</b> pueden tardar 15-30 segundos — actívalos con los botones.</div>',
                     unsafe_allow_html=True)
+
+        with st.expander("🔑 Cómo leer esta pestaña — leyenda rápida", expanded=False):
+            st.markdown("""
+<span class="pill-blue">Regla</span>&nbsp; reparte el crédito con una fórmula fija definida de
+antemano (ej. 100% al último clic). Es rápido y auditable, pero no aprende de tus datos.
+
+<span class="pill-purple">Data-Driven</span>&nbsp; calcula el crédito a partir del comportamiento
+real de tus journeys — <b>Markov</b> mide cuánto cae la conversión al quitar un canal (removal
+effect), <b>Shapley</b> mide la contribución marginal promedio de cada canal. Más preciso, pero
+más lento y necesita más volumen de datos.
+
+| Gráfico | Qué te muestra |
+|---|---|
+| **Barras comparativas** | % de crédito que cada modelo asigna a cada canal — útil para ver en qué están de acuerdo (o no) los modelos. |
+| **Mapa de calor** | El mismo dato en otra forma; azul oscuro = más crédito. Ideal cuando hay muchos canales y las barras se saturan. |
+| **Radar** | Compara la "forma" del reparto: un pico marcado = el modelo concentra crédito en pocos canales; una forma más circular = lo reparte parejo. |
+""",unsafe_allow_html=True)
 
         simple_res=compute_simple_models(df,channels,direct_chs)
         simple_pct={m:to_pct(simple_res[m],channels) for m in simple_res}
@@ -1255,13 +1333,52 @@ with tab4:
         st.markdown("""
 Un **journey** es la secuencia de canales que un usuario tocó antes de convertir (o no) dentro
 de un período de tiempo definido. La **ventana de atribución** determina cuánto tiempo atrás
-contar los touchpoints:
+contar los touchpoints. Como regla general, ajusta la ventana al ciclo de decisión de compra:
 """)
         win_df=pd.DataFrame({
             "Tipo de negocio":["E-commerce bajo ticket (≤ S/300)","E-commerce medio-alto ticket","B2B o servicios financieros"],
             "Ventana recomendada":["7 – 14 días","30 – 60 días","Hasta 90 días"],
         })
         st.dataframe(win_df,use_container_width=True,hide_index=True)
+
+        st.markdown('<p class="section-title">2.1 Ventanas nativas de Meta, Google Ads y TikTok</p>',
+            unsafe_allow_html=True)
+        st.markdown("""
+Cada plataforma publicitaria mide sus **propias** conversiones con su **propia** ventana de
+atribución — por defecto, ninguna coincide con la otra, y ninguna coincide con la ventana que tú
+elijas para este análisis multi-touch. Esta es la causa más común de que "los números no calcen"
+entre Ads Manager, Google Ads y este dashboard.
+""")
+        st.plotly_chart(platform_windows_chart(),use_container_width=True)
+
+        pw_df=pd.DataFrame([{
+            "Plataforma":p["plataforma"],
+            "Click-through (default)":f'{p["click_default"]} días',
+            "Click-through (máx.)":f'{p["click_max"]} días',
+            "View-through (default)":f'{p["view_default"]} día' if p["view_default"] else "No aplica",
+        } for p in _PLATFORM_WINDOWS])
+        st.dataframe(pw_df,use_container_width=True,hide_index=True)
+
+        for p in _PLATFORM_WINDOWS:
+            with st.expander(f'ℹ️ {p["plataforma"]} — detalle'):
+                st.markdown(p["nota"])
+
+        st.markdown(f"""
+<div class="warn-box">
+⚠️ <b>Por qué esto importa:</b> si comparas el reporte nativo de <b>Meta Ads Manager</b>
+(7 días clic / 1 día vista) contra <b>Google Ads</b> (30 días clic) o contra este análisis
+multi-touch, vas a ver conversiones distintas para el "mismo" período — y eso es esperado,
+no un error de datos. Cada plataforma solo ve sus propios clics/impresiones; este análisis
+cruza <b>todos</b> los canales dentro de un mismo journey.
+</div>
+<div class="ok-box">
+✅ <b>Recomendación práctica:</b> define <b>una sola ventana</b> para construir este dataset
+(ej. 30 días, constante <code>WINDOW</code> en el script de la sección 4) y documenta esa
+decisión en tus entregables. No intentes "cuadrar" los números entre plataformas: usa los
+reportes nativos para optimizar campañas <i>dentro</i> de cada plataforma, y usa este análisis
+multi-touch para decidir cómo repartir presupuesto <i>entre</i> plataformas.
+</div>
+""",unsafe_allow_html=True)
 
         # ── Sección 3 ─────────────────────────────────────────────────────────
         st.markdown('<p class="section-title">3. Fuentes de datos</p>',unsafe_allow_html=True)
@@ -1498,6 +1615,22 @@ La mayoría de journeys tienen un solo touchpoint, por lo que el primer y últim
 Los modelos avanzados aportarán poco valor en este caso.
 **Acción:** Amplía la ventana de atribución y verifica que `session_start` se esté registrando
 correctamente en GA4.
+""")
+        with st.expander("⚠️ Los números no coinciden con Meta Ads Manager / Google Ads / TikTok"):
+            st.markdown("""
+Es esperado, no un error. Cada plataforma reporta conversiones con **su propia ventana de
+atribución** y solo ve sus propios clics/impresiones — no el journey completo cruzando canales
+(detalle completo en **Guía: preparar datos → 2.1 Ventanas nativas de Meta, Google Ads y TikTok**):
+
+- **Meta Ads Manager**: por defecto atribuye con ventana de 7 días clic / 1 día vista.
+- **Google Ads**: por defecto usa 30 días clic (ajustable hasta 90).
+- **TikTok Ads**: por defecto usa 7 días clic / 1 día vista.
+- **Este análisis multi-touch**: usa la ventana que tú definiste al construir el dataset, y sí
+  cruza todos los canales dentro de un mismo journey.
+
+**Acción:** no busques "cuadrar" los números entre plataformas. Usa los reportes nativos de cada
+plataforma para optimizar campañas dentro de esa plataforma, y usa este análisis multi-touch para
+decidir cómo repartir el presupuesto *entre* plataformas.
 """)
         with st.expander("⚠️ Markov tarda más de 60 segundos"):
             st.markdown("""
